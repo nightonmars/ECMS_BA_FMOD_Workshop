@@ -380,8 +380,8 @@ MonoBehaviour:
   switchSettingsMigration: 1
   HasSourceProject: 1
   HasPlatforms: 1
-  sourceProjectPath: FMOD_ECMS_Workshop4/FMOD_ECMS_Workshop4.fspro
-  sourceBankPath: FMOD_ECMS_Workshop4/Build
+  sourceProjectPath: FMOD_ECMS_Workshop/FMOD_ECMS_Workshop.fspro
+  sourceBankPath: FMOD_ECMS_Workshop/Build
   sourceBankPathUnformatted: 
   BankRefreshCooldown: 5
   ShowBankRefreshWindow: 1
@@ -420,18 +420,18 @@ MonoBehaviour:
   HideSetupWizard: 1
   LastEventReferenceScanVersion: 131617
   Platforms:
-  - {fileID: 7188653197879947014}
-  - {fileID: 143688704005442682}
-  - {fileID: 296469870594588400}
   - {fileID: -9110844302629551421}
+  - {fileID: -6886526640391005279}
+  - {fileID: -4815298867228358727}
   - {fileID: -4553433504193101341}
   - {fileID: -2923447781423874407}
-  - {fileID: 1256879882259330694}
-  - {fileID: 8344436261094319758}
-  - {fileID: -6886526640391005279}
+  - {fileID: 143688704005442682}
   - {fileID: 203601055341955791}
-  - {fileID: -4815298867228358727}
+  - {fileID: 296469870594588400}
+  - {fileID: 1256879882259330694}
   - {fileID: 2999603747842682232}
+  - {fileID: 7188653197879947014}
+  - {fileID: 8344436261094319758}
   MigratedPlatforms: 0c000000150000000b0000000a0000000900000012000000000000000800000005000000060000000200000001000000
 --- !u!114 &143688704005442682
 MonoBehaviour:
@@ -503,16 +503,16 @@ MonoBehaviour:
     HasValue: 0
   displaySortOrder: 0
   childIdentifiers:
-  - c88d16e5272a4e241b0ef0ac2e53b73d
   - fd7c55dab0fce234b8c25f6ffca523c1
+  - b7716510a1f36934c87976f3a81dbf3d
+  - 46fbfdf3fc43db0458918377fd40293e
   - 2c5177b11d81d824dbb064f9ac8527da
   - de700ef3f37a49b58a57ae3addf01ad9
-  - e7a046c753c3c3d4aacc91f6597f310d
-  - 52eb9df5db46521439908db3a29a1bbb
-  - b7716510a1f36934c87976f3a81dbf3d
   - 0f8eb3f400726694eb47beb1a9f94ce8
-  - 46fbfdf3fc43db0458918377fd40293e
+  - c88d16e5272a4e241b0ef0ac2e53b73d
+  - e7a046c753c3c3d4aacc91f6597f310d
   - 2fea114e74ecf3c4f920e1d5cc1c4c40
+  - 52eb9df5db46521439908db3a29a1bbb
   codecChannels:
     Value: []
     HasValue: 0

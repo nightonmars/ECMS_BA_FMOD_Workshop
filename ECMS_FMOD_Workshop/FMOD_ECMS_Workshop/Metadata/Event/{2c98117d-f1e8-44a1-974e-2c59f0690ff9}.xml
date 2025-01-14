@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{2c98117d-f1e8-44a1-974e-2c59f0690ff9}">
 		<property name="name">
-			<value>BuiltInParam</value>
+			<value>Radio</value>
 		</property>
 		<property name="outputFormat">
 			<value>2</value>
