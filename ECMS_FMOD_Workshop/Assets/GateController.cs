@@ -40,7 +40,6 @@ public class GateController : MonoBehaviour
             if (animator != null) // Ensure the animator exists
             {
                 animator.SetBool(gateTrigger, true);
-                Debug.Log("trigger gate");
             }
         }
     }

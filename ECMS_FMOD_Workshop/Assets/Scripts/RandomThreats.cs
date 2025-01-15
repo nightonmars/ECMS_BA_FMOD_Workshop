@@ -64,7 +64,7 @@ public class RandomThreats : MonoBehaviour
 
     void RandomThreatsPlay()
     {
-        Debug.Log("Scary sound");
+       
         RuntimeManager.PlayOneShot(randomThreatEventReference);
     }
 }
