@@ -36,8 +36,6 @@ public class FMOD_CaveAmbiences : MonoBehaviour
         //Debug.Log("move "+movingAmbienceTrigger);
         float parameterValue;
         movingAmbienceInstance.getParameterByName("Tracker", out parameterValue);
-        Debug.Log("move "+parameterValue);
-        
     }
 
     public void PlayAmbience()

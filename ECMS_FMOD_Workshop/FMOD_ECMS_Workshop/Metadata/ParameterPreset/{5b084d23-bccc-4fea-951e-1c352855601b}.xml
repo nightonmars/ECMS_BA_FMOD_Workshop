@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{5b084d23-bccc-4fea-951e-1c352855601b}">
+		<property name="name">
+			<value>GateSequenceParam</value>
+		</property>
+		<relationship name="folder">
+			<destination>{9144298e-770e-42a2-84b6-3020c747464f}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{dc071be3-7f5a-4b56-9538-8fb9c647b535}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{dc071be3-7f5a-4b56-9538-8fb9c647b535}">
+		<property name="parameterType">
+			<value>2</value>
+		</property>
+		<property name="maximum">
+			<value>2</value>
+		</property>
+		<property name="enumerationLabels">
+			<value>BarOpen</value>
+			<value>GateOpen</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>
