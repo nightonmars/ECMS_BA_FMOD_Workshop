@@ -8,6 +8,7 @@ public class PhysicsPM_MatDetector : MonoBehaviour
     [Header("Add the material from PhysicMaterialCreator here")]
     [SerializeField] private PhysicMaterialCreator[] physicsMatCreator;
     public int matIdx { get; private set; }
+    public bool showDebug = false;
 
     private bool[] materialStatus;
     //change this if you're using a rigid body. 
@@ -33,6 +34,10 @@ public class PhysicsPM_MatDetector : MonoBehaviour
                     materialStatus[i] = true;
                     // use matIdx to set RTPC/Param for your footstep manager.
                     matIdx = physicsToSound.matIntIdxValue;
+                    if (showDebug)
+                    {
+                        Debug.Log("mat "+matIdx);
+                    }
                 }
                 else if (material != physicsToSound.pmMatKey && materialStatus[i])
                 {
