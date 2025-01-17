@@ -22,7 +22,7 @@ AssetImportWorker0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-49406
+49709
 Successfully changed project path to: /Volumes/Johan 1TB SSD/Unity JE Tiny/ECMS/EC BA/ECMS_BA_FMOD_Workshop/ECMS_FMOD_Workshop
 /Volumes/Johan 1TB SSD/Unity JE Tiny/ECMS/EC BA/ECMS_BA_FMOD_Workshop/ECMS_FMOD_Workshop
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -56,16 +56,16 @@ Successfully changed project path to: /Volumes/Johan 1TB SSD/Unity JE Tiny/ECMS/
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [8427184384]  Target information:
+Player connection [8632246528]  Target information:
 
-Player connection [8427184384]  * "[IP] 192.168.0.23 [Port] 0 [Flags] 2 [Guid] 1708025527 [EditorId] 1708025527 [Version] 1048832 [Id] OSXEditor(0,johanenglundsM2) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
+Player connection [8632246528]  * "[IP] 192.168.0.23 [Port] 0 [Flags] 2 [Guid] 265069624 [EditorId] 265069624 [Version] 1048832 [Id] OSXEditor(0,johanenglundsM2) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
 
-Player connection [8427184384]  * "[IP] 192.168.0.22 [Port] 0 [Flags] 2 [Guid] 1708025527 [EditorId] 1708025527 [Version] 1048832 [Id] OSXEditor(0,johanenglundsM2) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
+Player connection [8632246528]  * "[IP] 192.168.0.22 [Port] 0 [Flags] 2 [Guid] 265069624 [EditorId] 265069624 [Version] 1048832 [Id] OSXEditor(0,johanenglundsM2) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
 
-Player connection [8427184384] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [8427184384] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [8632246528] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [8632246528] Host joined alternative multi-casting on [225.0.0.222:34997]...
 [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
-Refreshing native plugins compatible for Editor in 42.91 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 6.06 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.42f1 (2dcb6a0abc42)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2022.3.42f1/Unity.app/Contents/Resources/UnitySubsystems
@@ -80,45 +80,45 @@ Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/2022.3.42f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/2022.3.42f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
 Mono config path = '/Applications/Unity/Hub/Editor/2022.3.42f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56478
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56674
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/2022.3.42f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/2022.3.42f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.003690 seconds.
-- Loaded All Assemblies, in  0.223 seconds
+Registered in 0.001046 seconds.
+- Loaded All Assemblies, in  0.205 seconds
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.134 seconds
-Domain Reload Profiling: 357ms
-	BeginReloadAssembly (70ms)
+- Finished resetting the current domain, in  0.129 seconds
+Domain Reload Profiling: 334ms
+	BeginReloadAssembly (60ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (0ms)
-	RebuildCommonClasses (24ms)
-	RebuildNativeTypeToScriptingClass (7ms)
-	initialDomainReloadingComplete (29ms)
-	LoadAllAssembliesAndSetupDomain (92ms)
-		LoadAssemblies (69ms)
+	RebuildCommonClasses (21ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (26ms)
+	LoadAllAssembliesAndSetupDomain (89ms)
+		LoadAssemblies (60ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (91ms)
-			TypeCache.Refresh (90ms)
-				TypeCache.ScanAssembly (81ms)
+		AnalyzeDomain (88ms)
+			TypeCache.Refresh (87ms)
+				TypeCache.ScanAssembly (77ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (134ms)
+	FinalizeReload (129ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (108ms)
+		SetupLoadedEditorAssemblies (103ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (6ms)
+			InitializePlatformSupportModulesInManaged (5ms)
 			SetLoadedEditorAssemblies (3ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (1ms)
-			ProcessInitializeOnLoadAttributes (76ms)
+			ProcessInitializeOnLoadAttributes (72ms)
 			ProcessInitializeOnLoadMethodAttributes (23ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
@@ -128,7 +128,7 @@ Domain Reload Profiling: 357ms
 Worker process is ready to serve import requests
 Caller must complete domain reload
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.626 seconds
+- Loaded All Assemblies, in  0.443 seconds
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
 Package Manager log level set to [2]
@@ -136,961 +136,132 @@ Package Manager log level set to [2]
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.392 seconds
-Domain Reload Profiling: 1021ms
-	BeginReloadAssembly (74ms)
+- Finished resetting the current domain, in  0.387 seconds
+Domain Reload Profiling: 830ms
+	BeginReloadAssembly (70ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (3ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (15ms)
-	RebuildCommonClasses (20ms)
-	RebuildNativeTypeToScriptingClass (7ms)
-	initialDomainReloadingComplete (21ms)
-	LoadAllAssembliesAndSetupDomain (506ms)
-		LoadAssemblies (384ms)
+		CreateAndSetChildDomain (16ms)
+	RebuildCommonClasses (22ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (20ms)
+	LoadAllAssembliesAndSetupDomain (324ms)
+		LoadAssemblies (194ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (155ms)
-			TypeCache.Refresh (135ms)
-				TypeCache.ScanAssembly (119ms)
+		AnalyzeDomain (161ms)
+			TypeCache.Refresh (141ms)
+				TypeCache.ScanAssembly (126ms)
 			ScanForSourceGeneratedMonoScriptInfo (12ms)
 			ResolveRequiredComponents (7ms)
-	FinalizeReload (393ms)
+	FinalizeReload (387ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (309ms)
+		SetupLoadedEditorAssemblies (294ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (3ms)
 			SetLoadedEditorAssemblies (2ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (35ms)
-			ProcessInitializeOnLoadAttributes (235ms)
-			ProcessInitializeOnLoadMethodAttributes (33ms)
+			BeforeProcessingInitializeOnLoad (37ms)
+			ProcessInitializeOnLoadAttributes (220ms)
+			ProcessInitializeOnLoadMethodAttributes (31ms)
 			AfterProcessingInitializeOnLoad (1ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (2ms)
 Launching external process: /Applications/Unity/Hub/Editor/2022.3.42f1/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.11 seconds
-Refreshing native plugins compatible for Editor in 4.95 ms, found 4 plugins.
+Launched and connected shader compiler UnityShaderCompiler after 0.04 seconds
+Refreshing native plugins compatible for Editor in 4.88 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5791 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 41 unused Assets / (445.0 KB). Loaded Objects now: 6271.
-Memory consumption went from 247.8 MB to 247.3 MB.
-Total: 4.741833 ms (FindLiveObjects: 0.239584 ms CreateObjectMapping: 0.103541 ms MarkObjects: 4.126042 ms  DeleteObjects: 0.272208 ms)
+Unloading 5711 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 42 unused Assets / (437.2 KB). Loaded Objects now: 6190.
+Memory consumption went from 230.7 MB to 230.3 MB.
+Total: 2.876625 ms (FindLiveObjects: 0.199500 ms CreateObjectMapping: 0.105125 ms MarkObjects: 2.394459 ms  DeleteObjects: 0.177125 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
-  custom:scripting/monoscript/fileName/VolumetricShadowHD.cs: 3c45937c328863abe4c43198c25cdd29 -> 
-  custom:scripting/monoscript/fileName/MeshGenerator.cs: de2d50b968cfba590c162e4621fe858d -> 
-  custom:scripting/monoscript/fileName/TransformUtils.cs: a56d247f1d9013a7f72588fc014d0330 -> 
-  custom:scripting/monoscript/fileName/MinMaxRangeFloat.cs: 3248f5b1945bb33a75e3e2abb1166d75 -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:scripting/monoscript/fileName/SortingLayerAndOrderDrawer.cs: cf7939168a4032420960a7eaf61415c2 -> 
-  custom:scripting/monoscript/fileName/BatchingHelper.cs: c50d6a916edd1bb5a25406410cd80a71 -> 
-  custom:scripting/monoscript/fileName/EffectPulse.cs: 8d576aa1b5eb4355aaa30f4249f8a9d6 -> 
-  custom:scripting/monoscript/fileName/Editor_EffectPulse.cs: cdc152cc594fa4b8bf01ae0a085240e7 -> 
-  custom:scripting/monoscript/fileName/TriggerZone.cs: b7c38a5cbf481e8731fceb3d8cd74a95 -> 
-  custom:scripting/monoscript/fileName/Editor_VolumetricLightBeamHD.cs: 727a8fa1d29515d27451625cff420243 -> 
-  custom:scripting/monoscript/fileName/VolumetricCookieHD.cs: 16ee042fe148bc57d13248dacdace234 -> 
-  custom:scripting/monoscript/fileName/Editor_DynamicOcclusionAbstractBase.cs: 90647cc400823b41df847a6cbfc29026 -> 
-  custom:scripting/monoscript/fileName/EditorStrings.cs: 2be91feead6079dc38ce290c75a626dd -> 
-  custom:scripting/monoscript/fileName/Noise3D.cs: 183fce1b8b1c5fcc7b5402fd40880838 -> 
-  custom:scripting/monoscript/fileName/Installer.cs: f795acb96c8534b03fb4adc3b2873312 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:scripting/monoscript/fileName/Editor_Common.cs: ace7e201c62ef789291807eb659eecf0 -> 
-  custom:scripting/monoscript/fileName/CachedLightProperties.cs: 68763381c274c066dae8ea507e8615a7 -> 
-  custom:scripting/monoscript/fileName/EditorMenuItems.cs: 2f304bc0c3c974dec48fec86dd2dfd1b -> 
-  custom:scripting/monoscript/fileName/HighlightNullAttribute.cs: e94125403b6e2d3119af0452d173fb77 -> 
-  custom:scripting/monoscript/fileName/Editor_DynamicOcclusionDepthBuffer.cs: 464071d212d6e4d18df5cc8e7f953d62 -> 
-  custom:scripting/monoscript/fileName/Editor_VolumetricDustParticles.cs: d044ab38d78fc3b6498e70fe3ca1b915 -> 
-  custom:scripting/monoscript/fileName/ButtonToggleScope.cs: b6805bc9c416a570e81e783a05086ed2 -> 
-  custom:scripting/monoscript/fileName/EditorExtensions.cs: a41e720b8fc65ce3d95cfeb0b7c1802f -> 
-  custom:scripting/monoscript/fileName/EditorData.cs: c8fe954bb1ee5b75fa14b6366042a5b2 -> 
-  custom:scripting/monoscript/fileName/DynamicOcclusionDepthBuffer.cs: cbef730cb37a9772fc167c04cc08a96a -> 
-  custom:scripting/monoscript/fileName/FreeCameraController.cs: a6ecdd4646be0b92e454e1760337b9d2 -> 
-  custom:scripting/monoscript/fileName/MaterialManager.cs: 030594416e9ef433356a9aa71f34f158 -> 
-  custom:scripting/monoscript/fileName/Editor_TriggerZone.cs: 99235bd7680f2d1eab055ec07bf583dc -> 
-  custom:scripting/monoscript/fileName/Editor_TrackRealtimeChangesOnLightHD.cs: 903fc80afa631477fa45e0d63b1fda83 -> 
-  custom:scripting/monoscript/fileName/ShaderProperties.cs: 7efba5e529851539adfa1d148140dff3 -> 
-  custom:scripting/monoscript/fileName/Utils.cs: 7c0a40477b64cfa9dca858e84beda389 -> 40c528c300bfc0733192292a788cb076
-  custom:scripting/monoscript/fileName/DummyMaterial.cs: 1c73984e76d7bc9907284da4c2efb65c -> 
-  custom:scripting/monoscript/fileName/ShaderKeywords.cs: bdd232a7e6c0e73e11c8f39e13b4013d -> 
-  custom:scripting/monoscript/fileName/Editor_VolumetricLightBeamSD.cs: 78c841c540c44aa76d950a34b5998c5c -> 
-  custom:scripting/monoscript/fileName/MaterialModifier.cs: d45dae009a643e706752870db681cf98 -> 
   custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
-  custom:scripting/monoscript/fileName/SpotLightHelper.cs: 66fc3c22c8202baaebf8f43d06f5e936 -> 
-  custom:scripting/monoscript/fileName/GlobalMeshSD.cs: bdaa2600329361397e8248f0270c23c9 -> 
-  custom:scripting/monoscript/fileName/TrackRealtimeChangesOnLightHD.cs: e102ea3b53d0b833c39d0df5b5b2ab11 -> 
-  custom:scripting/monoscript/fileName/TargetList.cs: 90647cc400823b41df847a6cbfc29026 -> 
-  custom:scripting/monoscript/fileName/VolumetricLightBeamHD.cs: 1b174ecd4e96996459d588edc324f428 -> 
-  custom:scripting/monoscript/fileName/Editor_VolumetricShadowHD.cs: 214c4bae8a1a753c974897626897fe26 -> 
-  custom:scripting/monoscript/fileName/Editor_DynamicOcclusionRaycasting.cs: 367b013a8104b48d9d114938e7415b1d -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:scripting/monoscript/fileName/EditorPrefsStrings.cs: e55aaa34d078c56fbe18dba48b95e9bb -> 
-  custom:scripting/monoscript/fileName/DynamicOcclusionRaycasting.cs: 814d88d1b985c2e73b046d4b810925d2 -> 
-  custom:scripting/monoscript/fileName/EffectAbstractBase.cs: e9b28b07bed5c167615c8ef53c90badf -> 
-  custom:scripting/monoscript/fileName/CheckIfInsideBeam.cs: 2fb95c18e98fbb140d1f3ef085677c96 -> 
-  custom:scripting/monoscript/fileName/RenderQueueDrawer.cs: f1beaf2772226a7fb88e84aa1c5388b9 -> 
-  custom:scripting/monoscript/fileName/CameraToggleBeamVisibility.cs: 4dd1dda391cacdff02560ac668be75ac -> 
-  custom:scripting/monoscript/fileName/Config.cs: b3bab070432e31d4b43cadbde9ddf628 -> 
-  custom:scripting/monoscript/fileName/Editor_CommonSD.cs: 2daa946bcb2aa319e41b5ad4c0c27215 -> 
-  custom:scripting/monoscript/fileName/FeaturesNotSupportedMessage.cs: cfc11727ca74ba83092f4f008be88692 -> 
-  custom:scripting/monoscript/fileName/Consts.cs: 0539688f7f9ae046952c859b7c847b65 -> 
-  custom:scripting/monoscript/fileName/Editor_EffectFlicker.cs: 0ab5bd4a249d56845603c89117b78900 -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:scripting/monoscript/fileName/EffectFromProfile.cs: 65ce544be0b7bf32d41f8bef17f6c944 -> 
-  custom:scripting/monoscript/fileName/Version.cs: 9acf72a061c0a6e292dfea2fcec2412f -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:scripting/monoscript/fileName/PolygonHelper.cs: 2c5a01b4681b08cd140434f8aafc0b99 -> 
-  custom:scripting/monoscript/fileName/Editor_VolumetricCookieHD.cs: 94de3372a49a48d8b7217f891f3a0c93 -> 
-  custom:scripting/monoscript/fileName/GlobalMeshHD.cs: 05dbc86436e0a7800ba800750e514990 -> 
   custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:scripting/monoscript/fileName/Editor_CommonHD.cs: e7f911ecd5dfcfb6967b0e7bc4a00627 -> 
   custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
-  custom:scripting/monoscript/fileName/Editor_EffectAbstractBase.cs: 90647cc400823b41df847a6cbfc29026 -> 
-  custom:scripting/monoscript/fileName/Editor_EffectFromProfile.cs: 421a69c62ef10bfff3b82b008abc77c8 -> 
-  custom:scripting/monoscript/fileName/OnBuildPostprocess.cs: b08b0f1fb565a01521b078e0ebc8202f -> 
-  custom:scripting/monoscript/fileName/OnBuildTargetChanged.cs: 82e7161e50c9c7a7652cda32ae63e944 -> 
-  custom:scripting/monoscript/fileName/Editor_VolumetricLightBeamHD2D.cs: accc386dff5cc4087c371dcd5e5fde0a -> 
-  custom:scripting/monoscript/fileName/VolumetricDustParticles.cs: d66fa087efe5f3a1dc241b54c6d0104f -> 
-  custom:scripting/monoscript/fileName/LODBeamGroup.cs: 52b56410d4e633d2ce14777c0cd6f7b3 -> 
-  custom:scripting/monoscript/fileName/SkewingHandleSD.cs: a062a129bfba8dfc19213fe3c92b9ecc -> 
   custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:scripting/monoscript/fileName/ShaderGenerator.cs: 34f2c3dbfdf3f4822d2f3435ccbc5a30 -> 
-  custom:scripting/monoscript/fileName/VolumetricLightBeamHD2D.cs: 6623579c25e94ffb0520de1f56e3e5da -> 
-  custom:scripting/monoscript/fileName/EffectFlicker.cs: 5ed1445dcda823f946939c9d56b8b396 -> 
-  custom:scripting/monoscript/fileName/VolumetricLightBeamSD.cs: 937044f0e2fef2beaec2bb3807d0a5cd -> 
-  custom:scripting/monoscript/fileName/Editor_VolumetricLightBeamAbstractBase.cs: c17eab94857d1283d8b0454f9cc9c0d7 -> 
-  custom:scripting/monoscript/fileName/PlatformHelper.cs: ee295d6a887d83e2525ab634cf8c5a35 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:scripting/monoscript/fileName/Editor_LODBeamGroup.cs: 2b9a3c84ad2253e4eafff5a1f0ddde89 -> 
-  custom:scripting/monoscript/fileName/LightGenerator.cs: d8ef4590c1af7a4a46fab5dd087f73cb -> 
-  custom:scripting/monoscript/fileName/OnBuildPreprocess.cs: 8f60b876e061e6dcad74cd534949baad -> 
-  custom:scripting/monoscript/fileName/Editor_Config.cs: b6a624e557bca43297d9ebe0284782ab -> 
-  custom:scripting/monoscript/fileName/RaymarchingQuality.cs: e410d89bcbaf92c02353ebff0df70972 -> 
-  custom:scripting/monoscript/fileName/Editor_SkewingHandleSD.cs: 43e3b6ee23d8b41d0472854304a4df9d -> 
-  custom:scripting/monoscript/fileName/BeamGeometryAbstractBase.cs: 5a5ac35ca855a4dfbf2885cd7321e4aa -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:scripting/monoscript/fileName/BeamGeometrySD.cs: fc72164f275771cb1c04d5aaae63af47 -> 
-  custom:scripting/monoscript/fileName/FoldableHeader.cs: c3fc4af97ff4198b7924738bed5cf340 -> 
-  custom:scripting/monoscript/fileName/DynamicOcclusionAbstractBase.cs: d935118d22cad75ba8322b0834aca7c4 -> 
-  custom:scripting/monoscript/fileName/BeamGeometryHD.cs: 9eedd9c3040960d2955a7d1fbd85f09e -> 
-  custom:scripting/monoscript/fileName/VolumetricLightBeamAbstractBase.cs: b5a0a768319957b2d02af7c98b918b71 -> 
-  custom:scripting/monoscript/fileName/SRPHelper.cs: 1d1cd3d72df7d8999b91cce7a36358b6 -> 
-  custom:scripting/monoscript/fileName/InstallerEditor.cs: c6c35d6e4597412f1d94444c33499139 -> 
-  custom:scripting/monoscript/fileName/Rotater.cs: fc642edf9db28e826b2e4a4c798b19ba -> 
-  custom:scripting/monoscript/fileName/UtilsBeamProps.cs: 22963f6cbfa1a38cf85932ba54997edd -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 4271.150585 seconds.
-  path: Assets/PM_Mats/Stairs.physicMaterial
-  artifactKey: Guid(0bc8bf9f194544900a2be390b7af9c9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PM_Mats/Stairs.physicMaterial using Guid(0bc8bf9f194544900a2be390b7af9c9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
- -> (artifact id: '9587ba69ab955ab1bbc22d3cde780d4c') in 0.011389 seconds
+  Time since last request: 1538.920590 seconds.
+  path: Assets/Ian's Fire Pack Universal/Objects/Materials/CandleStick.mat
+  artifactKey: Guid(d0913c3628caa454f8720e81e6608c98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ian's Fire Pack Universal/Objects/Materials/CandleStick.mat using Guid(d0913c3628caa454f8720e81e6608c98) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: '3a625c92faada07a9fbf411a6ed77def') in 0.051199 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
+Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 113.286873 seconds.
-  path: Assets/PM_Mats/PM_Stairs.asset
-  artifactKey: Guid(95ffad957d705466ba7cb9e50b05f7ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PM_Mats/PM_Stairs.asset using Guid(95ffad957d705466ba7cb9e50b05f7ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
- -> (artifact id: 'feed6edd6aa66d12bcd4db941b3c7a20') in 0.003149 seconds
+  Time since last request: 0.000037 seconds.
+  path: Assets/Ian's Fire Pack Universal/_Standard Pipeline Specific/Materials/CandleStick.mat
+  artifactKey: Guid(09b651582a6dd4cccb693b754d9a09d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ian's Fire Pack Universal/_Standard Pipeline Specific/Materials/CandleStick.mat using Guid(09b651582a6dd4cccb693b754d9a09d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: '1a7d02171458b06e9db33aa86ec8db55') in 0.019363 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Prepare
-Caller must complete domain reload
-Begin MonoManager ReloadAssembly
-Thread 0x2a25f7000 may have been prematurely finalized
-- Loaded All Assemblies, in  0.679 seconds
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.622 seconds
-Domain Reload Profiling: 2301ms
-	BeginReloadAssembly (195ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (4ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (96ms)
-	RebuildCommonClasses (25ms)
-	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (21ms)
-	LoadAllAssembliesAndSetupDomain (429ms)
-		LoadAssemblies (440ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (52ms)
-			TypeCache.Refresh (21ms)
-				TypeCache.ScanAssembly (2ms)
-			ScanForSourceGeneratedMonoScriptInfo (21ms)
-			ResolveRequiredComponents (9ms)
-	FinalizeReload (1622ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (386ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (6ms)
-			SetLoadedEditorAssemblies (6ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (63ms)
-			ProcessInitializeOnLoadAttributes (267ms)
-			ProcessInitializeOnLoadMethodAttributes (43ms)
-			AfterProcessingInitializeOnLoad (1ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (9ms)
-Refreshing native plugins compatible for Editor in 5.33 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5610 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 22 unused Assets / (430.8 KB). Loaded Objects now: 6288.
-Memory consumption went from 217.9 MB to 217.5 MB.
-Total: 8.553917 ms (FindLiveObjects: 0.505041 ms CreateObjectMapping: 0.123750 ms MarkObjects: 7.583958 ms  DeleteObjects: 0.340792 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:scripting/monoscript/fileName/VolumetricShadowHD.cs: 3c45937c328863abe4c43198c25cdd29 -> 
-  custom:scripting/monoscript/fileName/MeshGenerator.cs: de2d50b968cfba590c162e4621fe858d -> 
-  custom:scripting/monoscript/fileName/TransformUtils.cs: a56d247f1d9013a7f72588fc014d0330 -> 
-  custom:scripting/monoscript/fileName/MinMaxRangeFloat.cs: 3248f5b1945bb33a75e3e2abb1166d75 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:scripting/monoscript/fileName/SortingLayerAndOrderDrawer.cs: cf7939168a4032420960a7eaf61415c2 -> 
-  custom:scripting/monoscript/fileName/BatchingHelper.cs: c50d6a916edd1bb5a25406410cd80a71 -> 
-  custom:scripting/monoscript/fileName/EffectPulse.cs: 8d576aa1b5eb4355aaa30f4249f8a9d6 -> 
-  custom:scripting/monoscript/fileName/Editor_EffectPulse.cs: cdc152cc594fa4b8bf01ae0a085240e7 -> 
-  custom:scripting/monoscript/fileName/TriggerZone.cs: b7c38a5cbf481e8731fceb3d8cd74a95 -> 
-  custom:scripting/monoscript/fileName/Editor_VolumetricLightBeamHD.cs: 727a8fa1d29515d27451625cff420243 -> 
-  custom:scripting/monoscript/fileName/VolumetricCookieHD.cs: 16ee042fe148bc57d13248dacdace234 -> 
-  custom:scripting/monoscript/fileName/Editor_DynamicOcclusionAbstractBase.cs: 90647cc400823b41df847a6cbfc29026 -> 
-  custom:scripting/monoscript/fileName/EditorStrings.cs: 2be91feead6079dc38ce290c75a626dd -> 
-  custom:scripting/monoscript/fileName/Noise3D.cs: 183fce1b8b1c5fcc7b5402fd40880838 -> 
-  custom:scripting/monoscript/fileName/Installer.cs: f795acb96c8534b03fb4adc3b2873312 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:scripting/monoscript/fileName/Editor_Common.cs: ace7e201c62ef789291807eb659eecf0 -> 
-  custom:scripting/monoscript/fileName/CachedLightProperties.cs: 68763381c274c066dae8ea507e8615a7 -> 
-  custom:scripting/monoscript/fileName/EditorMenuItems.cs: 2f304bc0c3c974dec48fec86dd2dfd1b -> 
-  custom:scripting/monoscript/fileName/HighlightNullAttribute.cs: e94125403b6e2d3119af0452d173fb77 -> 
-  custom:scripting/monoscript/fileName/Editor_DynamicOcclusionDepthBuffer.cs: 464071d212d6e4d18df5cc8e7f953d62 -> 
-  custom:scripting/monoscript/fileName/Editor_VolumetricDustParticles.cs: d044ab38d78fc3b6498e70fe3ca1b915 -> 
-  custom:scripting/monoscript/fileName/ButtonToggleScope.cs: b6805bc9c416a570e81e783a05086ed2 -> 
-  custom:scripting/monoscript/fileName/EditorExtensions.cs: a41e720b8fc65ce3d95cfeb0b7c1802f -> 
-  custom:scripting/monoscript/fileName/EditorData.cs: c8fe954bb1ee5b75fa14b6366042a5b2 -> 
-  custom:scripting/monoscript/fileName/DynamicOcclusionDepthBuffer.cs: cbef730cb37a9772fc167c04cc08a96a -> 
-  custom:scripting/monoscript/fileName/FreeCameraController.cs: a6ecdd4646be0b92e454e1760337b9d2 -> 
-  custom:scripting/monoscript/fileName/MaterialManager.cs: 030594416e9ef433356a9aa71f34f158 -> 
-  custom:scripting/monoscript/fileName/Editor_TriggerZone.cs: 99235bd7680f2d1eab055ec07bf583dc -> 
-  custom:scripting/monoscript/fileName/Editor_TrackRealtimeChangesOnLightHD.cs: 903fc80afa631477fa45e0d63b1fda83 -> 
-  custom:scripting/monoscript/fileName/ShaderProperties.cs: 7efba5e529851539adfa1d148140dff3 -> 
-  custom:scripting/monoscript/fileName/Utils.cs: 7c0a40477b64cfa9dca858e84beda389 -> 40c528c300bfc0733192292a788cb076
-  custom:scripting/monoscript/fileName/DummyMaterial.cs: 1c73984e76d7bc9907284da4c2efb65c -> 
-  custom:scripting/monoscript/fileName/ShaderKeywords.cs: bdd232a7e6c0e73e11c8f39e13b4013d -> 
-  custom:scripting/monoscript/fileName/Editor_VolumetricLightBeamSD.cs: 78c841c540c44aa76d950a34b5998c5c -> 
-  custom:scripting/monoscript/fileName/MaterialModifier.cs: d45dae009a643e706752870db681cf98 -> 
-  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
-  custom:scripting/monoscript/fileName/SpotLightHelper.cs: 66fc3c22c8202baaebf8f43d06f5e936 -> 
-  custom:scripting/monoscript/fileName/GlobalMeshSD.cs: bdaa2600329361397e8248f0270c23c9 -> 
-  custom:scripting/monoscript/fileName/TrackRealtimeChangesOnLightHD.cs: e102ea3b53d0b833c39d0df5b5b2ab11 -> 
-  custom:scripting/monoscript/fileName/TargetList.cs: 90647cc400823b41df847a6cbfc29026 -> 
-  custom:scripting/monoscript/fileName/VolumetricLightBeamHD.cs: 1b174ecd4e96996459d588edc324f428 -> 
-  custom:scripting/monoscript/fileName/Editor_VolumetricShadowHD.cs: 214c4bae8a1a753c974897626897fe26 -> 
-  custom:scripting/monoscript/fileName/Editor_DynamicOcclusionRaycasting.cs: 367b013a8104b48d9d114938e7415b1d -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:scripting/monoscript/fileName/EditorPrefsStrings.cs: e55aaa34d078c56fbe18dba48b95e9bb -> 
-  custom:scripting/monoscript/fileName/DynamicOcclusionRaycasting.cs: 814d88d1b985c2e73b046d4b810925d2 -> 
-  custom:scripting/monoscript/fileName/EffectAbstractBase.cs: e9b28b07bed5c167615c8ef53c90badf -> 
-  custom:scripting/monoscript/fileName/CheckIfInsideBeam.cs: 2fb95c18e98fbb140d1f3ef085677c96 -> 
-  custom:scripting/monoscript/fileName/RenderQueueDrawer.cs: f1beaf2772226a7fb88e84aa1c5388b9 -> 
-  custom:scripting/monoscript/fileName/CameraToggleBeamVisibility.cs: 4dd1dda391cacdff02560ac668be75ac -> 
-  custom:scripting/monoscript/fileName/Config.cs: b3bab070432e31d4b43cadbde9ddf628 -> 
-  custom:scripting/monoscript/fileName/Editor_CommonSD.cs: 2daa946bcb2aa319e41b5ad4c0c27215 -> 
-  custom:scripting/monoscript/fileName/FeaturesNotSupportedMessage.cs: cfc11727ca74ba83092f4f008be88692 -> 
-  custom:scripting/monoscript/fileName/Consts.cs: 0539688f7f9ae046952c859b7c847b65 -> 
-  custom:scripting/monoscript/fileName/Editor_EffectFlicker.cs: 0ab5bd4a249d56845603c89117b78900 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:scripting/monoscript/fileName/EffectFromProfile.cs: 65ce544be0b7bf32d41f8bef17f6c944 -> 
-  custom:scripting/monoscript/fileName/Version.cs: 9acf72a061c0a6e292dfea2fcec2412f -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:scripting/monoscript/fileName/PolygonHelper.cs: 2c5a01b4681b08cd140434f8aafc0b99 -> 
-  custom:scripting/monoscript/fileName/Editor_VolumetricCookieHD.cs: 94de3372a49a48d8b7217f891f3a0c93 -> 
-  custom:scripting/monoscript/fileName/GlobalMeshHD.cs: 05dbc86436e0a7800ba800750e514990 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:scripting/monoscript/fileName/Editor_CommonHD.cs: e7f911ecd5dfcfb6967b0e7bc4a00627 -> 
-  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
-  custom:scripting/monoscript/fileName/Editor_EffectAbstractBase.cs: 90647cc400823b41df847a6cbfc29026 -> 
-  custom:scripting/monoscript/fileName/Editor_EffectFromProfile.cs: 421a69c62ef10bfff3b82b008abc77c8 -> 
-  custom:scripting/monoscript/fileName/OnBuildPostprocess.cs: b08b0f1fb565a01521b078e0ebc8202f -> 
-  custom:scripting/monoscript/fileName/OnBuildTargetChanged.cs: 82e7161e50c9c7a7652cda32ae63e944 -> 
-  custom:scripting/monoscript/fileName/Editor_VolumetricLightBeamHD2D.cs: accc386dff5cc4087c371dcd5e5fde0a -> 
-  custom:scripting/monoscript/fileName/VolumetricDustParticles.cs: d66fa087efe5f3a1dc241b54c6d0104f -> 
-  custom:scripting/monoscript/fileName/LODBeamGroup.cs: 52b56410d4e633d2ce14777c0cd6f7b3 -> 
-  custom:scripting/monoscript/fileName/SkewingHandleSD.cs: a062a129bfba8dfc19213fe3c92b9ecc -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:scripting/monoscript/fileName/ShaderGenerator.cs: 34f2c3dbfdf3f4822d2f3435ccbc5a30 -> 
-  custom:scripting/monoscript/fileName/VolumetricLightBeamHD2D.cs: 6623579c25e94ffb0520de1f56e3e5da -> 
-  custom:scripting/monoscript/fileName/EffectFlicker.cs: 5ed1445dcda823f946939c9d56b8b396 -> 
-  custom:scripting/monoscript/fileName/VolumetricLightBeamSD.cs: 937044f0e2fef2beaec2bb3807d0a5cd -> 
-  custom:scripting/monoscript/fileName/Editor_VolumetricLightBeamAbstractBase.cs: c17eab94857d1283d8b0454f9cc9c0d7 -> 
-  custom:scripting/monoscript/fileName/PlatformHelper.cs: ee295d6a887d83e2525ab634cf8c5a35 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:scripting/monoscript/fileName/Editor_LODBeamGroup.cs: 2b9a3c84ad2253e4eafff5a1f0ddde89 -> 
-  custom:scripting/monoscript/fileName/LightGenerator.cs: d8ef4590c1af7a4a46fab5dd087f73cb -> 
-  custom:scripting/monoscript/fileName/OnBuildPreprocess.cs: 8f60b876e061e6dcad74cd534949baad -> 
-  custom:scripting/monoscript/fileName/Editor_Config.cs: b6a624e557bca43297d9ebe0284782ab -> 
-  custom:scripting/monoscript/fileName/RaymarchingQuality.cs: e410d89bcbaf92c02353ebff0df70972 -> 
-  custom:scripting/monoscript/fileName/Editor_SkewingHandleSD.cs: 43e3b6ee23d8b41d0472854304a4df9d -> 
-  custom:scripting/monoscript/fileName/BeamGeometryAbstractBase.cs: 5a5ac35ca855a4dfbf2885cd7321e4aa -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:scripting/monoscript/fileName/BeamGeometrySD.cs: fc72164f275771cb1c04d5aaae63af47 -> 
-  custom:scripting/monoscript/fileName/FoldableHeader.cs: c3fc4af97ff4198b7924738bed5cf340 -> 
-  custom:scripting/monoscript/fileName/DynamicOcclusionAbstractBase.cs: d935118d22cad75ba8322b0834aca7c4 -> 
-  custom:scripting/monoscript/fileName/BeamGeometryHD.cs: 9eedd9c3040960d2955a7d1fbd85f09e -> 
-  custom:scripting/monoscript/fileName/VolumetricLightBeamAbstractBase.cs: b5a0a768319957b2d02af7c98b918b71 -> 
-  custom:scripting/monoscript/fileName/SRPHelper.cs: 1d1cd3d72df7d8999b91cce7a36358b6 -> 
-  custom:scripting/monoscript/fileName/InstallerEditor.cs: c6c35d6e4597412f1d94444c33499139 -> 
-  custom:scripting/monoscript/fileName/Rotater.cs: fc642edf9db28e826b2e4a4c798b19ba -> 
-  custom:scripting/monoscript/fileName/UtilsBeamProps.cs: 22963f6cbfa1a38cf85932ba54997edd -> 
-========================================================================
-Received Prepare
-Caller must complete domain reload
-Begin MonoManager ReloadAssembly
-Thread 0x16bc27000 may have been prematurely finalized
-- Loaded All Assemblies, in  0.458 seconds
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.333 seconds
-Domain Reload Profiling: 1793ms
-	BeginReloadAssembly (98ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (3ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (37ms)
-	RebuildCommonClasses (22ms)
-	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (24ms)
-	LoadAllAssembliesAndSetupDomain (308ms)
-		LoadAssemblies (242ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (96ms)
-			TypeCache.Refresh (25ms)
-				TypeCache.ScanAssembly (4ms)
-			ScanForSourceGeneratedMonoScriptInfo (54ms)
-			ResolveRequiredComponents (14ms)
-	FinalizeReload (1333ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (285ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (3ms)
-			SetLoadedEditorAssemblies (3ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (42ms)
-			ProcessInitializeOnLoadAttributes (203ms)
-			ProcessInitializeOnLoadMethodAttributes (33ms)
-			AfterProcessingInitializeOnLoad (1ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (7ms)
-Refreshing native plugins compatible for Editor in 5.09 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5610 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 22 unused Assets / (431.0 KB). Loaded Objects now: 6304.
-Memory consumption went from 220.9 MB to 220.5 MB.
-Total: 3.613916 ms (FindLiveObjects: 0.225084 ms CreateObjectMapping: 0.107750 ms MarkObjects: 3.103834 ms  DeleteObjects: 0.176708 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:scripting/monoscript/fileName/VolumetricShadowHD.cs: 3c45937c328863abe4c43198c25cdd29 -> 
-  custom:scripting/monoscript/fileName/MeshGenerator.cs: de2d50b968cfba590c162e4621fe858d -> 
-  custom:scripting/monoscript/fileName/TransformUtils.cs: a56d247f1d9013a7f72588fc014d0330 -> 
-  custom:scripting/monoscript/fileName/MinMaxRangeFloat.cs: 3248f5b1945bb33a75e3e2abb1166d75 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:scripting/monoscript/fileName/SortingLayerAndOrderDrawer.cs: cf7939168a4032420960a7eaf61415c2 -> 
-  custom:scripting/monoscript/fileName/BatchingHelper.cs: c50d6a916edd1bb5a25406410cd80a71 -> 
-  custom:scripting/monoscript/fileName/EffectPulse.cs: 8d576aa1b5eb4355aaa30f4249f8a9d6 -> 
-  custom:scripting/monoscript/fileName/Editor_EffectPulse.cs: cdc152cc594fa4b8bf01ae0a085240e7 -> 
-  custom:scripting/monoscript/fileName/TriggerZone.cs: b7c38a5cbf481e8731fceb3d8cd74a95 -> 
-  custom:scripting/monoscript/fileName/Editor_VolumetricLightBeamHD.cs: 727a8fa1d29515d27451625cff420243 -> 
-  custom:scripting/monoscript/fileName/VolumetricCookieHD.cs: 16ee042fe148bc57d13248dacdace234 -> 
-  custom:scripting/monoscript/fileName/Editor_DynamicOcclusionAbstractBase.cs: 90647cc400823b41df847a6cbfc29026 -> 
-  custom:scripting/monoscript/fileName/EditorStrings.cs: 2be91feead6079dc38ce290c75a626dd -> 
-  custom:scripting/monoscript/fileName/Noise3D.cs: 183fce1b8b1c5fcc7b5402fd40880838 -> 
-  custom:scripting/monoscript/fileName/Installer.cs: f795acb96c8534b03fb4adc3b2873312 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:scripting/monoscript/fileName/Editor_Common.cs: ace7e201c62ef789291807eb659eecf0 -> 
-  custom:scripting/monoscript/fileName/CachedLightProperties.cs: 68763381c274c066dae8ea507e8615a7 -> 
-  custom:scripting/monoscript/fileName/EditorMenuItems.cs: 2f304bc0c3c974dec48fec86dd2dfd1b -> 
-  custom:scripting/monoscript/fileName/HighlightNullAttribute.cs: e94125403b6e2d3119af0452d173fb77 -> 
-  custom:scripting/monoscript/fileName/Editor_DynamicOcclusionDepthBuffer.cs: 464071d212d6e4d18df5cc8e7f953d62 -> 
-  custom:scripting/monoscript/fileName/Editor_VolumetricDustParticles.cs: d044ab38d78fc3b6498e70fe3ca1b915 -> 
-  custom:scripting/monoscript/fileName/ButtonToggleScope.cs: b6805bc9c416a570e81e783a05086ed2 -> 
-  custom:scripting/monoscript/fileName/EditorExtensions.cs: a41e720b8fc65ce3d95cfeb0b7c1802f -> 
-  custom:scripting/monoscript/fileName/EditorData.cs: c8fe954bb1ee5b75fa14b6366042a5b2 -> 
-  custom:scripting/monoscript/fileName/DynamicOcclusionDepthBuffer.cs: cbef730cb37a9772fc167c04cc08a96a -> 
-  custom:scripting/monoscript/fileName/FreeCameraController.cs: a6ecdd4646be0b92e454e1760337b9d2 -> 
-  custom:scripting/monoscript/fileName/MaterialManager.cs: 030594416e9ef433356a9aa71f34f158 -> 
-  custom:scripting/monoscript/fileName/Editor_TriggerZone.cs: 99235bd7680f2d1eab055ec07bf583dc -> 
-  custom:scripting/monoscript/fileName/Editor_TrackRealtimeChangesOnLightHD.cs: 903fc80afa631477fa45e0d63b1fda83 -> 
-  custom:scripting/monoscript/fileName/ShaderProperties.cs: 7efba5e529851539adfa1d148140dff3 -> 
-  custom:scripting/monoscript/fileName/Utils.cs: 7c0a40477b64cfa9dca858e84beda389 -> 40c528c300bfc0733192292a788cb076
-  custom:scripting/monoscript/fileName/DummyMaterial.cs: 1c73984e76d7bc9907284da4c2efb65c -> 
-  custom:scripting/monoscript/fileName/ShaderKeywords.cs: bdd232a7e6c0e73e11c8f39e13b4013d -> 
-  custom:scripting/monoscript/fileName/Editor_VolumetricLightBeamSD.cs: 78c841c540c44aa76d950a34b5998c5c -> 
-  custom:scripting/monoscript/fileName/MaterialModifier.cs: d45dae009a643e706752870db681cf98 -> 
-  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
-  custom:scripting/monoscript/fileName/SpotLightHelper.cs: 66fc3c22c8202baaebf8f43d06f5e936 -> 
-  custom:scripting/monoscript/fileName/GlobalMeshSD.cs: bdaa2600329361397e8248f0270c23c9 -> 
-  custom:scripting/monoscript/fileName/TrackRealtimeChangesOnLightHD.cs: e102ea3b53d0b833c39d0df5b5b2ab11 -> 
-  custom:scripting/monoscript/fileName/TargetList.cs: 90647cc400823b41df847a6cbfc29026 -> 
-  custom:scripting/monoscript/fileName/VolumetricLightBeamHD.cs: 1b174ecd4e96996459d588edc324f428 -> 
-  custom:scripting/monoscript/fileName/Editor_VolumetricShadowHD.cs: 214c4bae8a1a753c974897626897fe26 -> 
-  custom:scripting/monoscript/fileName/Editor_DynamicOcclusionRaycasting.cs: 367b013a8104b48d9d114938e7415b1d -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:scripting/monoscript/fileName/EditorPrefsStrings.cs: e55aaa34d078c56fbe18dba48b95e9bb -> 
-  custom:scripting/monoscript/fileName/DynamicOcclusionRaycasting.cs: 814d88d1b985c2e73b046d4b810925d2 -> 
-  custom:scripting/monoscript/fileName/EffectAbstractBase.cs: e9b28b07bed5c167615c8ef53c90badf -> 
-  custom:scripting/monoscript/fileName/CheckIfInsideBeam.cs: 2fb95c18e98fbb140d1f3ef085677c96 -> 
-  custom:scripting/monoscript/fileName/RenderQueueDrawer.cs: f1beaf2772226a7fb88e84aa1c5388b9 -> 
-  custom:scripting/monoscript/fileName/CameraToggleBeamVisibility.cs: 4dd1dda391cacdff02560ac668be75ac -> 
-  custom:scripting/monoscript/fileName/Config.cs: b3bab070432e31d4b43cadbde9ddf628 -> 
-  custom:scripting/monoscript/fileName/Editor_CommonSD.cs: 2daa946bcb2aa319e41b5ad4c0c27215 -> 
-  custom:scripting/monoscript/fileName/FeaturesNotSupportedMessage.cs: cfc11727ca74ba83092f4f008be88692 -> 
-  custom:scripting/monoscript/fileName/Consts.cs: 0539688f7f9ae046952c859b7c847b65 -> 
-  custom:scripting/monoscript/fileName/Editor_EffectFlicker.cs: 0ab5bd4a249d56845603c89117b78900 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:scripting/monoscript/fileName/EffectFromProfile.cs: 65ce544be0b7bf32d41f8bef17f6c944 -> 
-  custom:scripting/monoscript/fileName/Version.cs: 9acf72a061c0a6e292dfea2fcec2412f -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:scripting/monoscript/fileName/PolygonHelper.cs: 2c5a01b4681b08cd140434f8aafc0b99 -> 
-  custom:scripting/monoscript/fileName/Editor_VolumetricCookieHD.cs: 94de3372a49a48d8b7217f891f3a0c93 -> 
-  custom:scripting/monoscript/fileName/GlobalMeshHD.cs: 05dbc86436e0a7800ba800750e514990 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:scripting/monoscript/fileName/Editor_CommonHD.cs: e7f911ecd5dfcfb6967b0e7bc4a00627 -> 
-  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
-  custom:scripting/monoscript/fileName/Editor_EffectAbstractBase.cs: 90647cc400823b41df847a6cbfc29026 -> 
-  custom:scripting/monoscript/fileName/Editor_EffectFromProfile.cs: 421a69c62ef10bfff3b82b008abc77c8 -> 
-  custom:scripting/monoscript/fileName/OnBuildPostprocess.cs: b08b0f1fb565a01521b078e0ebc8202f -> 
-  custom:scripting/monoscript/fileName/OnBuildTargetChanged.cs: 82e7161e50c9c7a7652cda32ae63e944 -> 
-  custom:scripting/monoscript/fileName/Editor_VolumetricLightBeamHD2D.cs: accc386dff5cc4087c371dcd5e5fde0a -> 
-  custom:scripting/monoscript/fileName/VolumetricDustParticles.cs: d66fa087efe5f3a1dc241b54c6d0104f -> 
-  custom:scripting/monoscript/fileName/LODBeamGroup.cs: 52b56410d4e633d2ce14777c0cd6f7b3 -> 
-  custom:scripting/monoscript/fileName/SkewingHandleSD.cs: a062a129bfba8dfc19213fe3c92b9ecc -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:scripting/monoscript/fileName/ShaderGenerator.cs: 34f2c3dbfdf3f4822d2f3435ccbc5a30 -> 
-  custom:scripting/monoscript/fileName/VolumetricLightBeamHD2D.cs: 6623579c25e94ffb0520de1f56e3e5da -> 
-  custom:scripting/monoscript/fileName/EffectFlicker.cs: 5ed1445dcda823f946939c9d56b8b396 -> 
-  custom:scripting/monoscript/fileName/VolumetricLightBeamSD.cs: 937044f0e2fef2beaec2bb3807d0a5cd -> 
-  custom:scripting/monoscript/fileName/Editor_VolumetricLightBeamAbstractBase.cs: c17eab94857d1283d8b0454f9cc9c0d7 -> 
-  custom:scripting/monoscript/fileName/PlatformHelper.cs: ee295d6a887d83e2525ab634cf8c5a35 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:scripting/monoscript/fileName/Editor_LODBeamGroup.cs: 2b9a3c84ad2253e4eafff5a1f0ddde89 -> 
-  custom:scripting/monoscript/fileName/LightGenerator.cs: d8ef4590c1af7a4a46fab5dd087f73cb -> 
-  custom:scripting/monoscript/fileName/OnBuildPreprocess.cs: 8f60b876e061e6dcad74cd534949baad -> 
-  custom:scripting/monoscript/fileName/Editor_Config.cs: b6a624e557bca43297d9ebe0284782ab -> 
-  custom:scripting/monoscript/fileName/RaymarchingQuality.cs: e410d89bcbaf92c02353ebff0df70972 -> 
-  custom:scripting/monoscript/fileName/Editor_SkewingHandleSD.cs: 43e3b6ee23d8b41d0472854304a4df9d -> 
-  custom:scripting/monoscript/fileName/BeamGeometryAbstractBase.cs: 5a5ac35ca855a4dfbf2885cd7321e4aa -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:scripting/monoscript/fileName/BeamGeometrySD.cs: fc72164f275771cb1c04d5aaae63af47 -> 
-  custom:scripting/monoscript/fileName/FoldableHeader.cs: c3fc4af97ff4198b7924738bed5cf340 -> 
-  custom:scripting/monoscript/fileName/DynamicOcclusionAbstractBase.cs: d935118d22cad75ba8322b0834aca7c4 -> 
-  custom:scripting/monoscript/fileName/BeamGeometryHD.cs: 9eedd9c3040960d2955a7d1fbd85f09e -> 
-  custom:scripting/monoscript/fileName/VolumetricLightBeamAbstractBase.cs: b5a0a768319957b2d02af7c98b918b71 -> 
-  custom:scripting/monoscript/fileName/SRPHelper.cs: 1d1cd3d72df7d8999b91cce7a36358b6 -> 
-  custom:scripting/monoscript/fileName/InstallerEditor.cs: c6c35d6e4597412f1d94444c33499139 -> 
-  custom:scripting/monoscript/fileName/Rotater.cs: fc642edf9db28e826b2e4a4c798b19ba -> 
-  custom:scripting/monoscript/fileName/UtilsBeamProps.cs: 22963f6cbfa1a38cf85932ba54997edd -> 
+Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 2026.023287 seconds.
-  path: Assets/Scenes/RadioExample.unity
-  artifactKey: Guid(0e69c6489e11e412ca66f755cdc82555) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/RadioExample.unity using Guid(0e69c6489e11e412ca66f755cdc82555) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
- -> (artifact id: '985c7fce8850c36a49ab432718c2b956') in 0.005423 seconds
+  Time since last request: 0.000044 seconds.
+  path: Assets/Ian's Fire Pack Universal/Objects/Materials/Brazier.mat
+  artifactKey: Guid(80f405bcd70374032bc2fe9c2b5997a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ian's Fire Pack Universal/Objects/Materials/Brazier.mat using Guid(80f405bcd70374032bc2fe9c2b5997a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: 'f042e8b43b900d0a0ab79c622906f49d') in 0.004807 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/Ian's Fire Pack Universal/_Standard Pipeline Specific/Demo/DemoFloor.mat
+  artifactKey: Guid(b67dec39dbf1c4adc88b570167decb3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ian's Fire Pack Universal/_Standard Pipeline Specific/Demo/DemoFloor.mat using Guid(b67dec39dbf1c4adc88b570167decb3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: 'fffe621928a46dab5ac8d914eec4ba43') in 0.003273 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Ian's Fire Pack Universal/_Standard Pipeline Specific/Materials/Decals/CharDecal.mat
+  artifactKey: Guid(e74bca65ff9614eecab5e71c3423726e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ian's Fire Pack Universal/_Standard Pipeline Specific/Materials/Decals/CharDecal.mat using Guid(e74bca65ff9614eecab5e71c3423726e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: 'd6d30c7c15310a63986b6f38deb4839b') in 0.011633 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
 ========================================================================
 Received Prepare
-Caller must complete domain reload
-Begin MonoManager ReloadAssembly
-Thread 0x16bc27000 may have been prematurely finalized
-- Loaded All Assemblies, in  0.471 seconds
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.397 seconds
-Domain Reload Profiling: 1868ms
-	BeginReloadAssembly (118ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (3ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (53ms)
-	RebuildCommonClasses (22ms)
-	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (16ms)
-	LoadAllAssembliesAndSetupDomain (308ms)
-		LoadAssemblies (281ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (62ms)
-			TypeCache.Refresh (18ms)
-				TypeCache.ScanAssembly (1ms)
-			ScanForSourceGeneratedMonoScriptInfo (34ms)
-			ResolveRequiredComponents (10ms)
-	FinalizeReload (1397ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (265ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (3ms)
-			SetLoadedEditorAssemblies (2ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (39ms)
-			ProcessInitializeOnLoadAttributes (190ms)
-			ProcessInitializeOnLoadMethodAttributes (29ms)
-			AfterProcessingInitializeOnLoad (1ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (6ms)
-Refreshing native plugins compatible for Editor in 5.12 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 5.15 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5611 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 22 unused Assets / (431.1 KB). Loaded Objects now: 6321.
-Memory consumption went from 224.1 MB to 223.7 MB.
-Total: 3.252834 ms (FindLiveObjects: 0.209083 ms CreateObjectMapping: 0.106333 ms MarkObjects: 2.762917 ms  DeleteObjects: 0.174042 ms)
+Unloading 62 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5 unused Assets / (414.7 KB). Loaded Objects now: 6291.
+Memory consumption went from 130.0 MB to 129.6 MB.
+Total: 15.017500 ms (FindLiveObjects: 0.250250 ms CreateObjectMapping: 0.104833 ms MarkObjects: 14.503459 ms  DeleteObjects: 0.158708 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
-  custom:scripting/monoscript/fileName/VolumetricShadowHD.cs: 3c45937c328863abe4c43198c25cdd29 -> 
-  custom:scripting/monoscript/fileName/MeshGenerator.cs: de2d50b968cfba590c162e4621fe858d -> 
-  custom:scripting/monoscript/fileName/TransformUtils.cs: a56d247f1d9013a7f72588fc014d0330 -> 
-  custom:scripting/monoscript/fileName/MinMaxRangeFloat.cs: 3248f5b1945bb33a75e3e2abb1166d75 -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:scripting/monoscript/fileName/SortingLayerAndOrderDrawer.cs: cf7939168a4032420960a7eaf61415c2 -> 
-  custom:scripting/monoscript/fileName/BatchingHelper.cs: c50d6a916edd1bb5a25406410cd80a71 -> 
-  custom:scripting/monoscript/fileName/EffectPulse.cs: 8d576aa1b5eb4355aaa30f4249f8a9d6 -> 
-  custom:scripting/monoscript/fileName/Editor_EffectPulse.cs: cdc152cc594fa4b8bf01ae0a085240e7 -> 
-  custom:scripting/monoscript/fileName/TriggerZone.cs: b7c38a5cbf481e8731fceb3d8cd74a95 -> 
-  custom:scripting/monoscript/fileName/Editor_VolumetricLightBeamHD.cs: 727a8fa1d29515d27451625cff420243 -> 
-  custom:scripting/monoscript/fileName/VolumetricCookieHD.cs: 16ee042fe148bc57d13248dacdace234 -> 
-  custom:scripting/monoscript/fileName/Editor_DynamicOcclusionAbstractBase.cs: 90647cc400823b41df847a6cbfc29026 -> 
-  custom:scripting/monoscript/fileName/EditorStrings.cs: 2be91feead6079dc38ce290c75a626dd -> 
-  custom:scripting/monoscript/fileName/Noise3D.cs: 183fce1b8b1c5fcc7b5402fd40880838 -> 
-  custom:scripting/monoscript/fileName/Installer.cs: f795acb96c8534b03fb4adc3b2873312 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:scripting/monoscript/fileName/Editor_Common.cs: ace7e201c62ef789291807eb659eecf0 -> 
-  custom:scripting/monoscript/fileName/CachedLightProperties.cs: 68763381c274c066dae8ea507e8615a7 -> 
-  custom:scripting/monoscript/fileName/EditorMenuItems.cs: 2f304bc0c3c974dec48fec86dd2dfd1b -> 
-  custom:scripting/monoscript/fileName/HighlightNullAttribute.cs: e94125403b6e2d3119af0452d173fb77 -> 
-  custom:scripting/monoscript/fileName/Editor_DynamicOcclusionDepthBuffer.cs: 464071d212d6e4d18df5cc8e7f953d62 -> 
-  custom:scripting/monoscript/fileName/Editor_VolumetricDustParticles.cs: d044ab38d78fc3b6498e70fe3ca1b915 -> 
-  custom:scripting/monoscript/fileName/ButtonToggleScope.cs: b6805bc9c416a570e81e783a05086ed2 -> 
-  custom:scripting/monoscript/fileName/EditorExtensions.cs: a41e720b8fc65ce3d95cfeb0b7c1802f -> 
-  custom:scripting/monoscript/fileName/EditorData.cs: c8fe954bb1ee5b75fa14b6366042a5b2 -> 
-  custom:scripting/monoscript/fileName/DynamicOcclusionDepthBuffer.cs: cbef730cb37a9772fc167c04cc08a96a -> 
-  custom:scripting/monoscript/fileName/FreeCameraController.cs: a6ecdd4646be0b92e454e1760337b9d2 -> 
-  custom:scripting/monoscript/fileName/MaterialManager.cs: 030594416e9ef433356a9aa71f34f158 -> 
-  custom:scripting/monoscript/fileName/Editor_TriggerZone.cs: 99235bd7680f2d1eab055ec07bf583dc -> 
-  custom:scripting/monoscript/fileName/Editor_TrackRealtimeChangesOnLightHD.cs: 903fc80afa631477fa45e0d63b1fda83 -> 
-  custom:scripting/monoscript/fileName/ShaderProperties.cs: 7efba5e529851539adfa1d148140dff3 -> 
-  custom:scripting/monoscript/fileName/Utils.cs: 7c0a40477b64cfa9dca858e84beda389 -> 40c528c300bfc0733192292a788cb076
-  custom:scripting/monoscript/fileName/DummyMaterial.cs: 1c73984e76d7bc9907284da4c2efb65c -> 
-  custom:scripting/monoscript/fileName/ShaderKeywords.cs: bdd232a7e6c0e73e11c8f39e13b4013d -> 
-  custom:scripting/monoscript/fileName/Editor_VolumetricLightBeamSD.cs: 78c841c540c44aa76d950a34b5998c5c -> 
-  custom:scripting/monoscript/fileName/MaterialModifier.cs: d45dae009a643e706752870db681cf98 -> 
   custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
-  custom:scripting/monoscript/fileName/SpotLightHelper.cs: 66fc3c22c8202baaebf8f43d06f5e936 -> 
-  custom:scripting/monoscript/fileName/GlobalMeshSD.cs: bdaa2600329361397e8248f0270c23c9 -> 
-  custom:scripting/monoscript/fileName/TrackRealtimeChangesOnLightHD.cs: e102ea3b53d0b833c39d0df5b5b2ab11 -> 
-  custom:scripting/monoscript/fileName/TargetList.cs: 90647cc400823b41df847a6cbfc29026 -> 
-  custom:scripting/monoscript/fileName/VolumetricLightBeamHD.cs: 1b174ecd4e96996459d588edc324f428 -> 
-  custom:scripting/monoscript/fileName/Editor_VolumetricShadowHD.cs: 214c4bae8a1a753c974897626897fe26 -> 
-  custom:scripting/monoscript/fileName/Editor_DynamicOcclusionRaycasting.cs: 367b013a8104b48d9d114938e7415b1d -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:scripting/monoscript/fileName/EditorPrefsStrings.cs: e55aaa34d078c56fbe18dba48b95e9bb -> 
-  custom:scripting/monoscript/fileName/DynamicOcclusionRaycasting.cs: 814d88d1b985c2e73b046d4b810925d2 -> 
-  custom:scripting/monoscript/fileName/EffectAbstractBase.cs: e9b28b07bed5c167615c8ef53c90badf -> 
-  custom:scripting/monoscript/fileName/CheckIfInsideBeam.cs: 2fb95c18e98fbb140d1f3ef085677c96 -> 
-  custom:scripting/monoscript/fileName/RenderQueueDrawer.cs: f1beaf2772226a7fb88e84aa1c5388b9 -> 
-  custom:scripting/monoscript/fileName/CameraToggleBeamVisibility.cs: 4dd1dda391cacdff02560ac668be75ac -> 
-  custom:scripting/monoscript/fileName/Config.cs: b3bab070432e31d4b43cadbde9ddf628 -> 
-  custom:scripting/monoscript/fileName/Editor_CommonSD.cs: 2daa946bcb2aa319e41b5ad4c0c27215 -> 
-  custom:scripting/monoscript/fileName/FeaturesNotSupportedMessage.cs: cfc11727ca74ba83092f4f008be88692 -> 
-  custom:scripting/monoscript/fileName/Consts.cs: 0539688f7f9ae046952c859b7c847b65 -> 
-  custom:scripting/monoscript/fileName/Editor_EffectFlicker.cs: 0ab5bd4a249d56845603c89117b78900 -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:scripting/monoscript/fileName/EffectFromProfile.cs: 65ce544be0b7bf32d41f8bef17f6c944 -> 
-  custom:scripting/monoscript/fileName/Version.cs: 9acf72a061c0a6e292dfea2fcec2412f -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:scripting/monoscript/fileName/PolygonHelper.cs: 2c5a01b4681b08cd140434f8aafc0b99 -> 
-  custom:scripting/monoscript/fileName/Editor_VolumetricCookieHD.cs: 94de3372a49a48d8b7217f891f3a0c93 -> 
-  custom:scripting/monoscript/fileName/GlobalMeshHD.cs: 05dbc86436e0a7800ba800750e514990 -> 
   custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:scripting/monoscript/fileName/Editor_CommonHD.cs: e7f911ecd5dfcfb6967b0e7bc4a00627 -> 
   custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
-  custom:scripting/monoscript/fileName/Editor_EffectAbstractBase.cs: 90647cc400823b41df847a6cbfc29026 -> 
-  custom:scripting/monoscript/fileName/Editor_EffectFromProfile.cs: 421a69c62ef10bfff3b82b008abc77c8 -> 
-  custom:scripting/monoscript/fileName/OnBuildPostprocess.cs: b08b0f1fb565a01521b078e0ebc8202f -> 
-  custom:scripting/monoscript/fileName/OnBuildTargetChanged.cs: 82e7161e50c9c7a7652cda32ae63e944 -> 
-  custom:scripting/monoscript/fileName/Editor_VolumetricLightBeamHD2D.cs: accc386dff5cc4087c371dcd5e5fde0a -> 
-  custom:scripting/monoscript/fileName/VolumetricDustParticles.cs: d66fa087efe5f3a1dc241b54c6d0104f -> 
-  custom:scripting/monoscript/fileName/LODBeamGroup.cs: 52b56410d4e633d2ce14777c0cd6f7b3 -> 
-  custom:scripting/monoscript/fileName/SkewingHandleSD.cs: a062a129bfba8dfc19213fe3c92b9ecc -> 
   custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:scripting/monoscript/fileName/ShaderGenerator.cs: 34f2c3dbfdf3f4822d2f3435ccbc5a30 -> 
-  custom:scripting/monoscript/fileName/VolumetricLightBeamHD2D.cs: 6623579c25e94ffb0520de1f56e3e5da -> 
-  custom:scripting/monoscript/fileName/EffectFlicker.cs: 5ed1445dcda823f946939c9d56b8b396 -> 
-  custom:scripting/monoscript/fileName/VolumetricLightBeamSD.cs: 937044f0e2fef2beaec2bb3807d0a5cd -> 
-  custom:scripting/monoscript/fileName/Editor_VolumetricLightBeamAbstractBase.cs: c17eab94857d1283d8b0454f9cc9c0d7 -> 
-  custom:scripting/monoscript/fileName/PlatformHelper.cs: ee295d6a887d83e2525ab634cf8c5a35 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:scripting/monoscript/fileName/Editor_LODBeamGroup.cs: 2b9a3c84ad2253e4eafff5a1f0ddde89 -> 
-  custom:scripting/monoscript/fileName/LightGenerator.cs: d8ef4590c1af7a4a46fab5dd087f73cb -> 
-  custom:scripting/monoscript/fileName/OnBuildPreprocess.cs: 8f60b876e061e6dcad74cd534949baad -> 
-  custom:scripting/monoscript/fileName/Editor_Config.cs: b6a624e557bca43297d9ebe0284782ab -> 
-  custom:scripting/monoscript/fileName/RaymarchingQuality.cs: e410d89bcbaf92c02353ebff0df70972 -> 
-  custom:scripting/monoscript/fileName/Editor_SkewingHandleSD.cs: 43e3b6ee23d8b41d0472854304a4df9d -> 
-  custom:scripting/monoscript/fileName/BeamGeometryAbstractBase.cs: 5a5ac35ca855a4dfbf2885cd7321e4aa -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:scripting/monoscript/fileName/BeamGeometrySD.cs: fc72164f275771cb1c04d5aaae63af47 -> 
-  custom:scripting/monoscript/fileName/FoldableHeader.cs: c3fc4af97ff4198b7924738bed5cf340 -> 
-  custom:scripting/monoscript/fileName/DynamicOcclusionAbstractBase.cs: d935118d22cad75ba8322b0834aca7c4 -> 
-  custom:scripting/monoscript/fileName/FMOD_BlockingCylinderSound.cs: 14123e3977cf5460a50786bf3bd5d407 -> 
-  custom:scripting/monoscript/fileName/BeamGeometryHD.cs: 9eedd9c3040960d2955a7d1fbd85f09e -> 
-  custom:scripting/monoscript/fileName/VolumetricLightBeamAbstractBase.cs: b5a0a768319957b2d02af7c98b918b71 -> 
-  custom:scripting/monoscript/fileName/SRPHelper.cs: 1d1cd3d72df7d8999b91cce7a36358b6 -> 
-  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 86d214d81835405a3e4e7a1f7ed17c47 -> cbec2b09ca91ad9d1a91d5a9eff4970e
-  custom:scripting/monoscript/fileName/InstallerEditor.cs: c6c35d6e4597412f1d94444c33499139 -> 
-  custom:scripting/monoscript/fileName/Rotater.cs: fc642edf9db28e826b2e4a4c798b19ba -> 
-  custom:scripting/monoscript/fileName/UtilsBeamProps.cs: 22963f6cbfa1a38cf85932ba54997edd -> 
-========================================================================
-Received Prepare
-Caller must complete domain reload
-Begin MonoManager ReloadAssembly
-Thread 0x16b50b000 may have been prematurely finalized
-- Loaded All Assemblies, in  0.465 seconds
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.305 seconds
-Domain Reload Profiling: 1773ms
-	BeginReloadAssembly (121ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (7ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (45ms)
-	RebuildCommonClasses (23ms)
-	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (28ms)
-	LoadAllAssembliesAndSetupDomain (287ms)
-		LoadAssemblies (278ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (40ms)
-			TypeCache.Refresh (13ms)
-				TypeCache.ScanAssembly (1ms)
-			ScanForSourceGeneratedMonoScriptInfo (17ms)
-			ResolveRequiredComponents (9ms)
-	FinalizeReload (1305ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (276ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (3ms)
-			SetLoadedEditorAssemblies (2ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (38ms)
-			ProcessInitializeOnLoadAttributes (193ms)
-			ProcessInitializeOnLoadMethodAttributes (38ms)
-			AfterProcessingInitializeOnLoad (1ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (7ms)
-Refreshing native plugins compatible for Editor in 4.97 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5611 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 22 unused Assets / (431.2 KB). Loaded Objects now: 6337.
-Memory consumption went from 227.1 MB to 226.7 MB.
-Total: 2.693500 ms (FindLiveObjects: 0.219500 ms CreateObjectMapping: 0.091333 ms MarkObjects: 2.229625 ms  DeleteObjects: 0.152625 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:scripting/monoscript/fileName/VolumetricShadowHD.cs: 3c45937c328863abe4c43198c25cdd29 -> 
-  custom:scripting/monoscript/fileName/MeshGenerator.cs: de2d50b968cfba590c162e4621fe858d -> 
-  custom:scripting/monoscript/fileName/TransformUtils.cs: a56d247f1d9013a7f72588fc014d0330 -> 
-  custom:scripting/monoscript/fileName/MinMaxRangeFloat.cs: 3248f5b1945bb33a75e3e2abb1166d75 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:scripting/monoscript/fileName/SortingLayerAndOrderDrawer.cs: cf7939168a4032420960a7eaf61415c2 -> 
-  custom:scripting/monoscript/fileName/BatchingHelper.cs: c50d6a916edd1bb5a25406410cd80a71 -> 
-  custom:scripting/monoscript/fileName/EffectPulse.cs: 8d576aa1b5eb4355aaa30f4249f8a9d6 -> 
-  custom:scripting/monoscript/fileName/Editor_EffectPulse.cs: cdc152cc594fa4b8bf01ae0a085240e7 -> 
-  custom:scripting/monoscript/fileName/TriggerZone.cs: b7c38a5cbf481e8731fceb3d8cd74a95 -> 
-  custom:scripting/monoscript/fileName/Editor_VolumetricLightBeamHD.cs: 727a8fa1d29515d27451625cff420243 -> 
-  custom:scripting/monoscript/fileName/VolumetricCookieHD.cs: 16ee042fe148bc57d13248dacdace234 -> 
-  custom:scripting/monoscript/fileName/Editor_DynamicOcclusionAbstractBase.cs: 90647cc400823b41df847a6cbfc29026 -> 
-  custom:scripting/monoscript/fileName/EditorStrings.cs: 2be91feead6079dc38ce290c75a626dd -> 
-  custom:scripting/monoscript/fileName/Noise3D.cs: 183fce1b8b1c5fcc7b5402fd40880838 -> 
-  custom:scripting/monoscript/fileName/Installer.cs: f795acb96c8534b03fb4adc3b2873312 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:scripting/monoscript/fileName/Editor_Common.cs: ace7e201c62ef789291807eb659eecf0 -> 
-  custom:scripting/monoscript/fileName/CachedLightProperties.cs: 68763381c274c066dae8ea507e8615a7 -> 
-  custom:scripting/monoscript/fileName/EditorMenuItems.cs: 2f304bc0c3c974dec48fec86dd2dfd1b -> 
-  custom:scripting/monoscript/fileName/HighlightNullAttribute.cs: e94125403b6e2d3119af0452d173fb77 -> 
-  custom:scripting/monoscript/fileName/Editor_DynamicOcclusionDepthBuffer.cs: 464071d212d6e4d18df5cc8e7f953d62 -> 
-  custom:scripting/monoscript/fileName/Editor_VolumetricDustParticles.cs: d044ab38d78fc3b6498e70fe3ca1b915 -> 
-  custom:scripting/monoscript/fileName/ButtonToggleScope.cs: b6805bc9c416a570e81e783a05086ed2 -> 
-  custom:scripting/monoscript/fileName/EditorExtensions.cs: a41e720b8fc65ce3d95cfeb0b7c1802f -> 
-  custom:scripting/monoscript/fileName/EditorData.cs: c8fe954bb1ee5b75fa14b6366042a5b2 -> 
-  custom:scripting/monoscript/fileName/DynamicOcclusionDepthBuffer.cs: cbef730cb37a9772fc167c04cc08a96a -> 
-  custom:scripting/monoscript/fileName/FreeCameraController.cs: a6ecdd4646be0b92e454e1760337b9d2 -> 
-  custom:scripting/monoscript/fileName/MaterialManager.cs: 030594416e9ef433356a9aa71f34f158 -> 
-  custom:scripting/monoscript/fileName/Editor_TriggerZone.cs: 99235bd7680f2d1eab055ec07bf583dc -> 
-  custom:scripting/monoscript/fileName/Editor_TrackRealtimeChangesOnLightHD.cs: 903fc80afa631477fa45e0d63b1fda83 -> 
-  custom:scripting/monoscript/fileName/ShaderProperties.cs: 7efba5e529851539adfa1d148140dff3 -> 
-  custom:scripting/monoscript/fileName/Utils.cs: 7c0a40477b64cfa9dca858e84beda389 -> 40c528c300bfc0733192292a788cb076
-  custom:scripting/monoscript/fileName/DummyMaterial.cs: 1c73984e76d7bc9907284da4c2efb65c -> 
-  custom:scripting/monoscript/fileName/ShaderKeywords.cs: bdd232a7e6c0e73e11c8f39e13b4013d -> 
-  custom:scripting/monoscript/fileName/Editor_VolumetricLightBeamSD.cs: 78c841c540c44aa76d950a34b5998c5c -> 
-  custom:scripting/monoscript/fileName/MaterialModifier.cs: d45dae009a643e706752870db681cf98 -> 
-  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
-  custom:scripting/monoscript/fileName/SpotLightHelper.cs: 66fc3c22c8202baaebf8f43d06f5e936 -> 
-  custom:scripting/monoscript/fileName/GlobalMeshSD.cs: bdaa2600329361397e8248f0270c23c9 -> 
-  custom:scripting/monoscript/fileName/TrackRealtimeChangesOnLightHD.cs: e102ea3b53d0b833c39d0df5b5b2ab11 -> 
-  custom:scripting/monoscript/fileName/TargetList.cs: 90647cc400823b41df847a6cbfc29026 -> 
-  custom:scripting/monoscript/fileName/VolumetricLightBeamHD.cs: 1b174ecd4e96996459d588edc324f428 -> 
-  custom:scripting/monoscript/fileName/Editor_VolumetricShadowHD.cs: 214c4bae8a1a753c974897626897fe26 -> 
-  custom:scripting/monoscript/fileName/Editor_DynamicOcclusionRaycasting.cs: 367b013a8104b48d9d114938e7415b1d -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:scripting/monoscript/fileName/EditorPrefsStrings.cs: e55aaa34d078c56fbe18dba48b95e9bb -> 
-  custom:scripting/monoscript/fileName/DynamicOcclusionRaycasting.cs: 814d88d1b985c2e73b046d4b810925d2 -> 
-  custom:scripting/monoscript/fileName/EffectAbstractBase.cs: e9b28b07bed5c167615c8ef53c90badf -> 
-  custom:scripting/monoscript/fileName/CheckIfInsideBeam.cs: 2fb95c18e98fbb140d1f3ef085677c96 -> 
-  custom:scripting/monoscript/fileName/RenderQueueDrawer.cs: f1beaf2772226a7fb88e84aa1c5388b9 -> 
-  custom:scripting/monoscript/fileName/CameraToggleBeamVisibility.cs: 4dd1dda391cacdff02560ac668be75ac -> 
-  custom:scripting/monoscript/fileName/Config.cs: b3bab070432e31d4b43cadbde9ddf628 -> 
-  custom:scripting/monoscript/fileName/Editor_CommonSD.cs: 2daa946bcb2aa319e41b5ad4c0c27215 -> 
-  custom:scripting/monoscript/fileName/FeaturesNotSupportedMessage.cs: cfc11727ca74ba83092f4f008be88692 -> 
-  custom:scripting/monoscript/fileName/Consts.cs: 0539688f7f9ae046952c859b7c847b65 -> 
-  custom:scripting/monoscript/fileName/Editor_EffectFlicker.cs: 0ab5bd4a249d56845603c89117b78900 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:scripting/monoscript/fileName/EffectFromProfile.cs: 65ce544be0b7bf32d41f8bef17f6c944 -> 
-  custom:scripting/monoscript/fileName/Version.cs: 9acf72a061c0a6e292dfea2fcec2412f -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:scripting/monoscript/fileName/PolygonHelper.cs: 2c5a01b4681b08cd140434f8aafc0b99 -> 
-  custom:scripting/monoscript/fileName/Editor_VolumetricCookieHD.cs: 94de3372a49a48d8b7217f891f3a0c93 -> 
-  custom:scripting/monoscript/fileName/GlobalMeshHD.cs: 05dbc86436e0a7800ba800750e514990 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:scripting/monoscript/fileName/Editor_CommonHD.cs: e7f911ecd5dfcfb6967b0e7bc4a00627 -> 
-  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
-  custom:scripting/monoscript/fileName/Editor_EffectAbstractBase.cs: 90647cc400823b41df847a6cbfc29026 -> 
-  custom:scripting/monoscript/fileName/Editor_EffectFromProfile.cs: 421a69c62ef10bfff3b82b008abc77c8 -> 
-  custom:scripting/monoscript/fileName/OnBuildPostprocess.cs: b08b0f1fb565a01521b078e0ebc8202f -> 
-  custom:scripting/monoscript/fileName/OnBuildTargetChanged.cs: 82e7161e50c9c7a7652cda32ae63e944 -> 
-  custom:scripting/monoscript/fileName/Editor_VolumetricLightBeamHD2D.cs: accc386dff5cc4087c371dcd5e5fde0a -> 
-  custom:scripting/monoscript/fileName/VolumetricDustParticles.cs: d66fa087efe5f3a1dc241b54c6d0104f -> 
-  custom:scripting/monoscript/fileName/LODBeamGroup.cs: 52b56410d4e633d2ce14777c0cd6f7b3 -> 
-  custom:scripting/monoscript/fileName/SkewingHandleSD.cs: a062a129bfba8dfc19213fe3c92b9ecc -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:scripting/monoscript/fileName/ShaderGenerator.cs: 34f2c3dbfdf3f4822d2f3435ccbc5a30 -> 
-  custom:scripting/monoscript/fileName/VolumetricLightBeamHD2D.cs: 6623579c25e94ffb0520de1f56e3e5da -> 
-  custom:scripting/monoscript/fileName/EffectFlicker.cs: 5ed1445dcda823f946939c9d56b8b396 -> 
-  custom:scripting/monoscript/fileName/VolumetricLightBeamSD.cs: 937044f0e2fef2beaec2bb3807d0a5cd -> 
-  custom:scripting/monoscript/fileName/Editor_VolumetricLightBeamAbstractBase.cs: c17eab94857d1283d8b0454f9cc9c0d7 -> 
-  custom:scripting/monoscript/fileName/PlatformHelper.cs: ee295d6a887d83e2525ab634cf8c5a35 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:scripting/monoscript/fileName/Editor_LODBeamGroup.cs: 2b9a3c84ad2253e4eafff5a1f0ddde89 -> 
-  custom:scripting/monoscript/fileName/LightGenerator.cs: d8ef4590c1af7a4a46fab5dd087f73cb -> 
-  custom:scripting/monoscript/fileName/OnBuildPreprocess.cs: 8f60b876e061e6dcad74cd534949baad -> 
-  custom:scripting/monoscript/fileName/Editor_Config.cs: b6a624e557bca43297d9ebe0284782ab -> 
-  custom:scripting/monoscript/fileName/RaymarchingQuality.cs: e410d89bcbaf92c02353ebff0df70972 -> 
-  custom:scripting/monoscript/fileName/Editor_SkewingHandleSD.cs: 43e3b6ee23d8b41d0472854304a4df9d -> 
-  custom:scripting/monoscript/fileName/BeamGeometryAbstractBase.cs: 5a5ac35ca855a4dfbf2885cd7321e4aa -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:scripting/monoscript/fileName/BeamGeometrySD.cs: fc72164f275771cb1c04d5aaae63af47 -> 
-  custom:scripting/monoscript/fileName/FoldableHeader.cs: c3fc4af97ff4198b7924738bed5cf340 -> 
-  custom:scripting/monoscript/fileName/DynamicOcclusionAbstractBase.cs: d935118d22cad75ba8322b0834aca7c4 -> 
-  custom:scripting/monoscript/fileName/FMOD_BlockingCylinderSound.cs: 14123e3977cf5460a50786bf3bd5d407 -> 
-  custom:scripting/monoscript/fileName/BeamGeometryHD.cs: 9eedd9c3040960d2955a7d1fbd85f09e -> 
-  custom:scripting/monoscript/fileName/VolumetricLightBeamAbstractBase.cs: b5a0a768319957b2d02af7c98b918b71 -> 
-  custom:scripting/monoscript/fileName/SRPHelper.cs: 1d1cd3d72df7d8999b91cce7a36358b6 -> 
-  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 86d214d81835405a3e4e7a1f7ed17c47 -> cbec2b09ca91ad9d1a91d5a9eff4970e
-  custom:scripting/monoscript/fileName/InstallerEditor.cs: c6c35d6e4597412f1d94444c33499139 -> 
-  custom:scripting/monoscript/fileName/Rotater.cs: fc642edf9db28e826b2e4a4c798b19ba -> 
-  custom:scripting/monoscript/fileName/UtilsBeamProps.cs: 22963f6cbfa1a38cf85932ba54997edd -> 
-========================================================================
-Received Prepare
-Caller must complete domain reload
-Begin MonoManager ReloadAssembly
-Thread 0x16b50b000 may have been prematurely finalized
-- Loaded All Assemblies, in  0.577 seconds
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.312 seconds
-Domain Reload Profiling: 1890ms
-	BeginReloadAssembly (132ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (3ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (48ms)
-	RebuildCommonClasses (20ms)
-	RebuildNativeTypeToScriptingClass (7ms)
-	initialDomainReloadingComplete (12ms)
-	LoadAllAssembliesAndSetupDomain (407ms)
-		LoadAssemblies (420ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (41ms)
-			TypeCache.Refresh (11ms)
-				TypeCache.ScanAssembly (1ms)
-			ScanForSourceGeneratedMonoScriptInfo (22ms)
-			ResolveRequiredComponents (8ms)
-	FinalizeReload (1312ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (253ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (3ms)
-			SetLoadedEditorAssemblies (3ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (36ms)
-			ProcessInitializeOnLoadAttributes (183ms)
-			ProcessInitializeOnLoadMethodAttributes (27ms)
-			AfterProcessingInitializeOnLoad (1ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (6ms)
-Refreshing native plugins compatible for Editor in 38.45 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5611 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 22 unused Assets / (431.1 KB). Loaded Objects now: 6353.
-Memory consumption went from 230.0 MB to 229.6 MB.
-Total: 2.743542 ms (FindLiveObjects: 0.207333 ms CreateObjectMapping: 0.097166 ms MarkObjects: 2.283417 ms  DeleteObjects: 0.155125 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:scripting/monoscript/fileName/VolumetricShadowHD.cs: 3c45937c328863abe4c43198c25cdd29 -> 
-  custom:scripting/monoscript/fileName/MeshGenerator.cs: de2d50b968cfba590c162e4621fe858d -> 
-  custom:scripting/monoscript/fileName/TransformUtils.cs: a56d247f1d9013a7f72588fc014d0330 -> 
-  custom:scripting/monoscript/fileName/MinMaxRangeFloat.cs: 3248f5b1945bb33a75e3e2abb1166d75 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:scripting/monoscript/fileName/SortingLayerAndOrderDrawer.cs: cf7939168a4032420960a7eaf61415c2 -> 
-  custom:scripting/monoscript/fileName/BatchingHelper.cs: c50d6a916edd1bb5a25406410cd80a71 -> 
-  custom:scripting/monoscript/fileName/EffectPulse.cs: 8d576aa1b5eb4355aaa30f4249f8a9d6 -> 
-  custom:scripting/monoscript/fileName/Editor_EffectPulse.cs: cdc152cc594fa4b8bf01ae0a085240e7 -> 
-  custom:scripting/monoscript/fileName/TriggerZone.cs: b7c38a5cbf481e8731fceb3d8cd74a95 -> 
-  custom:scripting/monoscript/fileName/Editor_VolumetricLightBeamHD.cs: 727a8fa1d29515d27451625cff420243 -> 
-  custom:scripting/monoscript/fileName/VolumetricCookieHD.cs: 16ee042fe148bc57d13248dacdace234 -> 
-  custom:scripting/monoscript/fileName/Editor_DynamicOcclusionAbstractBase.cs: 90647cc400823b41df847a6cbfc29026 -> 
-  custom:scripting/monoscript/fileName/EditorStrings.cs: 2be91feead6079dc38ce290c75a626dd -> 
-  custom:scripting/monoscript/fileName/Noise3D.cs: 183fce1b8b1c5fcc7b5402fd40880838 -> 
-  custom:scripting/monoscript/fileName/Installer.cs: f795acb96c8534b03fb4adc3b2873312 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:scripting/monoscript/fileName/Editor_Common.cs: ace7e201c62ef789291807eb659eecf0 -> 
-  custom:scripting/monoscript/fileName/CachedLightProperties.cs: 68763381c274c066dae8ea507e8615a7 -> 
-  custom:scripting/monoscript/fileName/EditorMenuItems.cs: 2f304bc0c3c974dec48fec86dd2dfd1b -> 
-  custom:scripting/monoscript/fileName/HighlightNullAttribute.cs: e94125403b6e2d3119af0452d173fb77 -> 
-  custom:scripting/monoscript/fileName/Editor_DynamicOcclusionDepthBuffer.cs: 464071d212d6e4d18df5cc8e7f953d62 -> 
-  custom:scripting/monoscript/fileName/Editor_VolumetricDustParticles.cs: d044ab38d78fc3b6498e70fe3ca1b915 -> 
-  custom:scripting/monoscript/fileName/ButtonToggleScope.cs: b6805bc9c416a570e81e783a05086ed2 -> 
-  custom:scripting/monoscript/fileName/EditorExtensions.cs: a41e720b8fc65ce3d95cfeb0b7c1802f -> 
-  custom:scripting/monoscript/fileName/EditorData.cs: c8fe954bb1ee5b75fa14b6366042a5b2 -> 
-  custom:scripting/monoscript/fileName/DynamicOcclusionDepthBuffer.cs: cbef730cb37a9772fc167c04cc08a96a -> 
-  custom:scripting/monoscript/fileName/FreeCameraController.cs: a6ecdd4646be0b92e454e1760337b9d2 -> 
-  custom:scripting/monoscript/fileName/MaterialManager.cs: 030594416e9ef433356a9aa71f34f158 -> 
-  custom:scripting/monoscript/fileName/Editor_TriggerZone.cs: 99235bd7680f2d1eab055ec07bf583dc -> 
-  custom:scripting/monoscript/fileName/Editor_TrackRealtimeChangesOnLightHD.cs: 903fc80afa631477fa45e0d63b1fda83 -> 
-  custom:scripting/monoscript/fileName/ShaderProperties.cs: 7efba5e529851539adfa1d148140dff3 -> 
-  custom:scripting/monoscript/fileName/Utils.cs: 7c0a40477b64cfa9dca858e84beda389 -> 40c528c300bfc0733192292a788cb076
-  custom:scripting/monoscript/fileName/DummyMaterial.cs: 1c73984e76d7bc9907284da4c2efb65c -> 
-  custom:scripting/monoscript/fileName/ShaderKeywords.cs: bdd232a7e6c0e73e11c8f39e13b4013d -> 
-  custom:scripting/monoscript/fileName/Editor_VolumetricLightBeamSD.cs: 78c841c540c44aa76d950a34b5998c5c -> 
-  custom:scripting/monoscript/fileName/MaterialModifier.cs: d45dae009a643e706752870db681cf98 -> 
-  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
-  custom:scripting/monoscript/fileName/SpotLightHelper.cs: 66fc3c22c8202baaebf8f43d06f5e936 -> 
-  custom:scripting/monoscript/fileName/GlobalMeshSD.cs: bdaa2600329361397e8248f0270c23c9 -> 
-  custom:scripting/monoscript/fileName/TrackRealtimeChangesOnLightHD.cs: e102ea3b53d0b833c39d0df5b5b2ab11 -> 
-  custom:scripting/monoscript/fileName/TargetList.cs: 90647cc400823b41df847a6cbfc29026 -> 
-  custom:scripting/monoscript/fileName/VolumetricLightBeamHD.cs: 1b174ecd4e96996459d588edc324f428 -> 
-  custom:scripting/monoscript/fileName/Editor_VolumetricShadowHD.cs: 214c4bae8a1a753c974897626897fe26 -> 
-  custom:scripting/monoscript/fileName/Editor_DynamicOcclusionRaycasting.cs: 367b013a8104b48d9d114938e7415b1d -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:scripting/monoscript/fileName/EditorPrefsStrings.cs: e55aaa34d078c56fbe18dba48b95e9bb -> 
-  custom:scripting/monoscript/fileName/DynamicOcclusionRaycasting.cs: 814d88d1b985c2e73b046d4b810925d2 -> 
-  custom:scripting/monoscript/fileName/EffectAbstractBase.cs: e9b28b07bed5c167615c8ef53c90badf -> 
-  custom:scripting/monoscript/fileName/CheckIfInsideBeam.cs: 2fb95c18e98fbb140d1f3ef085677c96 -> 
-  custom:scripting/monoscript/fileName/RenderQueueDrawer.cs: f1beaf2772226a7fb88e84aa1c5388b9 -> 
-  custom:scripting/monoscript/fileName/CameraToggleBeamVisibility.cs: 4dd1dda391cacdff02560ac668be75ac -> 
-  custom:scripting/monoscript/fileName/Config.cs: b3bab070432e31d4b43cadbde9ddf628 -> 
-  custom:scripting/monoscript/fileName/Editor_CommonSD.cs: 2daa946bcb2aa319e41b5ad4c0c27215 -> 
-  custom:scripting/monoscript/fileName/FeaturesNotSupportedMessage.cs: cfc11727ca74ba83092f4f008be88692 -> 
-  custom:scripting/monoscript/fileName/Consts.cs: 0539688f7f9ae046952c859b7c847b65 -> 
-  custom:scripting/monoscript/fileName/Editor_EffectFlicker.cs: 0ab5bd4a249d56845603c89117b78900 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:scripting/monoscript/fileName/EffectFromProfile.cs: 65ce544be0b7bf32d41f8bef17f6c944 -> 
-  custom:scripting/monoscript/fileName/Version.cs: 9acf72a061c0a6e292dfea2fcec2412f -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:scripting/monoscript/fileName/PolygonHelper.cs: 2c5a01b4681b08cd140434f8aafc0b99 -> 
-  custom:scripting/monoscript/fileName/Editor_VolumetricCookieHD.cs: 94de3372a49a48d8b7217f891f3a0c93 -> 
-  custom:scripting/monoscript/fileName/GlobalMeshHD.cs: 05dbc86436e0a7800ba800750e514990 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:scripting/monoscript/fileName/Editor_CommonHD.cs: e7f911ecd5dfcfb6967b0e7bc4a00627 -> 
-  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
-  custom:scripting/monoscript/fileName/Editor_EffectAbstractBase.cs: 90647cc400823b41df847a6cbfc29026 -> 
-  custom:scripting/monoscript/fileName/Editor_EffectFromProfile.cs: 421a69c62ef10bfff3b82b008abc77c8 -> 
-  custom:scripting/monoscript/fileName/OnBuildPostprocess.cs: b08b0f1fb565a01521b078e0ebc8202f -> 
-  custom:scripting/monoscript/fileName/OnBuildTargetChanged.cs: 82e7161e50c9c7a7652cda32ae63e944 -> 
-  custom:scripting/monoscript/fileName/Editor_VolumetricLightBeamHD2D.cs: accc386dff5cc4087c371dcd5e5fde0a -> 
-  custom:scripting/monoscript/fileName/VolumetricDustParticles.cs: d66fa087efe5f3a1dc241b54c6d0104f -> 
-  custom:scripting/monoscript/fileName/LODBeamGroup.cs: 52b56410d4e633d2ce14777c0cd6f7b3 -> 
-  custom:scripting/monoscript/fileName/SkewingHandleSD.cs: a062a129bfba8dfc19213fe3c92b9ecc -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:scripting/monoscript/fileName/ShaderGenerator.cs: 34f2c3dbfdf3f4822d2f3435ccbc5a30 -> 
-  custom:scripting/monoscript/fileName/VolumetricLightBeamHD2D.cs: 6623579c25e94ffb0520de1f56e3e5da -> 
-  custom:scripting/monoscript/fileName/EffectFlicker.cs: 5ed1445dcda823f946939c9d56b8b396 -> 
-  custom:scripting/monoscript/fileName/VolumetricLightBeamSD.cs: 937044f0e2fef2beaec2bb3807d0a5cd -> 
-  custom:scripting/monoscript/fileName/Editor_VolumetricLightBeamAbstractBase.cs: c17eab94857d1283d8b0454f9cc9c0d7 -> 
-  custom:scripting/monoscript/fileName/PlatformHelper.cs: ee295d6a887d83e2525ab634cf8c5a35 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:scripting/monoscript/fileName/Editor_LODBeamGroup.cs: 2b9a3c84ad2253e4eafff5a1f0ddde89 -> 
-  custom:scripting/monoscript/fileName/LightGenerator.cs: d8ef4590c1af7a4a46fab5dd087f73cb -> 
-  custom:scripting/monoscript/fileName/OnBuildPreprocess.cs: 8f60b876e061e6dcad74cd534949baad -> 
-  custom:scripting/monoscript/fileName/Editor_Config.cs: b6a624e557bca43297d9ebe0284782ab -> 
-  custom:scripting/monoscript/fileName/RaymarchingQuality.cs: e410d89bcbaf92c02353ebff0df70972 -> 
-  custom:scripting/monoscript/fileName/Editor_SkewingHandleSD.cs: 43e3b6ee23d8b41d0472854304a4df9d -> 
-  custom:scripting/monoscript/fileName/BeamGeometryAbstractBase.cs: 5a5ac35ca855a4dfbf2885cd7321e4aa -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:scripting/monoscript/fileName/BeamGeometrySD.cs: fc72164f275771cb1c04d5aaae63af47 -> 
-  custom:scripting/monoscript/fileName/FoldableHeader.cs: c3fc4af97ff4198b7924738bed5cf340 -> 
-  custom:scripting/monoscript/fileName/DynamicOcclusionAbstractBase.cs: d935118d22cad75ba8322b0834aca7c4 -> 
-  custom:scripting/monoscript/fileName/FMOD_BlockingCylinderSound.cs: 14123e3977cf5460a50786bf3bd5d407 -> 
-  custom:scripting/monoscript/fileName/BeamGeometryHD.cs: 9eedd9c3040960d2955a7d1fbd85f09e -> 
-  custom:scripting/monoscript/fileName/VolumetricLightBeamAbstractBase.cs: b5a0a768319957b2d02af7c98b918b71 -> 
-  custom:scripting/monoscript/fileName/SRPHelper.cs: 1d1cd3d72df7d8999b91cce7a36358b6 -> 
-  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 86d214d81835405a3e4e7a1f7ed17c47 -> cbec2b09ca91ad9d1a91d5a9eff4970e
-  custom:scripting/monoscript/fileName/InstallerEditor.cs: c6c35d6e4597412f1d94444c33499139 -> 
-  custom:scripting/monoscript/fileName/Rotater.cs: fc642edf9db28e826b2e4a4c798b19ba -> 
-  custom:scripting/monoscript/fileName/UtilsBeamProps.cs: 22963f6cbfa1a38cf85932ba54997edd -> 
