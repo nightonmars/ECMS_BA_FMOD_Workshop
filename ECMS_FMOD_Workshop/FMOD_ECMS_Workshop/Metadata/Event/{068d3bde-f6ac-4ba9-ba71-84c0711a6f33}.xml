@@ -133,7 +133,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{f74b604e-2543-443d-8624-e9f25651bee2}">
 		<property name="volume">
-			<value>-4</value>
+			<value>-8</value>
 		</property>
 		<property name="name">
 			<value>Audio 1</value>
@@ -149,6 +149,9 @@
 		</relationship>
 	</object>
 	<object class="SingleSound" id="{ab0bbef7-4561-4698-ac35-3b63defd24f2}">
+		<property name="triggerProbability">
+			<value>11.5</value>
+		</property>
 		<property name="length">
 			<value>96</value>
 		</property>
@@ -158,7 +161,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{c5e5b927-90cc-4142-9e03-7c7da9d4f330}">
 		<property name="volume">
-			<value>-20</value>
+			<value>-19</value>
 		</property>
 		<property name="name">
 			<value>Audio 2</value>
@@ -272,7 +275,7 @@
 			<value>0</value>
 		</property>
 		<property name="length">
-			<value>86</value>
+			<value>86.000000000000028</value>
 		</property>
 		<relationship name="timeline">
 			<destination>{59f202a5-72cf-4b0a-9cd2-ad754d3c130a}</destination>
