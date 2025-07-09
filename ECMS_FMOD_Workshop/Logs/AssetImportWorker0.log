@@ -424,3 +424,493 @@ Received Import Request.
 Start importing Assets/ScriptableObjects/FMOD So/Radio.asset using Guid(d434edcad055b4af9934ab5c15728a78) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '854721976a704842bd33fa974c8eeff2') in 0.000643708 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
+========================================================================
+Received Prepare
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Begin MonoManager ReloadAssembly
+Thread 0x16d947000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.414 seconds
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Assets/Scripts/SO Scripts/EventChannel_SO.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Assets/Scripts/SO Scripts/EventChannel_SO.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 2.09 ms, found 4 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Refreshing native plugins compatible for Editor in 1.86 ms, found 4 plugins.
+The project currently uses the compatibility mode where the Render Graph API is disabled. Support for this mode will be removed in future Unity versions. Migrate existing ScriptableRenderPasses to the new RenderGraph API. After the migration, disable the compatibility mode in Edit > Projects Settings > Graphics > Render Graph.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+UnityEngine.Rendering.Universal.WarnUsingNonRenderGraph:EmitConsoleWarning () (at ./Library/PackageCache/com.unity.render-pipelines.universal@a19b2562c494/Runtime/Data/UniversalRenderPipelineAsset.cs:431)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes () (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:160)
+
+(Filename: ./Library/PackageCache/com.unity.render-pipelines.universal@a19b2562c494/Runtime/Data/UniversalRenderPipelineAsset.cs Line: 431)
+
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.342 seconds
+Domain Reload Profiling: 760ms
+	BeginReloadAssembly (129ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (53ms)
+	RebuildCommonClasses (21ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (11ms)
+	LoadAllAssembliesAndSetupDomain (249ms)
+		LoadAssemblies (155ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (123ms)
+			TypeCache.Refresh (10ms)
+				TypeCache.ScanAssembly (1ms)
+			BuildScriptInfoCaches (104ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (343ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (271ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (1ms)
+			SetLoadedEditorAssemblies (2ms)
+			BeforeProcessingInitializeOnLoad (57ms)
+			ProcessInitializeOnLoadAttributes (185ms)
+			ProcessInitializeOnLoadMethodAttributes (26ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 1.86 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 15 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6668 unused Assets / (3.8 MB). Loaded Objects now: 7312.
+Memory consumption went from 147.7 MB to 143.9 MB.
+Total: 4.120208 ms (FindLiveObjects: 0.293084 ms CreateObjectMapping: 0.110250 ms MarkObjects: 2.775875 ms  DeleteObjects: 0.940750 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 317.924022 seconds.
+  path: Assets/Bitgem/StylisedWater/URP/Textures/greyboxing-01.png
+  artifactKey: Guid(6b579d01d44fb9e4ea979f8b3a559836) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bitgem/StylisedWater/URP/Textures/greyboxing-01.png using Guid(6b579d01d44fb9e4ea979f8b3a559836) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6246ba721e28d15cd169d64dbb038ff7') in 0.075657375 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.237620 seconds.
+  path: Assets/Bitgem/StylisedWater/URP/Textures/waves_n.png
+  artifactKey: Guid(f87d53fcaf34530488b706ee35d9b519) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bitgem/StylisedWater/URP/Textures/waves_n.png using Guid(f87d53fcaf34530488b706ee35d9b519) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b09d23486eea2b217c092d78a1c4bdb2') in 0.018221334 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.689143 seconds.
+  path: Assets/Bitgem/StylisedWater/URP/Examples/Example-Scene-01.unity
+  artifactKey: Guid(fc967860e2508924e943ba0223c2ed3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bitgem/StylisedWater/URP/Examples/Example-Scene-01.unity using Guid(fc967860e2508924e943ba0223c2ed3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '28239ed4be824a8158657e97ed06698b') in 0.0004 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 172.969884 seconds.
+  path: Assets/Bitgem/StylisedWater/URP/Meshes/example-scene-01.fbx
+  artifactKey: Guid(55638e09f83bd764b9c7be381da6e240) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bitgem/StylisedWater/URP/Meshes/example-scene-01.fbx using Guid(55638e09f83bd764b9c7be381da6e240) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0a8e577417eede8f02b9286270893711') in 0.846432417 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 1096.656045 seconds.
+  path: Assets/Japanese Dungeons/Prefabs/Bridges
+  artifactKey: Guid(c583338495f55c140a77e527ff80110e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Japanese Dungeons/Prefabs/Bridges using Guid(c583338495f55c140a77e527ff80110e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5e49c233ca4c04f6bc725999105fe677') in 0.001450334 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.783654 seconds.
+  path: Assets/Japanese Dungeons/Prefabs/Bridges/JD_Bridge_A_2x2_01.prefab
+  artifactKey: Guid(c24c81ebc012574429267ba28c0c9326) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Japanese Dungeons/Prefabs/Bridges/JD_Bridge_A_2x2_01.prefab using Guid(c24c81ebc012574429267ba28c0c9326) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd15180abffa559e3183e0152e8fff352') in 0.076220834 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 27
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.013936 seconds.
+  path: Assets/Japanese Dungeons/Prefabs/Bridges/JD_Bridge_A_2x2_02.prefab
+  artifactKey: Guid(01c1fd37458bfd34f98582cecc18d7bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Japanese Dungeons/Prefabs/Bridges/JD_Bridge_A_2x2_02.prefab using Guid(01c1fd37458bfd34f98582cecc18d7bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ea7beb3676130aff43cfc02b8b42e956') in 0.009036708 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 27
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.408415 seconds.
+  path: Assets/Japanese Dungeons/Prefabs/Bridges/JD_Bridge_A_4x2_01.prefab
+  artifactKey: Guid(46a84a7c0b0b41b409b870eb9bfd5933) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Japanese Dungeons/Prefabs/Bridges/JD_Bridge_A_4x2_01.prefab using Guid(46a84a7c0b0b41b409b870eb9bfd5933) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a394d0c816d7d5b349b2ab949dd23c6b') in 0.008719458 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 27
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.668998 seconds.
+  path: Assets/Japanese Dungeons/Prefabs/Bridges/JD_Bridge_A_Base_2x2x1_01.prefab
+  artifactKey: Guid(2e9fc1a1b5858874b9c76c8d77f4c10d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Japanese Dungeons/Prefabs/Bridges/JD_Bridge_A_Base_2x2x1_01.prefab using Guid(2e9fc1a1b5858874b9c76c8d77f4c10d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '784fff4d2076cb9a549d091b33a8d6ee') in 0.008086125 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 27
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.018346 seconds.
+  path: Assets/Japanese Dungeons/Prefabs/Bridges/JD_Bridge_A_BaseEnd_2x2x1_01.prefab
+  artifactKey: Guid(3d61fab9fe1b440458af492a1d3cfb49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Japanese Dungeons/Prefabs/Bridges/JD_Bridge_A_BaseEnd_2x2x1_01.prefab using Guid(3d61fab9fe1b440458af492a1d3cfb49) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8e384d4ca424546e897408525e9fc3e7') in 0.013254375 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 27
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.617307 seconds.
+  path: Assets/Japanese Dungeons/Prefabs/Bridges/JD_Bridge_A_Cor_2x2_01.prefab
+  artifactKey: Guid(6757aca1c7ad9e5448a3e6497fcaa424) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Japanese Dungeons/Prefabs/Bridges/JD_Bridge_A_Cor_2x2_01.prefab using Guid(6757aca1c7ad9e5448a3e6497fcaa424) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5eda49db5efb32dd062dd36264107e85') in 0.0120575 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 27
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.751481 seconds.
+  path: Assets/Japanese Dungeons/Prefabs/Bridges/JD_Bridge_A_Pole_01.prefab
+  artifactKey: Guid(3b666bdef17d9fe46bb9226bdf22a7a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Japanese Dungeons/Prefabs/Bridges/JD_Bridge_A_Pole_01.prefab using Guid(3b666bdef17d9fe46bb9226bdf22a7a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3df58a515d3158e62c3124d294d71715') in 0.008765958 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 27
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.577652 seconds.
+  path: Assets/Japanese Dungeons/Prefabs/Bridges/JD_Bridge_A_Pole_02.prefab
+  artifactKey: Guid(37481df5658bf7149a8a48095ef95048) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Japanese Dungeons/Prefabs/Bridges/JD_Bridge_A_Pole_02.prefab using Guid(37481df5658bf7149a8a48095ef95048) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5bb331f3be17870bc521337692d8e59e') in 0.007320666 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 27
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.474985 seconds.
+  path: Assets/Japanese Dungeons/Prefabs/Bridges/JD_Bridge_A_Pole_03.prefab
+  artifactKey: Guid(8ffc426e28f29634d9c8c8740b11224e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Japanese Dungeons/Prefabs/Bridges/JD_Bridge_A_Pole_03.prefab using Guid(8ffc426e28f29634d9c8c8740b11224e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a1226ee145fd3395e64a1c1f7acef2b0') in 0.0075565 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 27
+
+========================================================================
+Received Import Request.
+  Time since last request: 317.860406 seconds.
+  path: Assets/Japanese Dungeons/Prefabs/Timbering/JD_Tmb_A_Ceiling_4x2_03.prefab
+  artifactKey: Guid(1c5c79f9f6094c5478169358a3ba0b52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Japanese Dungeons/Prefabs/Timbering/JD_Tmb_A_Ceiling_4x2_03.prefab using Guid(1c5c79f9f6094c5478169358a3ba0b52) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd81691a5dd9e0f5187c70e83c6c3204d') in 0.023024875 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 27
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.569604 seconds.
+  path: Assets/Japanese Dungeons/Prefabs/Timbering/JD_Tmb_A_Ceiling_4x2_02.prefab
+  artifactKey: Guid(4f46df428cc41724eb9fcd73172f1a64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Japanese Dungeons/Prefabs/Timbering/JD_Tmb_A_Ceiling_4x2_02.prefab using Guid(4f46df428cc41724eb9fcd73172f1a64) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '278a9e1f26800e925d19c47adc4fb191') in 0.007160208 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 27
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.341124 seconds.
+  path: Assets/Japanese Dungeons/Prefabs/Timbering/JD_Tmb_A_Ceiling_4x2_01.prefab
+  artifactKey: Guid(2e0773eb2a08f0342b4107e1acb58158) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Japanese Dungeons/Prefabs/Timbering/JD_Tmb_A_Ceiling_4x2_01.prefab using Guid(2e0773eb2a08f0342b4107e1acb58158) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4a582dd337198b4991977be180be250f') in 0.007531459 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 27
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.322980 seconds.
+  path: Assets/Japanese Dungeons/Prefabs/Timbering/JD_Tmb_A_Ceiling_2x2_01.prefab
+  artifactKey: Guid(7ce7d47436f165042a90b09c6e9f68c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Japanese Dungeons/Prefabs/Timbering/JD_Tmb_A_Ceiling_2x2_01.prefab using Guid(7ce7d47436f165042a90b09c6e9f68c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8c17946aa62f03853c43dce96a5ebe54') in 0.007351667 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 27
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.475296 seconds.
+  path: Assets/Japanese Dungeons/Prefabs/Timbering/JD_Tmb_A_Ceiling_4x2_04.prefab
+  artifactKey: Guid(abce7efe14a448a40a0a02cdf5e77572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Japanese Dungeons/Prefabs/Timbering/JD_Tmb_A_Ceiling_4x2_04.prefab using Guid(abce7efe14a448a40a0a02cdf5e77572) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5f5dfea9bd99f9a71877a32f2b4b9585') in 0.011637875 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 27
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.139548 seconds.
+  path: Assets/Japanese Dungeons/Prefabs/Timbering/JD_Tmb_A_Column_x2_01.prefab
+  artifactKey: Guid(154f1d38ab488764ba5d2bd4fff1b42b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Japanese Dungeons/Prefabs/Timbering/JD_Tmb_A_Column_x2_01.prefab using Guid(154f1d38ab488764ba5d2bd4fff1b42b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6758da19e26b9052e0be3d64cfd3986d') in 0.006863833 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 27
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.173109 seconds.
+  path: Assets/Japanese Dungeons/Prefabs/Timbering/JD_Tmb_A_Gate_6x3_01.prefab
+  artifactKey: Guid(71cfbaac8a27c26458aea114abd76672) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Japanese Dungeons/Prefabs/Timbering/JD_Tmb_A_Gate_6x3_01.prefab using Guid(71cfbaac8a27c26458aea114abd76672) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9a48e002b019aae12b735e6141d0c15a') in 0.007681458 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 27
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.204809 seconds.
+  path: Assets/Japanese Dungeons/Prefabs/Timbering/JD_Tmb_A_Platform_2x2_01.prefab
+  artifactKey: Guid(76510dd449a503d4ea9dd6d6cc6cccc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Japanese Dungeons/Prefabs/Timbering/JD_Tmb_A_Platform_2x2_01.prefab using Guid(76510dd449a503d4ea9dd6d6cc6cccc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '86dc62348ade35b93346cb5d8bf4171e') in 0.007059459 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 27
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.352802 seconds.
+  path: Assets/Japanese Dungeons/Prefabs/Timbering/JD_Tmb_A_Platform_End_x2_01.prefab
+  artifactKey: Guid(405a5c03c0d6c864ea052d810e995314) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Japanese Dungeons/Prefabs/Timbering/JD_Tmb_A_Platform_End_x2_01.prefab using Guid(405a5c03c0d6c864ea052d810e995314) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'afc0d4e86e6b8a99b52c42296fd2ee2c') in 0.006582958 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 27
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.560300 seconds.
+  path: Assets/Japanese Dungeons/Prefabs/Timbering/JD_Tmb_A_Wall_2x2_01.prefab
+  artifactKey: Guid(1a8327124a3c53d4d8ac5d545307de30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Japanese Dungeons/Prefabs/Timbering/JD_Tmb_A_Wall_2x2_01.prefab using Guid(1a8327124a3c53d4d8ac5d545307de30) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'da1ea2cb1a9939914db583bcd5cd849d') in 0.011561333 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 27
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.756223 seconds.
+  path: Assets/Japanese Dungeons/Prefabs/Timbering/JD_Tmb_A_Wall_2x2_02.prefab
+  artifactKey: Guid(2cef9ea5d9529a04288f70092b391b03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Japanese Dungeons/Prefabs/Timbering/JD_Tmb_A_Wall_2x2_02.prefab using Guid(2cef9ea5d9529a04288f70092b391b03) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9aeffa5658dbbf8286a434c4daab9092') in 0.007100208 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 27
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.224092 seconds.
+  path: Assets/Japanese Dungeons/Prefabs/Timbering/JD_Tmb_A_Wall_2x2_03.prefab
+  artifactKey: Guid(5a822cbd9d8938e4ea48a58f44549bbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Japanese Dungeons/Prefabs/Timbering/JD_Tmb_A_Wall_2x2_03.prefab using Guid(5a822cbd9d8938e4ea48a58f44549bbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3f526924f6e329bbe9d447a54fa42e20') in 0.017899958 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 27
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.460567 seconds.
+  path: Assets/Japanese Dungeons/Prefabs/Timbering/JD_Tmb_A_Wall_2x2_04.prefab
+  artifactKey: Guid(c5204227e574e834697e900879bece8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Japanese Dungeons/Prefabs/Timbering/JD_Tmb_A_Wall_2x2_04.prefab using Guid(c5204227e574e834697e900879bece8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '587e1a0c86b3b9c94d5947047df6b08d') in 0.007508084 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 27
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.789310 seconds.
+  path: Assets/Japanese Dungeons/Prefabs/Timbering/JD_Tmb_A_Wall_3x2_01.prefab
+  artifactKey: Guid(e8e6d282055e7d74f97a99cab5199a82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Japanese Dungeons/Prefabs/Timbering/JD_Tmb_A_Wall_3x2_01.prefab using Guid(e8e6d282055e7d74f97a99cab5199a82) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c22f4398f004f04a8ef9f09d60e7eadf') in 0.006955083 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 27
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.681994 seconds.
+  path: Assets/Japanese Dungeons/Prefabs/Timbering/JD_Tmb_A_Wall_3x2_02.prefab
+  artifactKey: Guid(dee99fb447a9e70408ae6f7d393ec01f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Japanese Dungeons/Prefabs/Timbering/JD_Tmb_A_Wall_3x2_02.prefab using Guid(dee99fb447a9e70408ae6f7d393ec01f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '58a4b7b295021719fb23d588b71148ac') in 0.014351667 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 27
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.600251 seconds.
+  path: Assets/Japanese Dungeons/Prefabs/Timbering/JD_Tmb_A_Wall_End_x2_01.prefab
+  artifactKey: Guid(0a8d43b030ada084988dff0d431f684c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Japanese Dungeons/Prefabs/Timbering/JD_Tmb_A_Wall_End_x2_01.prefab using Guid(0a8d43b030ada084988dff0d431f684c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a6ee8dbf4123b74a724a2730fe5a3edb') in 0.007164417 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 27
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.205307 seconds.
+  path: Assets/Japanese Dungeons/Prefabs/Timbering/JD_Tmb_A_Wall_End_x3_01.prefab
+  artifactKey: Guid(29a58594c1dc3c3408cdba1aa6f596db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Japanese Dungeons/Prefabs/Timbering/JD_Tmb_A_Wall_End_x3_01.prefab using Guid(29a58594c1dc3c3408cdba1aa6f596db) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0085f72273c81f0f642ddef5e9a4db62') in 0.00700075 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 27
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.372196 seconds.
+  path: Assets/Japanese Dungeons/Prefabs/Timbering/JD_Tmb_B_Balcony_x2_01.prefab
+  artifactKey: Guid(c29ff76f1555a9b468c98d73fe29723c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Japanese Dungeons/Prefabs/Timbering/JD_Tmb_B_Balcony_x2_01.prefab using Guid(c29ff76f1555a9b468c98d73fe29723c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '910a9289d4d02cca9470ca534a48cd5d') in 0.012408167 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.314467 seconds.
+  path: Assets/Japanese Dungeons/Prefabs/Timbering/JD_Tmb_B_Bean_x2_01.prefab
+  artifactKey: Guid(3b6d637c32f0a3e4584e7bacaab44309) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Japanese Dungeons/Prefabs/Timbering/JD_Tmb_B_Bean_x2_01.prefab using Guid(3b6d637c32f0a3e4584e7bacaab44309) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e60f2db57f4adc5c6ee9574fad4ddecc') in 0.008646042 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.353752 seconds.
+  path: Assets/Japanese Dungeons/Prefabs/Timbering/JD_Tmb_B_Bridge_x6_01.prefab
+  artifactKey: Guid(15ca5ef63b9d0104db24884f97c6bfbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Japanese Dungeons/Prefabs/Timbering/JD_Tmb_B_Bridge_x6_01.prefab using Guid(15ca5ef63b9d0104db24884f97c6bfbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b5399b302ccc8f1fca86cd85bf76d986') in 0.006728167 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 27
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.398755 seconds.
+  path: Assets/Japanese Dungeons/Prefabs/Timbering/JD_Tmb_B_BridgeSupport_01.prefab
+  artifactKey: Guid(c59cb97c8af34bc489172b631fb34992) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Japanese Dungeons/Prefabs/Timbering/JD_Tmb_B_BridgeSupport_01.prefab using Guid(c59cb97c8af34bc489172b631fb34992) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1dda16585d69f70abfa427d561762bb1') in 0.006165875 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 27
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.194808 seconds.
+  path: Assets/Japanese Dungeons/Prefabs/Timbering/JD_Tmb_B_Column_x4_01.prefab
+  artifactKey: Guid(7b80a6a535ce2e642a903599b9ee8558) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Japanese Dungeons/Prefabs/Timbering/JD_Tmb_B_Column_x4_01.prefab using Guid(7b80a6a535ce2e642a903599b9ee8558) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '20083c9e232a197ffa2577a7a7235211') in 0.011669375 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
+
+========================================================================
+Received Import Request.
+  Time since last request: 28.637579 seconds.
+  path: Assets/Japanese Dungeons/Prefabs/Timbering/JD_Tmb_B_Plank_01.prefab
+  artifactKey: Guid(b783a853408a43b4fb68a891c5ab2ca3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Japanese Dungeons/Prefabs/Timbering/JD_Tmb_B_Plank_01.prefab using Guid(b783a853408a43b4fb68a891c5ab2ca3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e5c420295255c7e441c895f2632fad33') in 0.011885459 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.752499 seconds.
+  path: Assets/Japanese Dungeons/Prefabs/Timbering/JD_Tmb_B_Floor_4x4_01.prefab
+  artifactKey: Guid(5d71e059a5c15eb4d9cc7eb201dad9d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Japanese Dungeons/Prefabs/Timbering/JD_Tmb_B_Floor_4x4_01.prefab using Guid(5d71e059a5c15eb4d9cc7eb201dad9d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0786182568ad3bb631ac1819687c044d') in 0.006645333 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 27
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.537902 seconds.
+  path: Assets/Japanese Dungeons/Prefabs/Timbering/JD_Tmb_B_Floor_2x2_01.prefab
+  artifactKey: Guid(dd5239a28fe77ba4b840c87ced3a355b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Japanese Dungeons/Prefabs/Timbering/JD_Tmb_B_Floor_2x2_01.prefab using Guid(dd5239a28fe77ba4b840c87ced3a355b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6ecac379a9f9dd327a190b4b7122e2e3') in 0.006848125 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 27
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.348656 seconds.
+  path: Assets/Japanese Dungeons/Prefabs/Timbering/JD_Tmb_B_Floor_1x4_01.prefab
+  artifactKey: Guid(c4dbcc530eb6da747b025a50556acb06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Japanese Dungeons/Prefabs/Timbering/JD_Tmb_B_Floor_1x4_01.prefab using Guid(c4dbcc530eb6da747b025a50556acb06) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6de785cc09d88e1002e4f4de5a0b2b9b') in 0.006779125 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 27
+
+========================================================================
+Received Import Request.
+  Time since last request: 48.835274 seconds.
+  path: Assets/Japanese Dungeons/Prefabs/Timbering/JD_Tmb_B_Plank_04.prefab
+  artifactKey: Guid(5a82de0ba04e3764d90112553947268a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Japanese Dungeons/Prefabs/Timbering/JD_Tmb_B_Plank_04.prefab using Guid(5a82de0ba04e3764d90112553947268a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '33de61e84f17b8356ef7fbc6c5bc8091') in 0.0113575 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.948389 seconds.
+  path: Assets/Japanese Dungeons/Prefabs/Timbering/JD_Tmb_B_Plank_05.prefab
+  artifactKey: Guid(4cd5e3103b1f7b948991ec7e272c00c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Japanese Dungeons/Prefabs/Timbering/JD_Tmb_B_Plank_05.prefab using Guid(4cd5e3103b1f7b948991ec7e272c00c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8c882dee9b5db9aa6513faa628002de1') in 0.007010166 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.323839 seconds.
+  path: Assets/Japanese Dungeons/Prefabs/Timbering/JD_Tmb_B_Plank_06.prefab
+  artifactKey: Guid(0ff7e881ab6c2194493777c9e01ccc46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Japanese Dungeons/Prefabs/Timbering/JD_Tmb_B_Plank_06.prefab using Guid(0ff7e881ab6c2194493777c9e01ccc46) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '711ee4f206c6004c1b038630cf069300') in 0.006745333 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.040907 seconds.
+  path: Assets/Japanese Dungeons/Prefabs/Timbering/JD_Tmb_B_Plank_07.prefab
+  artifactKey: Guid(a1f66c1e543f2754cb9471020b2c612f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Japanese Dungeons/Prefabs/Timbering/JD_Tmb_B_Plank_07.prefab using Guid(a1f66c1e543f2754cb9471020b2c612f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3eeb6a616ff87ba327b211c4493628f8') in 0.006585917 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.131193 seconds.
+  path: Assets/Japanese Dungeons/Prefabs/Timbering/JD_Tmb_B_Plank_08.prefab
+  artifactKey: Guid(1f13a1777e123124cacb3dc94ce38ce3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Japanese Dungeons/Prefabs/Timbering/JD_Tmb_B_Plank_08.prefab using Guid(1f13a1777e123124cacb3dc94ce38ce3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '689b275b7ac48ce9a51196948fafedeb') in 0.008050625 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.170470 seconds.
+  path: Assets/Japanese Dungeons/Prefabs/Timbering/JD_Tmb_B_Stairs_1x2x4_01.prefab
+  artifactKey: Guid(b1167ce8953d31141afd7c8ab8e8a9b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Japanese Dungeons/Prefabs/Timbering/JD_Tmb_B_Stairs_1x2x4_01.prefab using Guid(b1167ce8953d31141afd7c8ab8e8a9b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bf390cfde1e304f9423228da5c439da6') in 0.007250084 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 27
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.040364 seconds.
+  path: Assets/Japanese Dungeons/Prefabs/Timbering/JD_Tmb_B_WallA_1x2_01.prefab
+  artifactKey: Guid(cd8d6fb1836c6e441a655c06975d6c8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Japanese Dungeons/Prefabs/Timbering/JD_Tmb_B_WallA_1x2_01.prefab using Guid(cd8d6fb1836c6e441a655c06975d6c8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f5b4da16aae610f9dd7236b490b14ae7') in 0.006568709 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.145559 seconds.
+  path: Assets/Japanese Dungeons/Prefabs/Timbering/JD_Tmb_B_WallA_2x2_01.prefab
+  artifactKey: Guid(6606fe9cb3263714aa5330afd3b2131f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Japanese Dungeons/Prefabs/Timbering/JD_Tmb_B_WallA_2x2_01.prefab using Guid(6606fe9cb3263714aa5330afd3b2131f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a3ddce831fa93d57a0792ff0ff99e972') in 0.006696833 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 27
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.543761 seconds.
+  path: Assets/Japanese Dungeons/Prefabs/Timbering/JD_Tmb_B_WallA_2x2_02.prefab
+  artifactKey: Guid(510fd82a79d7e3b4b9d6a9c84f96491c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Japanese Dungeons/Prefabs/Timbering/JD_Tmb_B_WallA_2x2_02.prefab using Guid(510fd82a79d7e3b4b9d6a9c84f96491c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3b6082caad601a983b67aff43c712681') in 0.00729675 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 27
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.026301 seconds.
+  path: Assets/Japanese Dungeons/Prefabs/Timbering/JD_Tmb_B_WallA_2x2_03.prefab
+  artifactKey: Guid(0db95182adc6c864ebda2f17b430ef90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Japanese Dungeons/Prefabs/Timbering/JD_Tmb_B_WallA_2x2_03.prefab using Guid(0db95182adc6c864ebda2f17b430ef90) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '16d43fd87b35c884b07a21ff7711291e') in 0.006258458 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 27
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.415976 seconds.
+  path: Assets/Japanese Dungeons/Prefabs/Timbering/JD_Tmb_B_WallA_2x4_01.prefab
+  artifactKey: Guid(4eb5a8cd54d2f62439f74d07d8f22892) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Japanese Dungeons/Prefabs/Timbering/JD_Tmb_B_WallA_2x4_01.prefab using Guid(4eb5a8cd54d2f62439f74d07d8f22892) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '896ca27c49217c254b49718989dbf61e') in 0.006630167 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 27
+
