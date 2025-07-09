@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.02.00">
+<objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{5bf606a2-e1c8-4989-a457-6ea9b74bc8eb}">
 		<property name="assetPath">
 			<value>Scary Music/scary music.wav</value>

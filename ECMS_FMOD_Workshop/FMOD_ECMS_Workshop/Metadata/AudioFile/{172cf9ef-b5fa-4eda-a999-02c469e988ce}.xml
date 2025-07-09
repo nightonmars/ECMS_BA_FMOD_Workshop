@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.02.00">
+<objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{172cf9ef-b5fa-4eda-a999-02c469e988ce}">
 		<property name="assetPath">
 			<value>Scary/female-horror-ghost-sound-5-vol-001-138135.mp3</value>

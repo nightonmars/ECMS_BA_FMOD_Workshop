@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.02.00">
+<objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{d1c5dca1-1400-4de7-8223-6e08ad1bc484}">
 		<property name="assetPath">
 			<value>Surface Wood On Wood-012.wav</value>

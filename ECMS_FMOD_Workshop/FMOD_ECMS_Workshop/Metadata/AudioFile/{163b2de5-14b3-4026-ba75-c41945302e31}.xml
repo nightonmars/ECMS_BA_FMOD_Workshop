@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.02.00">
+<objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{163b2de5-14b3-4026-ba75-c41945302e31}">
 		<property name="assetPath">
 			<value>Ambs/dripping-water-in-cave-114694.mp3</value>

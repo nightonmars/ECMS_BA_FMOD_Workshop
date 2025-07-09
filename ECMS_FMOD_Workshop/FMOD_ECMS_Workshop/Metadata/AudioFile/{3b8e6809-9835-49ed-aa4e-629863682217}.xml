@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.02.00">
+<objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{3b8e6809-9835-49ed-aa4e-629863682217}">
 		<property name="assetPath">
 			<value>Pressure Plate by proolsen Id-466272.wav</value>

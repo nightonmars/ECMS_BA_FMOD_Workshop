@@ -6,7 +6,7 @@ using FMOD.Studio;
 
 public class RandomThreats : MonoBehaviour
 {
-    [SerializeField] private EventReference randomThreatEventReference;
+    [SerializeField] private PlayFMODMultipleSounds fmodMultipleSounds;
     [SerializeField] private DistanceTracker distanceTracker;
     public int randomThreat;
     public int randomThreatValue;
@@ -64,7 +64,6 @@ public class RandomThreats : MonoBehaviour
 
     void RandomThreatsPlay()
     {
-       
-        RuntimeManager.PlayOneShot(randomThreatEventReference);
+        fmodMultipleSounds.PlayOneShot(0);
     }
 }

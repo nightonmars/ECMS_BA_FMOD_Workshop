@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.02.00">
+<objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{2c98117d-f1e8-44a1-974e-2c59f0690ff9}">
 		<property name="name">
 			<value>Radio</value>
@@ -268,9 +268,9 @@
 		</relationship>
 		<relationship name="automationPoints">
 			<destination>{c256af63-abcd-43ff-b97a-accce089b2e4}</destination>
+			<destination>{6cbf372f-28ab-42aa-8afa-dd79da9770e5}</destination>
 			<destination>{41bc5a1d-0d00-442c-a3f8-8ea817e20a81}</destination>
 			<destination>{88f10b8e-e796-4279-ad17-822394733c74}</destination>
-			<destination>{6cbf372f-28ab-42aa-8afa-dd79da9770e5}</destination>
 		</relationship>
 	</object>
 	<object class="AutomationPoint" id="{c256af63-abcd-43ff-b97a-accce089b2e4}">
@@ -282,6 +282,14 @@
 		</property>
 		<property name="curveShape">
 			<value>0.425031871</value>
+		</property>
+	</object>
+	<object class="AutomationPoint" id="{6cbf372f-28ab-42aa-8afa-dd79da9770e5}">
+		<property name="position">
+			<value>153.81355921557255</value>
+		</property>
+		<property name="value">
+			<value>20</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{41bc5a1d-0d00-442c-a3f8-8ea817e20a81}">
@@ -298,14 +306,6 @@
 	<object class="AutomationPoint" id="{88f10b8e-e796-4279-ad17-822394733c74}">
 		<property name="position">
 			<value>178.22033898305085</value>
-		</property>
-		<property name="value">
-			<value>20</value>
-		</property>
-	</object>
-	<object class="AutomationPoint" id="{6cbf372f-28ab-42aa-8afa-dd79da9770e5}">
-		<property name="position">
-			<value>153.81355921557255</value>
 		</property>
 		<property name="value">
 			<value>20</value>

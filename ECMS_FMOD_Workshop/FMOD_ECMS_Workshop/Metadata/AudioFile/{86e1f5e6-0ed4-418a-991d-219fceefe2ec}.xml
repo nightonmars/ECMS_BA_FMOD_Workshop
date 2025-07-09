@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.02.00">
+<objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{86e1f5e6-0ed4-418a-991d-219fceefe2ec}">
 		<property name="assetPath">
 			<value>exampleSamples/Soundly Voice Designer, Lauren 9.wav</value>
