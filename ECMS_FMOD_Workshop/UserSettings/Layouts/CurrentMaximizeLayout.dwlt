@@ -25,7 +25,7 @@ MonoBehaviour:
   m_MinSize: {x: 400, y: 100}
   m_MaxSize: {x: 32384, y: 16192}
   vertical: 0
-  controlID: 44684
+  controlID: 49338
   draggingID: 0
 --- !u!114 &2
 MonoBehaviour:
@@ -153,7 +153,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 44532
+  controlID: 49224
   draggingID: 0
 --- !u!114 &4
 MonoBehaviour:
@@ -457,7 +457,7 @@ MonoBehaviour:
       sizeOverridden: 0
     - dockPosition: 0
       containerId: Floating
-      displayed: 1
+      displayed: 0
       id: Scene View/Particles
       index: 1
       contents: '{"m_Layout":4,"m_Collapsed":false,"m_Floating":true,"m_FloatingSnapOffset":{"x":-176.0009765625,"y":-116.0009765625},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":3,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
@@ -930,9 +930,9 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_DebugDrawModesUseInteractiveLightBakingData: 0
   m_Position:
-    m_Target: {x: -57.374138, y: 1.3662357, z: -31.960394}
+    m_Target: {x: -46.85167, y: 1.5835717, z: -34.459087}
     speed: 2
-    m_Value: {x: -57.374138, y: 1.3662357, z: -31.960394}
+    m_Value: {x: -46.85167, y: 1.5835717, z: -34.459087}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -978,9 +978,9 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.33885837, y: 0.6222211, z: -0.34105214, w: -0.6184881}
+    m_Target: {x: -0.33286515, y: -0.024594951, z: 0.008566291, w: -0.9430642}
     speed: 2
-    m_Value: {x: -0.33885837, y: 0.6222211, z: -0.34105217, w: -0.6184881}
+    m_Value: {x: -0.33272418, y: -0.024584536, z: 0.008562664, w: -0.94266486}
   m_Size:
     m_Target: 10.606602
     speed: 2
@@ -1144,7 +1144,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 50}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 44533
+  controlID: 49225
   draggingID: 0
 --- !u!114 &8
 MonoBehaviour:
@@ -1213,7 +1213,7 @@ MonoBehaviour:
     m_OverlaysVisible: 1
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: -99180
+  m_LastSelectedObjectID: 229264
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -1364,7 +1364,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Polygonal Particles/Assets/Prefabs/Water
+    - Assets/ScriptableObjects/FMOD So
     m_Globs: []
     m_ProductIds: 
     m_AnyWithAssetOrigin: 0
@@ -1374,16 +1374,16 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets/Polygonal Particles/Assets/Prefabs/Water
+  - Assets/ScriptableObjects/FMOD So
   m_LastFoldersGridSize: 16
   m_LastProjectPath: /Volumes/Johan Tiny/Unity ECMS/ECMS_BA_FMOD_Workshop/ECMS_FMOD_Workshop
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 136}
-    m_SelectedIDs: 10250400
-    m_LastClickedID: 271632
-    m_ExpandedIDs: 00000000e4cc000060d200006ad200004e240400842404005a25040000ca9a3b
+    m_SelectedIDs: 76ce0000
+    m_LastClickedID: 52854
+    m_ExpandedIDs: 00000000e4cc00006ece000070ce000060d200006ad20000842404005a25040000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1412,7 +1412,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000e4cc000060d200006ad200004e240400842404005a25040000ca9a3b
+    m_ExpandedIDs: 00000000e4cc00006ece000070ce000060d200006ad20000842404005a25040000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1438,8 +1438,8 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 947cfeff
-    m_LastClickedInstanceID: -99180
+    m_SelectedInstanceIDs: dc7e0300
+    m_LastClickedInstanceID: 229084
     m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c6230000ac900000c6e60000d02e0100b62e01006c420200
     m_RenameOverlay:
@@ -1572,10 +1572,10 @@ MonoBehaviour:
     m_OverlaysVisible: 1
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 793}
-      m_SelectedIDs: 947cfeff
-      m_LastClickedID: -99180
-      m_ExpandedIDs: 3e29fcffa229fcff8ceafcff16d6feffd4e0feffe8e1feff9ce5fefff0e8feff8cb8ffffb8faffffeefaffff0afbffff6a870300
+      scrollPos: {x: 0, y: 0}
+      m_SelectedIDs: dc7e0300
+      m_LastClickedID: 229084
+      m_ExpandedIDs: 3e29fcffa229fcff8ceafcffd4e0feffe8e1feff9ce5fefff0e8feff8cb8ffffb8faffffeefaffff0afbfffff8800300
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
