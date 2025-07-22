@@ -7,7 +7,7 @@ Darwin version:          24.1.0
 Architecture:            arm64
 Running under Rosetta:   NO
 Available memory:        24576 MB
-Date:                    2025-07-09T16:31:48Z
+Date:                    2025-07-21T18:26:36Z
 Using pre-set license
 Pro License: YES
 
@@ -23,7 +23,7 @@ AssetImportWorker0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-52115
+53323
 -job-worker-count
 5
 -background-job-worker-count
@@ -68,14 +68,14 @@ Successfully changed project path to: /Volumes/Johan Tiny/Unity ECMS/ECMS_BA_FMO
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [8645851840]  Target information:
+Player connection [8293382848]  Target information:
 
-Player connection [8645851840]  * "[IP] 192.168.0.44 [Port] 0 [Flags] 2 [Guid] 1214114790 [EditorId] 1214114790 [Version] 1048832 [Id] OSXEditor(0,johans-Mac-mini) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
+Player connection [8293382848]  * "[IP] 192.168.0.44 [Port] 0 [Flags] 2 [Guid] 2436557902 [EditorId] 2436557902 [Version] 1048832 [Id] OSXEditor(0,johans-Mac-mini) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
 
-Player connection [8645851840]  * "[IP] 192.168.0.45 [Port] 0 [Flags] 2 [Guid] 1214114790 [EditorId] 1214114790 [Version] 1048832 [Id] OSXEditor(0,johans-Mac-mini) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
+Player connection [8293382848]  * "[IP] 192.168.0.45 [Port] 0 [Flags] 2 [Guid] 2436557902 [EditorId] 2436557902 [Version] 1048832 [Id] OSXEditor(0,johans-Mac-mini) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
 
-Player connection [8645851840] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [8645851840] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [8293382848] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [8293382848] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 5
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
@@ -87,7 +87,7 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 9.43 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 4.46 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.1.7f1 (13a8ffad9172)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/6000.1.7f1/Unity.app/Contents/Resources/UnitySubsystems
@@ -98,48 +98,49 @@ Metal devices available: 1
 0: Apple M4 Pro (high power)
 Using device Apple M4 Pro (high power)
 Initializing Metal device caps: Apple M4 Pro
+Invalid texture used for cursor - check importer settings or texture creation. Texture must be RGBA32, readable, have alphaIsTransparency enabled and have no mip chain.
 Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/6000.1.7f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/6000.1.7f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
 Mono config path = '/Applications/Unity/Hub/Editor/6000.1.7f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56105
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56198
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/6000.1.7f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/6000.1.7f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.000258 seconds.
-- Loaded All Assemblies, in  0.178 seconds
+Registered in 0.000225 seconds.
+- Loaded All Assemblies, in  0.165 seconds
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.189 seconds
-Domain Reload Profiling: 367ms
-	BeginReloadAssembly (39ms)
+- Finished resetting the current domain, in  0.188 seconds
+Domain Reload Profiling: 353ms
+	BeginReloadAssembly (32ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (0ms)
-	RebuildCommonClasses (22ms)
+	RebuildCommonClasses (21ms)
 	RebuildNativeTypeToScriptingClass (7ms)
 	initialDomainReloadingComplete (20ms)
-	LoadAllAssembliesAndSetupDomain (89ms)
-		LoadAssemblies (39ms)
+	LoadAllAssembliesAndSetupDomain (85ms)
+		LoadAssemblies (32ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (88ms)
-			TypeCache.Refresh (87ms)
-				TypeCache.ScanAssembly (80ms)
+		AnalyzeDomain (84ms)
+			TypeCache.Refresh (83ms)
+				TypeCache.ScanAssembly (76ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (189ms)
+	FinalizeReload (188ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (165ms)
+		SetupLoadedEditorAssemblies (162ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (29ms)
+			InitializePlatformSupportModulesInManaged (27ms)
 			SetLoadedEditorAssemblies (2ms)
-			BeforeProcessingInitializeOnLoad (33ms)
-			ProcessInitializeOnLoadAttributes (68ms)
+			BeforeProcessingInitializeOnLoad (35ms)
+			ProcessInitializeOnLoadAttributes (66ms)
 			ProcessInitializeOnLoadMethodAttributes (33ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
@@ -152,13 +153,13 @@ Import Worker Mode flag is 0x00
 Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
 Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.400 seconds
+- Loaded All Assemblies, in  0.331 seconds
 Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
 'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
 'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
 'Assets/Scripts/SO Scripts/EventChannel_SO.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
 'Assets/Scripts/SO Scripts/EventChannel_SO.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Refreshing native plugins compatible for Editor in 3.35 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 1.67 ms, found 4 plugins.
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
 Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
@@ -166,7 +167,7 @@ Package Manager log level set to [2]
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-Refreshing native plugins compatible for Editor in 2.23 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 1.83 ms, found 4 plugins.
 The project currently uses the compatibility mode where the Render Graph API is disabled. Support for this mode will be removed in future Unity versions. Migrate existing ScriptableRenderPasses to the new RenderGraph API. After the migration, disable the compatibility mode in Edit > Projects Settings > Graphics > Render Graph.
 UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
 UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
@@ -182,39 +183,39 @@ UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes () (at /Use
 (Filename: ./Library/PackageCache/com.unity.render-pipelines.universal@a19b2562c494/Runtime/Data/UniversalRenderPipelineAsset.cs Line: 431)
 
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.393 seconds
-Domain Reload Profiling: 793ms
-	BeginReloadAssembly (69ms)
+- Finished resetting the current domain, in  0.339 seconds
+Domain Reload Profiling: 670ms
+	BeginReloadAssembly (61ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (3ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (21ms)
-	RebuildCommonClasses (21ms)
-	RebuildNativeTypeToScriptingClass (7ms)
-	initialDomainReloadingComplete (18ms)
-	LoadAllAssembliesAndSetupDomain (284ms)
-		LoadAssemblies (140ms)
+		CreateAndSetChildDomain (19ms)
+	RebuildCommonClasses (19ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (15ms)
+	LoadAllAssembliesAndSetupDomain (228ms)
+		LoadAssemblies (105ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (169ms)
-			TypeCache.Refresh (136ms)
-				TypeCache.ScanAssembly (123ms)
-			BuildScriptInfoCaches (24ms)
-			ResolveRequiredComponents (7ms)
-	FinalizeReload (394ms)
+		AnalyzeDomain (145ms)
+			TypeCache.Refresh (114ms)
+				TypeCache.ScanAssembly (106ms)
+			BuildScriptInfoCaches (22ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (340ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (296ms)
+		SetupLoadedEditorAssemblies (265ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (1ms)
 			SetLoadedEditorAssemblies (2ms)
-			BeforeProcessingInitializeOnLoad (61ms)
-			ProcessInitializeOnLoadAttributes (202ms)
-			ProcessInitializeOnLoadMethodAttributes (31ms)
+			BeforeProcessingInitializeOnLoad (55ms)
+			ProcessInitializeOnLoadAttributes (181ms)
+			ProcessInitializeOnLoadMethodAttributes (25ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (2ms)
+		AwakeInstancesAfterBackupRestoration (1ms)
 WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
 WARNING: Shader Did you use #pragma only_renderers and omit this platform?
 WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
@@ -222,82 +223,102 @@ WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wirefr
 WARNING: Shader Did you use #pragma only_renderers and omit this platform?
 WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
 Launching external process: /Applications/Unity/Hub/Editor/6000.1.7f1/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.03 seconds
-Refreshing native plugins compatible for Editor in 1.85 ms, found 4 plugins.
+Launched and connected shader compiler UnityShaderCompiler after 0.02 seconds
+Refreshing native plugins compatible for Editor in 1.79 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 229 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6663 unused Assets / (4.0 MB). Loaded Objects now: 7286.
-Memory consumption went from 172.2 MB to 168.2 MB.
-Total: 4.567708 ms (FindLiveObjects: 0.571333 ms CreateObjectMapping: 0.122875 ms MarkObjects: 2.900750 ms  DeleteObjects: 0.972583 ms)
+Unloading 239 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6685 unused Assets / (4.0 MB). Loaded Objects now: 7320.
+Memory consumption went from 176.8 MB to 172.8 MB.
+Total: 4.076750 ms (FindLiveObjects: 0.257333 ms CreateObjectMapping: 0.117625 ms MarkObjects: 2.796083 ms  DeleteObjects: 0.905375 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 14435.145713 seconds.
-  path: Assets/ScriptableObjects/FMOD So/GateSoundSequence.asset
-  artifactKey: Guid(cd3daa48160fd4f90bae9e31516b1a4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ScriptableObjects/FMOD So/GateSoundSequence.asset using Guid(cd3daa48160fd4f90bae9e31516b1a4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f6c3d275df9f8e8fee87a5c7f1683859') in 0.009645834 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+  Time since last request: 18945.260580 seconds.
+  path: Assets/Readme.asset
+  artifactKey: Guid(4181bfe715a83e843b7538d750dc57cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Readme.asset using Guid(4181bfe715a83e843b7538d750dc57cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ea6c616ea4b25cd4e4d4d463f68a8ced') in 0.009217292 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 ========================================================================
 Received Import Request.
-  Time since last request: 56.826203 seconds.
-  path: Assets/Scripts/FMOD_CaveAmbiences.cs
-  artifactKey: Guid(bdd7b348dae114a9e91e85579d1351da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/FMOD_CaveAmbiences.cs using Guid(bdd7b348dae114a9e91e85579d1351da) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '39399be1b8d17cc325370ef431e97538') in 0.000285583 seconds
+  Time since last request: 0.000042 seconds.
+  path: Assets/UniversalRenderPipelineAsset.asset
+  artifactKey: Guid(5cd87e31ca5c78642875e9fb41e9d7e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UniversalRenderPipelineAsset.asset using Guid(5cd87e31ca5c78642875e9fb41e9d7e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'aeaf5a3f25925a4602b82ce434c5cdfc') in 0.000407541 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
 ========================================================================
 Received Import Request.
-  Time since last request: 6.422608 seconds.
-  path: Assets/Scripts/FMOD_GateSounds.cs
-  artifactKey: Guid(af266787911d444388872a4708c6c34e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/FMOD_GateSounds.cs using Guid(af266787911d444388872a4708c6c34e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ce3f46a3ed3c2613c6a8b50e40aa6fb5') in 0.000266917 seconds
+  Time since last request: 0.000044 seconds.
+  path: Assets/UniversalRenderPipelineAsset_Renderer.asset
+  artifactKey: Guid(635ecd48c25793d459ce38c1c0495493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UniversalRenderPipelineAsset_Renderer.asset using Guid(635ecd48c25793d459ce38c1c0495493) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a42f02a7377163983427b96df9d2a4d6') in 0.000348833 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
 ========================================================================
 Received Import Request.
-  Time since last request: 13.684252 seconds.
-  path: Assets/Scripts/FMODPlayScripts
-  artifactKey: Guid(e0a45bec4296b46afa6e64df535ad38b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/FMODPlayScripts using Guid(e0a45bec4296b46afa6e64df535ad38b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2c239c4cbbdabf788bf51ef88341c57e') in 0.000303417 seconds
+  Time since last request: 0.000034 seconds.
+  path: Assets/DefaultVolumeProfile.asset
+  artifactKey: Guid(bf0b4213ec2eb4403bce232d3e839bd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DefaultVolumeProfile.asset using Guid(bf0b4213ec2eb4403bce232d3e839bd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3a00445f962521c31aaddc531f18ee09') in 0.000432375 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
 ========================================================================
 Received Import Request.
-  Time since last request: 60.916835 seconds.
-  path: Assets/ScriptableObjects/FMOD So/GateSoundSequence 1.asset
-  artifactKey: Guid(27f7a3089296345b780e3778aa4c75d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ScriptableObjects/FMOD So/GateSoundSequence 1.asset using Guid(27f7a3089296345b780e3778aa4c75d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f494ca94f9eda398d231bb98600b8b31') in 0.000636209 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+  Time since last request: 0.000028 seconds.
+  path: Assets/UniversalRenderPipelineGlobalSettings.asset
+  artifactKey: Guid(f809b375a80030f41872f7a74e187193) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UniversalRenderPipelineGlobalSettings.asset using Guid(f809b375a80030f41872f7a74e187193) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '22c7bd2d697c0f8b8f6979d65021f2d2') in 0.000331167 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
 ========================================================================
 Received Import Request.
-  Time since last request: 8.387608 seconds.
-  path: Assets/ScriptableObjects/FMOD So/GatePressurePlate.asset
-  artifactKey: Guid(27f7a3089296345b780e3778aa4c75d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ScriptableObjects/FMOD So/GatePressurePlate.asset using Guid(27f7a3089296345b780e3778aa4c75d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '402b6ad0469d6f51308bd6d2e14d932a') in 0.000585458 seconds
+  Time since last request: 451.297099 seconds.
+  path: Assets/Animations/TreasureChestAnimation.anim
+  artifactKey: Guid(4e9bfb1af64094b969e88737066932c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/TreasureChestAnimation.anim using Guid(4e9bfb1af64094b969e88737066932c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd23dea482b84efb28acfab54f0536235') in 0.000923833 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
+========================================================================
+Received Prepare
+'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Assets/Scripts/SO Scripts/EventChannel_SO.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Assets/Scripts/SO Scripts/EventChannel_SO.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 2.76 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 15 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6606 unused Assets / (3.5 MB). Loaded Objects now: 7324.
+Memory consumption went from 137.8 MB to 134.3 MB.
+Total: 4.663500 ms (FindLiveObjects: 0.276000 ms CreateObjectMapping: 0.119792 ms MarkObjects: 3.342500 ms  DeleteObjects: 0.924792 ms)
+
+Prepare: number of updated asset objects reloaded= 0
 ========================================================================
 Received Prepare
 Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
 Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
 Begin MonoManager ReloadAssembly
-Thread 0x33978f000 may have been prematurely finalized
-- Loaded All Assemblies, in  0.392 seconds
+Thread 0x33bc8b000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.342 seconds
 Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
 'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
 'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
 'Assets/Scripts/SO Scripts/EventChannel_SO.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
 'Assets/Scripts/SO Scripts/EventChannel_SO.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Refreshing native plugins compatible for Editor in 1.90 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 1.89 ms, found 4 plugins.
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
 Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-Refreshing native plugins compatible for Editor in 1.66 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 2.03 ms, found 4 plugins.
 The project currently uses the compatibility mode where the Render Graph API is disabled. Support for this mode will be removed in future Unity versions. Migrate existing ScriptableRenderPasses to the new RenderGraph API. After the migration, disable the compatibility mode in Edit > Projects Settings > Graphics > Render Graph.
 UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
 UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
@@ -313,171 +334,233 @@ UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes () (at /Use
 (Filename: ./Library/PackageCache/com.unity.render-pipelines.universal@a19b2562c494/Runtime/Data/UniversalRenderPipelineAsset.cs Line: 431)
 
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.367 seconds
-Domain Reload Profiling: 761ms
+- Finished resetting the current domain, in  0.346 seconds
+Domain Reload Profiling: 689ms
 	BeginReloadAssembly (97ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (2ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (41ms)
+	RebuildCommonClasses (20ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (10ms)
+	LoadAllAssembliesAndSetupDomain (209ms)
+		LoadAssemblies (120ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (110ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (1ms)
+			BuildScriptInfoCaches (96ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (346ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (268ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (1ms)
+			SetLoadedEditorAssemblies (2ms)
+			BeforeProcessingInitializeOnLoad (53ms)
+			ProcessInitializeOnLoadAttributes (185ms)
+			ProcessInitializeOnLoadMethodAttributes (26ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 1.83 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 25 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6684 unused Assets / (3.5 MB). Loaded Objects now: 7338.
+Memory consumption went from 151.5 MB to 148.0 MB.
+Total: 4.213417 ms (FindLiveObjects: 0.293250 ms CreateObjectMapping: 0.124083 ms MarkObjects: 2.947459 ms  DeleteObjects: 0.848250 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Begin MonoManager ReloadAssembly
+Thread 0x16f49b000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.437 seconds
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Assets/Scripts/SO Scripts/EventChannel_SO.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Assets/Scripts/SO Scripts/EventChannel_SO.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 3.90 ms, found 4 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Refreshing native plugins compatible for Editor in 1.81 ms, found 4 plugins.
+The project currently uses the compatibility mode where the Render Graph API is disabled. Support for this mode will be removed in future Unity versions. Migrate existing ScriptableRenderPasses to the new RenderGraph API. After the migration, disable the compatibility mode in Edit > Projects Settings > Graphics > Render Graph.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+UnityEngine.Rendering.Universal.WarnUsingNonRenderGraph:EmitConsoleWarning () (at ./Library/PackageCache/com.unity.render-pipelines.universal@a19b2562c494/Runtime/Data/UniversalRenderPipelineAsset.cs:431)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes () (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:160)
+
+(Filename: ./Library/PackageCache/com.unity.render-pipelines.universal@a19b2562c494/Runtime/Data/UniversalRenderPipelineAsset.cs Line: 431)
+
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.351 seconds
+Domain Reload Profiling: 790ms
+	BeginReloadAssembly (121ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (50ms)
+	RebuildCommonClasses (20ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (11ms)
+	LoadAllAssembliesAndSetupDomain (280ms)
+		LoadAssemblies (170ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (134ms)
+			TypeCache.Refresh (10ms)
+				TypeCache.ScanAssembly (1ms)
+			BuildScriptInfoCaches (111ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (351ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (278ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (1ms)
+			SetLoadedEditorAssemblies (2ms)
+			BeforeProcessingInitializeOnLoad (55ms)
+			ProcessInitializeOnLoadAttributes (191ms)
+			ProcessInitializeOnLoadMethodAttributes (27ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 2.02 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6684 unused Assets / (3.6 MB). Loaded Objects now: 7340.
+Memory consumption went from 149.9 MB to 146.3 MB.
+Total: 4.157083 ms (FindLiveObjects: 0.284583 ms CreateObjectMapping: 0.110292 ms MarkObjects: 2.918375 ms  DeleteObjects: 0.843625 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 1754.739695 seconds.
+  path: Assets/Animations/JD_Prp_A_Chest_02.controller
+  artifactKey: Guid(17d70c4ba3d80492f930f2675388bdb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/JD_Prp_A_Chest_02.controller using Guid(17d70c4ba3d80492f930f2675388bdb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7b19f085935c43e301aac8da09914699') in 0.0105975 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 362.306035 seconds.
+  path: Assets/Animations/JD_Prp_A_Chest_02.controller
+  artifactKey: Guid(17d70c4ba3d80492f930f2675388bdb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/JD_Prp_A_Chest_02.controller using Guid(17d70c4ba3d80492f930f2675388bdb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '789b213d88e3b6f9414a5f1238b76567') in 0.001291541 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Prepare
+'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Assets/Scripts/SO Scripts/EventChannel_SO.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Assets/Scripts/SO Scripts/EventChannel_SO.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 2.77 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 15 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6607 unused Assets / (3.3 MB). Loaded Objects now: 7341.
+Memory consumption went from 144.5 MB to 141.2 MB.
+Total: 4.448042 ms (FindLiveObjects: 0.288084 ms CreateObjectMapping: 0.117917 ms MarkObjects: 3.164292 ms  DeleteObjects: 0.877542 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 1067.967761 seconds.
+  path: Assets/Scripts/PlayerTeleport.cs
+  artifactKey: Guid(3ef7dcf28876846ea9bc222d2e1d6925) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PlayerTeleport.cs using Guid(3ef7dcf28876846ea9bc222d2e1d6925) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '99beb93f3c470dd879dc8701648a4b1c') in 0.000306084 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Begin MonoManager ReloadAssembly
+Thread 0x16f49b000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.345 seconds
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Assets/Scripts/SO Scripts/EventChannel_SO.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Assets/Scripts/SO Scripts/EventChannel_SO.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 1.68 ms, found 4 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Refreshing native plugins compatible for Editor in 1.96 ms, found 4 plugins.
+The project currently uses the compatibility mode where the Render Graph API is disabled. Support for this mode will be removed in future Unity versions. Migrate existing ScriptableRenderPasses to the new RenderGraph API. After the migration, disable the compatibility mode in Edit > Projects Settings > Graphics > Render Graph.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+UnityEngine.Rendering.Universal.WarnUsingNonRenderGraph:EmitConsoleWarning () (at ./Library/PackageCache/com.unity.render-pipelines.universal@a19b2562c494/Runtime/Data/UniversalRenderPipelineAsset.cs:431)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes () (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:160)
+
+(Filename: ./Library/PackageCache/com.unity.render-pipelines.universal@a19b2562c494/Runtime/Data/UniversalRenderPipelineAsset.cs Line: 431)
+
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.343 seconds
+Domain Reload Profiling: 690ms
+	BeginReloadAssembly (99ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (3ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (39ms)
-	RebuildCommonClasses (21ms)
+	RebuildCommonClasses (19ms)
 	RebuildNativeTypeToScriptingClass (7ms)
-	initialDomainReloadingComplete (13ms)
-	LoadAllAssembliesAndSetupDomain (256ms)
-		LoadAssemblies (158ms)
+	initialDomainReloadingComplete (10ms)
+	LoadAllAssembliesAndSetupDomain (211ms)
+		LoadAssemblies (118ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (120ms)
-			TypeCache.Refresh (8ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (103ms)
-			ResolveRequiredComponents (7ms)
-	FinalizeReload (367ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (284ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (1ms)
-			SetLoadedEditorAssemblies (2ms)
-			BeforeProcessingInitializeOnLoad (59ms)
-			ProcessInitializeOnLoadAttributes (193ms)
-			ProcessInitializeOnLoadMethodAttributes (29ms)
-			AfterProcessingInitializeOnLoad (0ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (4ms)
-WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-Refreshing native plugins compatible for Editor in 2.07 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 24 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6661 unused Assets / (3.7 MB). Loaded Objects now: 7303.
-Memory consumption went from 149.2 MB to 145.5 MB.
-Total: 4.483375 ms (FindLiveObjects: 0.292625 ms CreateObjectMapping: 0.177917 ms MarkObjects: 3.053250 ms  DeleteObjects: 0.959375 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Import Request.
-  Time since last request: 330.128026 seconds.
-  path: Assets/Scripts/FMOD_GateTrigger.cs
-  artifactKey: Guid(56d427bec3c4c40cc87cfb30c89c6d66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/FMOD_GateTrigger.cs using Guid(56d427bec3c4c40cc87cfb30c89c6d66) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'aead43084bf51853883faec19b6eafaf') in 0.001121708 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 9.725196 seconds.
-  path: Assets/Scripts/GateController.cs
-  artifactKey: Guid(d5d5ad9d216734695a77968238d39aa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/GateController.cs using Guid(d5d5ad9d216734695a77968238d39aa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dab8a6ce7c453c79a582deaa15e383f8') in 0.000289958 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.955198 seconds.
-  path: Assets/Scripts/KnockDoor.cs
-  artifactKey: Guid(c47d58934f5444b9ab18c25424f7a0e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/KnockDoor.cs using Guid(c47d58934f5444b9ab18c25424f7a0e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '43cd414171f6f8a1fd16df9655a8cd97') in 0.000241 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.761907 seconds.
-  path: Assets/Scripts/RandomThreats.cs
-  artifactKey: Guid(2441d3604d3f54e0b97ec510e9c96ccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/RandomThreats.cs using Guid(2441d3604d3f54e0b97ec510e9c96ccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '27e115775672841e1822aa81bc74c439') in 0.00028775 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.461858 seconds.
-  path: Assets/Scripts/Player/FirstPersonController.cs
-  artifactKey: Guid(55919ac34a26952479f3fc91f777b2fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Player/FirstPersonController.cs using Guid(55919ac34a26952479f3fc91f777b2fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0c9e1b802bf4026611c3106fa061ee71') in 0.0002765 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 70.341276 seconds.
-  path: Assets/Scripts/Player/FootStepsManager.cs
-  artifactKey: Guid(bafe00614a3e5474493fdf6671359a70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Player/FootStepsManager.cs using Guid(bafe00614a3e5474493fdf6671359a70) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a17b424be644487e52b954361896dc61') in 0.000364667 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 15.435325 seconds.
-  path: Assets/ScriptableObjects/FMOD So/GatePressurePlate 1.asset
-  artifactKey: Guid(d434edcad055b4af9934ab5c15728a78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ScriptableObjects/FMOD So/GatePressurePlate 1.asset using Guid(d434edcad055b4af9934ab5c15728a78) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd2fb3eb17357b11dd484bf8b3564cdcd') in 0.011396833 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.005237 seconds.
-  path: Assets/ScriptableObjects/FMOD So/Radio.asset
-  artifactKey: Guid(d434edcad055b4af9934ab5c15728a78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ScriptableObjects/FMOD So/Radio.asset using Guid(d434edcad055b4af9934ab5c15728a78) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '854721976a704842bd33fa974c8eeff2') in 0.000643708 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Prepare
-Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
-Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
-Begin MonoManager ReloadAssembly
-Thread 0x16d947000 may have been prematurely finalized
-- Loaded All Assemblies, in  0.414 seconds
-Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
-'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Assets/Scripts/SO Scripts/EventChannel_SO.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Assets/Scripts/SO Scripts/EventChannel_SO.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Refreshing native plugins compatible for Editor in 2.09 ms, found 4 plugins.
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Refreshing native plugins compatible for Editor in 1.86 ms, found 4 plugins.
-The project currently uses the compatibility mode where the Render Graph API is disabled. Support for this mode will be removed in future Unity versions. Migrate existing ScriptableRenderPasses to the new RenderGraph API. After the migration, disable the compatibility mode in Edit > Projects Settings > Graphics > Render Graph.
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogWarning (object)
-UnityEngine.Rendering.Universal.WarnUsingNonRenderGraph:EmitConsoleWarning () (at ./Library/PackageCache/com.unity.render-pipelines.universal@a19b2562c494/Runtime/Data/UniversalRenderPipelineAsset.cs:431)
-System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
-System.Reflection.MethodBase:Invoke (object,object[])
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes () (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:160)
-
-(Filename: ./Library/PackageCache/com.unity.render-pipelines.universal@a19b2562c494/Runtime/Data/UniversalRenderPipelineAsset.cs Line: 431)
-
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.342 seconds
-Domain Reload Profiling: 760ms
-	BeginReloadAssembly (129ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (53ms)
-	RebuildCommonClasses (21ms)
-	RebuildNativeTypeToScriptingClass (7ms)
-	initialDomainReloadingComplete (11ms)
-	LoadAllAssembliesAndSetupDomain (249ms)
-		LoadAssemblies (155ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (123ms)
-			TypeCache.Refresh (10ms)
+		AnalyzeDomain (118ms)
+			TypeCache.Refresh (9ms)
 				TypeCache.ScanAssembly (1ms)
-			BuildScriptInfoCaches (104ms)
-			ResolveRequiredComponents (6ms)
+			BuildScriptInfoCaches (99ms)
+			ResolveRequiredComponents (7ms)
 	FinalizeReload (343ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
@@ -485,8 +568,8 @@ Domain Reload Profiling: 760ms
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (1ms)
 			SetLoadedEditorAssemblies (2ms)
-			BeforeProcessingInitializeOnLoad (57ms)
-			ProcessInitializeOnLoadAttributes (185ms)
+			BeforeProcessingInitializeOnLoad (52ms)
+			ProcessInitializeOnLoadAttributes (189ms)
 			ProcessInitializeOnLoadMethodAttributes (26ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
@@ -498,435 +581,35 @@ WARNING: Shader If subshaders removal was intentional, you may have forgotten tu
 WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
 WARNING: Shader Did you use #pragma only_renderers and omit this platform?
 WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-Refreshing native plugins compatible for Editor in 1.86 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 2.01 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 15 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6668 unused Assets / (3.8 MB). Loaded Objects now: 7312.
-Memory consumption went from 147.7 MB to 143.9 MB.
-Total: 4.120208 ms (FindLiveObjects: 0.293084 ms CreateObjectMapping: 0.110250 ms MarkObjects: 2.775875 ms  DeleteObjects: 0.940750 ms)
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6685 unused Assets / (3.7 MB). Loaded Objects now: 7343.
+Memory consumption went from 149.8 MB to 146.1 MB.
+Total: 4.323625 ms (FindLiveObjects: 0.298125 ms CreateObjectMapping: 0.129125 ms MarkObjects: 2.963375 ms  DeleteObjects: 0.932583 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 ========================================================================
 Received Import Request.
-  Time since last request: 317.924022 seconds.
-  path: Assets/Bitgem/StylisedWater/URP/Textures/greyboxing-01.png
-  artifactKey: Guid(6b579d01d44fb9e4ea979f8b3a559836) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Bitgem/StylisedWater/URP/Textures/greyboxing-01.png using Guid(6b579d01d44fb9e4ea979f8b3a559836) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6246ba721e28d15cd169d64dbb038ff7') in 0.075657375 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.237620 seconds.
-  path: Assets/Bitgem/StylisedWater/URP/Textures/waves_n.png
-  artifactKey: Guid(f87d53fcaf34530488b706ee35d9b519) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Bitgem/StylisedWater/URP/Textures/waves_n.png using Guid(f87d53fcaf34530488b706ee35d9b519) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b09d23486eea2b217c092d78a1c4bdb2') in 0.018221334 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 21.689143 seconds.
-  path: Assets/Bitgem/StylisedWater/URP/Examples/Example-Scene-01.unity
-  artifactKey: Guid(fc967860e2508924e943ba0223c2ed3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Bitgem/StylisedWater/URP/Examples/Example-Scene-01.unity using Guid(fc967860e2508924e943ba0223c2ed3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '28239ed4be824a8158657e97ed06698b') in 0.0004 seconds
+  Time since last request: 5.238349 seconds.
+  path: Assets/Scripts/PlayerTeleport.cs
+  artifactKey: Guid(3ef7dcf28876846ea9bc222d2e1d6925) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PlayerTeleport.cs using Guid(3ef7dcf28876846ea9bc222d2e1d6925) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0c95a4e660113aa613e4f0c29c4d508e') in 0.000897792 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 172.969884 seconds.
-  path: Assets/Bitgem/StylisedWater/URP/Meshes/example-scene-01.fbx
-  artifactKey: Guid(55638e09f83bd764b9c7be381da6e240) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Bitgem/StylisedWater/URP/Meshes/example-scene-01.fbx using Guid(55638e09f83bd764b9c7be381da6e240) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0a8e577417eede8f02b9286270893711') in 0.846432417 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
-
-========================================================================
-Received Import Request.
-  Time since last request: 1096.656045 seconds.
-  path: Assets/Japanese Dungeons/Prefabs/Bridges
-  artifactKey: Guid(c583338495f55c140a77e527ff80110e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Japanese Dungeons/Prefabs/Bridges using Guid(c583338495f55c140a77e527ff80110e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5e49c233ca4c04f6bc725999105fe677') in 0.001450334 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.783654 seconds.
-  path: Assets/Japanese Dungeons/Prefabs/Bridges/JD_Bridge_A_2x2_01.prefab
-  artifactKey: Guid(c24c81ebc012574429267ba28c0c9326) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Japanese Dungeons/Prefabs/Bridges/JD_Bridge_A_2x2_01.prefab using Guid(c24c81ebc012574429267ba28c0c9326) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd15180abffa559e3183e0152e8fff352') in 0.076220834 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 27
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.013936 seconds.
-  path: Assets/Japanese Dungeons/Prefabs/Bridges/JD_Bridge_A_2x2_02.prefab
-  artifactKey: Guid(01c1fd37458bfd34f98582cecc18d7bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Japanese Dungeons/Prefabs/Bridges/JD_Bridge_A_2x2_02.prefab using Guid(01c1fd37458bfd34f98582cecc18d7bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ea7beb3676130aff43cfc02b8b42e956') in 0.009036708 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 27
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.408415 seconds.
-  path: Assets/Japanese Dungeons/Prefabs/Bridges/JD_Bridge_A_4x2_01.prefab
-  artifactKey: Guid(46a84a7c0b0b41b409b870eb9bfd5933) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Japanese Dungeons/Prefabs/Bridges/JD_Bridge_A_4x2_01.prefab using Guid(46a84a7c0b0b41b409b870eb9bfd5933) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a394d0c816d7d5b349b2ab949dd23c6b') in 0.008719458 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 27
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.668998 seconds.
-  path: Assets/Japanese Dungeons/Prefabs/Bridges/JD_Bridge_A_Base_2x2x1_01.prefab
-  artifactKey: Guid(2e9fc1a1b5858874b9c76c8d77f4c10d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Japanese Dungeons/Prefabs/Bridges/JD_Bridge_A_Base_2x2x1_01.prefab using Guid(2e9fc1a1b5858874b9c76c8d77f4c10d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '784fff4d2076cb9a549d091b33a8d6ee') in 0.008086125 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 27
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.018346 seconds.
-  path: Assets/Japanese Dungeons/Prefabs/Bridges/JD_Bridge_A_BaseEnd_2x2x1_01.prefab
-  artifactKey: Guid(3d61fab9fe1b440458af492a1d3cfb49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Japanese Dungeons/Prefabs/Bridges/JD_Bridge_A_BaseEnd_2x2x1_01.prefab using Guid(3d61fab9fe1b440458af492a1d3cfb49) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8e384d4ca424546e897408525e9fc3e7') in 0.013254375 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 27
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.617307 seconds.
-  path: Assets/Japanese Dungeons/Prefabs/Bridges/JD_Bridge_A_Cor_2x2_01.prefab
-  artifactKey: Guid(6757aca1c7ad9e5448a3e6497fcaa424) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Japanese Dungeons/Prefabs/Bridges/JD_Bridge_A_Cor_2x2_01.prefab using Guid(6757aca1c7ad9e5448a3e6497fcaa424) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5eda49db5efb32dd062dd36264107e85') in 0.0120575 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 27
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.751481 seconds.
-  path: Assets/Japanese Dungeons/Prefabs/Bridges/JD_Bridge_A_Pole_01.prefab
-  artifactKey: Guid(3b666bdef17d9fe46bb9226bdf22a7a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Japanese Dungeons/Prefabs/Bridges/JD_Bridge_A_Pole_01.prefab using Guid(3b666bdef17d9fe46bb9226bdf22a7a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3df58a515d3158e62c3124d294d71715') in 0.008765958 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 27
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.577652 seconds.
-  path: Assets/Japanese Dungeons/Prefabs/Bridges/JD_Bridge_A_Pole_02.prefab
-  artifactKey: Guid(37481df5658bf7149a8a48095ef95048) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Japanese Dungeons/Prefabs/Bridges/JD_Bridge_A_Pole_02.prefab using Guid(37481df5658bf7149a8a48095ef95048) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5bb331f3be17870bc521337692d8e59e') in 0.007320666 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 27
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.474985 seconds.
-  path: Assets/Japanese Dungeons/Prefabs/Bridges/JD_Bridge_A_Pole_03.prefab
-  artifactKey: Guid(8ffc426e28f29634d9c8c8740b11224e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Japanese Dungeons/Prefabs/Bridges/JD_Bridge_A_Pole_03.prefab using Guid(8ffc426e28f29634d9c8c8740b11224e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a1226ee145fd3395e64a1c1f7acef2b0') in 0.0075565 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 27
-
-========================================================================
-Received Import Request.
-  Time since last request: 317.860406 seconds.
-  path: Assets/Japanese Dungeons/Prefabs/Timbering/JD_Tmb_A_Ceiling_4x2_03.prefab
-  artifactKey: Guid(1c5c79f9f6094c5478169358a3ba0b52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Japanese Dungeons/Prefabs/Timbering/JD_Tmb_A_Ceiling_4x2_03.prefab using Guid(1c5c79f9f6094c5478169358a3ba0b52) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd81691a5dd9e0f5187c70e83c6c3204d') in 0.023024875 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 27
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.569604 seconds.
-  path: Assets/Japanese Dungeons/Prefabs/Timbering/JD_Tmb_A_Ceiling_4x2_02.prefab
-  artifactKey: Guid(4f46df428cc41724eb9fcd73172f1a64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Japanese Dungeons/Prefabs/Timbering/JD_Tmb_A_Ceiling_4x2_02.prefab using Guid(4f46df428cc41724eb9fcd73172f1a64) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '278a9e1f26800e925d19c47adc4fb191') in 0.007160208 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 27
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.341124 seconds.
-  path: Assets/Japanese Dungeons/Prefabs/Timbering/JD_Tmb_A_Ceiling_4x2_01.prefab
-  artifactKey: Guid(2e0773eb2a08f0342b4107e1acb58158) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Japanese Dungeons/Prefabs/Timbering/JD_Tmb_A_Ceiling_4x2_01.prefab using Guid(2e0773eb2a08f0342b4107e1acb58158) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4a582dd337198b4991977be180be250f') in 0.007531459 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 27
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.322980 seconds.
-  path: Assets/Japanese Dungeons/Prefabs/Timbering/JD_Tmb_A_Ceiling_2x2_01.prefab
-  artifactKey: Guid(7ce7d47436f165042a90b09c6e9f68c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Japanese Dungeons/Prefabs/Timbering/JD_Tmb_A_Ceiling_2x2_01.prefab using Guid(7ce7d47436f165042a90b09c6e9f68c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8c17946aa62f03853c43dce96a5ebe54') in 0.007351667 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 27
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.475296 seconds.
-  path: Assets/Japanese Dungeons/Prefabs/Timbering/JD_Tmb_A_Ceiling_4x2_04.prefab
-  artifactKey: Guid(abce7efe14a448a40a0a02cdf5e77572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Japanese Dungeons/Prefabs/Timbering/JD_Tmb_A_Ceiling_4x2_04.prefab using Guid(abce7efe14a448a40a0a02cdf5e77572) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5f5dfea9bd99f9a71877a32f2b4b9585') in 0.011637875 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 27
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.139548 seconds.
-  path: Assets/Japanese Dungeons/Prefabs/Timbering/JD_Tmb_A_Column_x2_01.prefab
-  artifactKey: Guid(154f1d38ab488764ba5d2bd4fff1b42b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Japanese Dungeons/Prefabs/Timbering/JD_Tmb_A_Column_x2_01.prefab using Guid(154f1d38ab488764ba5d2bd4fff1b42b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6758da19e26b9052e0be3d64cfd3986d') in 0.006863833 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 27
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.173109 seconds.
-  path: Assets/Japanese Dungeons/Prefabs/Timbering/JD_Tmb_A_Gate_6x3_01.prefab
-  artifactKey: Guid(71cfbaac8a27c26458aea114abd76672) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Japanese Dungeons/Prefabs/Timbering/JD_Tmb_A_Gate_6x3_01.prefab using Guid(71cfbaac8a27c26458aea114abd76672) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9a48e002b019aae12b735e6141d0c15a') in 0.007681458 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 27
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.204809 seconds.
-  path: Assets/Japanese Dungeons/Prefabs/Timbering/JD_Tmb_A_Platform_2x2_01.prefab
-  artifactKey: Guid(76510dd449a503d4ea9dd6d6cc6cccc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Japanese Dungeons/Prefabs/Timbering/JD_Tmb_A_Platform_2x2_01.prefab using Guid(76510dd449a503d4ea9dd6d6cc6cccc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '86dc62348ade35b93346cb5d8bf4171e') in 0.007059459 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 27
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.352802 seconds.
-  path: Assets/Japanese Dungeons/Prefabs/Timbering/JD_Tmb_A_Platform_End_x2_01.prefab
-  artifactKey: Guid(405a5c03c0d6c864ea052d810e995314) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Japanese Dungeons/Prefabs/Timbering/JD_Tmb_A_Platform_End_x2_01.prefab using Guid(405a5c03c0d6c864ea052d810e995314) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'afc0d4e86e6b8a99b52c42296fd2ee2c') in 0.006582958 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 27
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.560300 seconds.
-  path: Assets/Japanese Dungeons/Prefabs/Timbering/JD_Tmb_A_Wall_2x2_01.prefab
-  artifactKey: Guid(1a8327124a3c53d4d8ac5d545307de30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Japanese Dungeons/Prefabs/Timbering/JD_Tmb_A_Wall_2x2_01.prefab using Guid(1a8327124a3c53d4d8ac5d545307de30) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'da1ea2cb1a9939914db583bcd5cd849d') in 0.011561333 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 27
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.756223 seconds.
-  path: Assets/Japanese Dungeons/Prefabs/Timbering/JD_Tmb_A_Wall_2x2_02.prefab
-  artifactKey: Guid(2cef9ea5d9529a04288f70092b391b03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Japanese Dungeons/Prefabs/Timbering/JD_Tmb_A_Wall_2x2_02.prefab using Guid(2cef9ea5d9529a04288f70092b391b03) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9aeffa5658dbbf8286a434c4daab9092') in 0.007100208 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 27
-
-========================================================================
-Received Import Request.
-  Time since last request: 20.224092 seconds.
-  path: Assets/Japanese Dungeons/Prefabs/Timbering/JD_Tmb_A_Wall_2x2_03.prefab
-  artifactKey: Guid(5a822cbd9d8938e4ea48a58f44549bbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Japanese Dungeons/Prefabs/Timbering/JD_Tmb_A_Wall_2x2_03.prefab using Guid(5a822cbd9d8938e4ea48a58f44549bbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3f526924f6e329bbe9d447a54fa42e20') in 0.017899958 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 27
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.460567 seconds.
-  path: Assets/Japanese Dungeons/Prefabs/Timbering/JD_Tmb_A_Wall_2x2_04.prefab
-  artifactKey: Guid(c5204227e574e834697e900879bece8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Japanese Dungeons/Prefabs/Timbering/JD_Tmb_A_Wall_2x2_04.prefab using Guid(c5204227e574e834697e900879bece8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '587e1a0c86b3b9c94d5947047df6b08d') in 0.007508084 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 27
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.789310 seconds.
-  path: Assets/Japanese Dungeons/Prefabs/Timbering/JD_Tmb_A_Wall_3x2_01.prefab
-  artifactKey: Guid(e8e6d282055e7d74f97a99cab5199a82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Japanese Dungeons/Prefabs/Timbering/JD_Tmb_A_Wall_3x2_01.prefab using Guid(e8e6d282055e7d74f97a99cab5199a82) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c22f4398f004f04a8ef9f09d60e7eadf') in 0.006955083 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 27
-
-========================================================================
-Received Import Request.
-  Time since last request: 15.681994 seconds.
-  path: Assets/Japanese Dungeons/Prefabs/Timbering/JD_Tmb_A_Wall_3x2_02.prefab
-  artifactKey: Guid(dee99fb447a9e70408ae6f7d393ec01f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Japanese Dungeons/Prefabs/Timbering/JD_Tmb_A_Wall_3x2_02.prefab using Guid(dee99fb447a9e70408ae6f7d393ec01f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '58a4b7b295021719fb23d588b71148ac') in 0.014351667 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 27
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.600251 seconds.
-  path: Assets/Japanese Dungeons/Prefabs/Timbering/JD_Tmb_A_Wall_End_x2_01.prefab
-  artifactKey: Guid(0a8d43b030ada084988dff0d431f684c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Japanese Dungeons/Prefabs/Timbering/JD_Tmb_A_Wall_End_x2_01.prefab using Guid(0a8d43b030ada084988dff0d431f684c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a6ee8dbf4123b74a724a2730fe5a3edb') in 0.007164417 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 27
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.205307 seconds.
-  path: Assets/Japanese Dungeons/Prefabs/Timbering/JD_Tmb_A_Wall_End_x3_01.prefab
-  artifactKey: Guid(29a58594c1dc3c3408cdba1aa6f596db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Japanese Dungeons/Prefabs/Timbering/JD_Tmb_A_Wall_End_x3_01.prefab using Guid(29a58594c1dc3c3408cdba1aa6f596db) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0085f72273c81f0f642ddef5e9a4db62') in 0.00700075 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 27
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.372196 seconds.
-  path: Assets/Japanese Dungeons/Prefabs/Timbering/JD_Tmb_B_Balcony_x2_01.prefab
-  artifactKey: Guid(c29ff76f1555a9b468c98d73fe29723c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Japanese Dungeons/Prefabs/Timbering/JD_Tmb_B_Balcony_x2_01.prefab using Guid(c29ff76f1555a9b468c98d73fe29723c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '910a9289d4d02cca9470ca534a48cd5d') in 0.012408167 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.314467 seconds.
-  path: Assets/Japanese Dungeons/Prefabs/Timbering/JD_Tmb_B_Bean_x2_01.prefab
-  artifactKey: Guid(3b6d637c32f0a3e4584e7bacaab44309) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Japanese Dungeons/Prefabs/Timbering/JD_Tmb_B_Bean_x2_01.prefab using Guid(3b6d637c32f0a3e4584e7bacaab44309) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e60f2db57f4adc5c6ee9574fad4ddecc') in 0.008646042 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.353752 seconds.
-  path: Assets/Japanese Dungeons/Prefabs/Timbering/JD_Tmb_B_Bridge_x6_01.prefab
-  artifactKey: Guid(15ca5ef63b9d0104db24884f97c6bfbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Japanese Dungeons/Prefabs/Timbering/JD_Tmb_B_Bridge_x6_01.prefab using Guid(15ca5ef63b9d0104db24884f97c6bfbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b5399b302ccc8f1fca86cd85bf76d986') in 0.006728167 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 27
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.398755 seconds.
-  path: Assets/Japanese Dungeons/Prefabs/Timbering/JD_Tmb_B_BridgeSupport_01.prefab
-  artifactKey: Guid(c59cb97c8af34bc489172b631fb34992) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Japanese Dungeons/Prefabs/Timbering/JD_Tmb_B_BridgeSupport_01.prefab using Guid(c59cb97c8af34bc489172b631fb34992) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1dda16585d69f70abfa427d561762bb1') in 0.006165875 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 27
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.194808 seconds.
-  path: Assets/Japanese Dungeons/Prefabs/Timbering/JD_Tmb_B_Column_x4_01.prefab
-  artifactKey: Guid(7b80a6a535ce2e642a903599b9ee8558) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Japanese Dungeons/Prefabs/Timbering/JD_Tmb_B_Column_x4_01.prefab using Guid(7b80a6a535ce2e642a903599b9ee8558) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '20083c9e232a197ffa2577a7a7235211') in 0.011669375 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
-
-========================================================================
-Received Import Request.
-  Time since last request: 28.637579 seconds.
-  path: Assets/Japanese Dungeons/Prefabs/Timbering/JD_Tmb_B_Plank_01.prefab
-  artifactKey: Guid(b783a853408a43b4fb68a891c5ab2ca3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Japanese Dungeons/Prefabs/Timbering/JD_Tmb_B_Plank_01.prefab using Guid(b783a853408a43b4fb68a891c5ab2ca3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e5c420295255c7e441c895f2632fad33') in 0.011885459 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.752499 seconds.
-  path: Assets/Japanese Dungeons/Prefabs/Timbering/JD_Tmb_B_Floor_4x4_01.prefab
-  artifactKey: Guid(5d71e059a5c15eb4d9cc7eb201dad9d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Japanese Dungeons/Prefabs/Timbering/JD_Tmb_B_Floor_4x4_01.prefab using Guid(5d71e059a5c15eb4d9cc7eb201dad9d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0786182568ad3bb631ac1819687c044d') in 0.006645333 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 27
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.537902 seconds.
-  path: Assets/Japanese Dungeons/Prefabs/Timbering/JD_Tmb_B_Floor_2x2_01.prefab
-  artifactKey: Guid(dd5239a28fe77ba4b840c87ced3a355b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Japanese Dungeons/Prefabs/Timbering/JD_Tmb_B_Floor_2x2_01.prefab using Guid(dd5239a28fe77ba4b840c87ced3a355b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6ecac379a9f9dd327a190b4b7122e2e3') in 0.006848125 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 27
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.348656 seconds.
-  path: Assets/Japanese Dungeons/Prefabs/Timbering/JD_Tmb_B_Floor_1x4_01.prefab
-  artifactKey: Guid(c4dbcc530eb6da747b025a50556acb06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Japanese Dungeons/Prefabs/Timbering/JD_Tmb_B_Floor_1x4_01.prefab using Guid(c4dbcc530eb6da747b025a50556acb06) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6de785cc09d88e1002e4f4de5a0b2b9b') in 0.006779125 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 27
-
-========================================================================
-Received Import Request.
-  Time since last request: 48.835274 seconds.
-  path: Assets/Japanese Dungeons/Prefabs/Timbering/JD_Tmb_B_Plank_04.prefab
-  artifactKey: Guid(5a82de0ba04e3764d90112553947268a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Japanese Dungeons/Prefabs/Timbering/JD_Tmb_B_Plank_04.prefab using Guid(5a82de0ba04e3764d90112553947268a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '33de61e84f17b8356ef7fbc6c5bc8091') in 0.0113575 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.948389 seconds.
-  path: Assets/Japanese Dungeons/Prefabs/Timbering/JD_Tmb_B_Plank_05.prefab
-  artifactKey: Guid(4cd5e3103b1f7b948991ec7e272c00c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Japanese Dungeons/Prefabs/Timbering/JD_Tmb_B_Plank_05.prefab using Guid(4cd5e3103b1f7b948991ec7e272c00c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8c882dee9b5db9aa6513faa628002de1') in 0.007010166 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.323839 seconds.
-  path: Assets/Japanese Dungeons/Prefabs/Timbering/JD_Tmb_B_Plank_06.prefab
-  artifactKey: Guid(0ff7e881ab6c2194493777c9e01ccc46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Japanese Dungeons/Prefabs/Timbering/JD_Tmb_B_Plank_06.prefab using Guid(0ff7e881ab6c2194493777c9e01ccc46) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '711ee4f206c6004c1b038630cf069300') in 0.006745333 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.040907 seconds.
-  path: Assets/Japanese Dungeons/Prefabs/Timbering/JD_Tmb_B_Plank_07.prefab
-  artifactKey: Guid(a1f66c1e543f2754cb9471020b2c612f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Japanese Dungeons/Prefabs/Timbering/JD_Tmb_B_Plank_07.prefab using Guid(a1f66c1e543f2754cb9471020b2c612f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3eeb6a616ff87ba327b211c4493628f8') in 0.006585917 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.131193 seconds.
-  path: Assets/Japanese Dungeons/Prefabs/Timbering/JD_Tmb_B_Plank_08.prefab
-  artifactKey: Guid(1f13a1777e123124cacb3dc94ce38ce3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Japanese Dungeons/Prefabs/Timbering/JD_Tmb_B_Plank_08.prefab using Guid(1f13a1777e123124cacb3dc94ce38ce3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '689b275b7ac48ce9a51196948fafedeb') in 0.008050625 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.170470 seconds.
-  path: Assets/Japanese Dungeons/Prefabs/Timbering/JD_Tmb_B_Stairs_1x2x4_01.prefab
-  artifactKey: Guid(b1167ce8953d31141afd7c8ab8e8a9b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Japanese Dungeons/Prefabs/Timbering/JD_Tmb_B_Stairs_1x2x4_01.prefab using Guid(b1167ce8953d31141afd7c8ab8e8a9b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bf390cfde1e304f9423228da5c439da6') in 0.007250084 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 27
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.040364 seconds.
-  path: Assets/Japanese Dungeons/Prefabs/Timbering/JD_Tmb_B_WallA_1x2_01.prefab
-  artifactKey: Guid(cd8d6fb1836c6e441a655c06975d6c8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Japanese Dungeons/Prefabs/Timbering/JD_Tmb_B_WallA_1x2_01.prefab using Guid(cd8d6fb1836c6e441a655c06975d6c8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f5b4da16aae610f9dd7236b490b14ae7') in 0.006568709 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.145559 seconds.
-  path: Assets/Japanese Dungeons/Prefabs/Timbering/JD_Tmb_B_WallA_2x2_01.prefab
-  artifactKey: Guid(6606fe9cb3263714aa5330afd3b2131f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Japanese Dungeons/Prefabs/Timbering/JD_Tmb_B_WallA_2x2_01.prefab using Guid(6606fe9cb3263714aa5330afd3b2131f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a3ddce831fa93d57a0792ff0ff99e972') in 0.006696833 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 27
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.543761 seconds.
-  path: Assets/Japanese Dungeons/Prefabs/Timbering/JD_Tmb_B_WallA_2x2_02.prefab
-  artifactKey: Guid(510fd82a79d7e3b4b9d6a9c84f96491c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Japanese Dungeons/Prefabs/Timbering/JD_Tmb_B_WallA_2x2_02.prefab using Guid(510fd82a79d7e3b4b9d6a9c84f96491c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3b6082caad601a983b67aff43c712681') in 0.00729675 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 27
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.026301 seconds.
-  path: Assets/Japanese Dungeons/Prefabs/Timbering/JD_Tmb_B_WallA_2x2_03.prefab
-  artifactKey: Guid(0db95182adc6c864ebda2f17b430ef90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Japanese Dungeons/Prefabs/Timbering/JD_Tmb_B_WallA_2x2_03.prefab using Guid(0db95182adc6c864ebda2f17b430ef90) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '16d43fd87b35c884b07a21ff7711291e') in 0.006258458 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 27
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.415976 seconds.
-  path: Assets/Japanese Dungeons/Prefabs/Timbering/JD_Tmb_B_WallA_2x4_01.prefab
-  artifactKey: Guid(4eb5a8cd54d2f62439f74d07d8f22892) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Japanese Dungeons/Prefabs/Timbering/JD_Tmb_B_WallA_2x4_01.prefab using Guid(4eb5a8cd54d2f62439f74d07d8f22892) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '896ca27c49217c254b49718989dbf61e') in 0.006630167 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 27
 
 ========================================================================
 Received Prepare
 Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
 Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
 Begin MonoManager ReloadAssembly
-Thread 0x16d947000 may have been prematurely finalized
-- Loaded All Assemblies, in  0.481 seconds
+Thread 0x16aea7000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.353 seconds
 Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
 'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
 'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
 'Assets/Scripts/SO Scripts/EventChannel_SO.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
 'Assets/Scripts/SO Scripts/EventChannel_SO.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Refreshing native plugins compatible for Editor in 1.74 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 1.66 ms, found 4 plugins.
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
 Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
@@ -949,35 +632,35 @@ UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes () (at /Use
 (Filename: ./Library/PackageCache/com.unity.render-pipelines.universal@a19b2562c494/Runtime/Data/UniversalRenderPipelineAsset.cs Line: 431)
 
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.344 seconds
-Domain Reload Profiling: 827ms
-	BeginReloadAssembly (174ms)
+- Finished resetting the current domain, in  0.345 seconds
+Domain Reload Profiling: 700ms
+	BeginReloadAssembly (99ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (26ms)
+		DisableScriptedObjects (3ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (61ms)
-	RebuildCommonClasses (21ms)
+		CreateAndSetChildDomain (39ms)
+	RebuildCommonClasses (20ms)
 	RebuildNativeTypeToScriptingClass (7ms)
-	initialDomainReloadingComplete (15ms)
-	LoadAllAssembliesAndSetupDomain (266ms)
-		LoadAssemblies (162ms)
+	initialDomainReloadingComplete (10ms)
+	LoadAllAssembliesAndSetupDomain (218ms)
+		LoadAssemblies (123ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (129ms)
-			TypeCache.Refresh (10ms)
+		AnalyzeDomain (119ms)
+			TypeCache.Refresh (9ms)
 				TypeCache.ScanAssembly (1ms)
-			BuildScriptInfoCaches (110ms)
+			BuildScriptInfoCaches (101ms)
 			ResolveRequiredComponents (7ms)
-	FinalizeReload (344ms)
+	FinalizeReload (346ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
 		SetupLoadedEditorAssemblies (273ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (1ms)
-			SetLoadedEditorAssemblies (2ms)
-			BeforeProcessingInitializeOnLoad (58ms)
-			ProcessInitializeOnLoadAttributes (185ms)
-			ProcessInitializeOnLoadMethodAttributes (26ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (53ms)
+			ProcessInitializeOnLoadAttributes (187ms)
+			ProcessInitializeOnLoadMethodAttributes (27ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -988,211 +671,175 @@ WARNING: Shader If subshaders removal was intentional, you may have forgotten tu
 WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
 WARNING: Shader Did you use #pragma only_renderers and omit this platform?
 WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-Refreshing native plugins compatible for Editor in 1.89 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 1.91 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 20 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6679 unused Assets / (3.8 MB). Loaded Objects now: 7356.
-Memory consumption went from 153.1 MB to 149.3 MB.
-Total: 4.922625 ms (FindLiveObjects: 0.292875 ms CreateObjectMapping: 0.108625 ms MarkObjects: 3.455250 ms  DeleteObjects: 1.065458 ms)
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6685 unused Assets / (3.6 MB). Loaded Objects now: 7345.
+Memory consumption went from 149.8 MB to 146.2 MB.
+Total: 4.270375 ms (FindLiveObjects: 0.297542 ms CreateObjectMapping: 0.115125 ms MarkObjects: 3.025250 ms  DeleteObjects: 0.832208 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 ========================================================================
-Received Import Request.
-  Time since last request: 1319.624453 seconds.
-  path: Assets/WaterRippleShader Eldvmo/Scenes/RaindropRipple.unity
-  artifactKey: Guid(d33281febf0748a4e813246c20a56c2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/WaterRippleShader Eldvmo/Scenes/RaindropRipple.unity using Guid(d33281febf0748a4e813246c20a56c2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f73faa48d37c62fb5a03ab004f925d50') in 0.001454708 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+Received Prepare
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Begin MonoManager ReloadAssembly
+Thread 0x16aea7000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.355 seconds
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Assets/Scripts/SO Scripts/EventChannel_SO.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Assets/Scripts/SO Scripts/EventChannel_SO.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 1.85 ms, found 4 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Refreshing native plugins compatible for Editor in 2.09 ms, found 4 plugins.
+The project currently uses the compatibility mode where the Render Graph API is disabled. Support for this mode will be removed in future Unity versions. Migrate existing ScriptableRenderPasses to the new RenderGraph API. After the migration, disable the compatibility mode in Edit > Projects Settings > Graphics > Render Graph.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+UnityEngine.Rendering.Universal.WarnUsingNonRenderGraph:EmitConsoleWarning () (at ./Library/PackageCache/com.unity.render-pipelines.universal@a19b2562c494/Runtime/Data/UniversalRenderPipelineAsset.cs:431)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes () (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:160)
 
+(Filename: ./Library/PackageCache/com.unity.render-pipelines.universal@a19b2562c494/Runtime/Data/UniversalRenderPipelineAsset.cs Line: 431)
+
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.332 seconds
+Domain Reload Profiling: 689ms
+	BeginReloadAssembly (99ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (38ms)
+	RebuildCommonClasses (20ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (11ms)
+	LoadAllAssembliesAndSetupDomain (221ms)
+		LoadAssemblies (127ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (119ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (1ms)
+			BuildScriptInfoCaches (100ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (332ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (261ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (1ms)
+			SetLoadedEditorAssemblies (2ms)
+			BeforeProcessingInitializeOnLoad (52ms)
+			ProcessInitializeOnLoadAttributes (177ms)
+			ProcessInitializeOnLoadMethodAttributes (28ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 1.97 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6685 unused Assets / (3.4 MB). Loaded Objects now: 7347.
+Memory consumption went from 149.7 MB to 146.3 MB.
+Total: 4.217125 ms (FindLiveObjects: 0.265084 ms CreateObjectMapping: 0.119458 ms MarkObjects: 2.914917 ms  DeleteObjects: 0.917375 ms)
+
+Prepare: number of updated asset objects reloaded= 0
 ========================================================================
-Received Import Request.
-  Time since last request: 13.802691 seconds.
-  path: Assets/WaterRippleShader Eldvmo/Scenes/ObjectTriggeredRipple.unity
-  artifactKey: Guid(0d1a5c167ada35b4ebc55e4527deeb3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/WaterRippleShader Eldvmo/Scenes/ObjectTriggeredRipple.unity using Guid(0d1a5c167ada35b4ebc55e4527deeb3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '655714a14d37367a696ee70d31c8ede7') in 0.00029425 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+Received Prepare
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Begin MonoManager ReloadAssembly
+Thread 0x16aea7000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.360 seconds
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Assets/Scripts/SO Scripts/EventChannel_SO.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Assets/Scripts/SO Scripts/EventChannel_SO.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 1.78 ms, found 4 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Refreshing native plugins compatible for Editor in 1.91 ms, found 4 plugins.
+The project currently uses the compatibility mode where the Render Graph API is disabled. Support for this mode will be removed in future Unity versions. Migrate existing ScriptableRenderPasses to the new RenderGraph API. After the migration, disable the compatibility mode in Edit > Projects Settings > Graphics > Render Graph.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+UnityEngine.Rendering.Universal.WarnUsingNonRenderGraph:EmitConsoleWarning () (at ./Library/PackageCache/com.unity.render-pipelines.universal@a19b2562c494/Runtime/Data/UniversalRenderPipelineAsset.cs:431)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes () (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:160)
 
-========================================================================
-Received Import Request.
-  Time since last request: 12.612929 seconds.
-  path: Assets/WaterRippleShader Eldvmo/Texture/Water.png
-  artifactKey: Guid(64245e28b38ea65499103ee71cf3737d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/WaterRippleShader Eldvmo/Texture/Water.png using Guid(64245e28b38ea65499103ee71cf3737d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '283ac9cf771c72f25d3adda0c4986ae6') in 0.035742583 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+(Filename: ./Library/PackageCache/com.unity.render-pipelines.universal@a19b2562c494/Runtime/Data/UniversalRenderPipelineAsset.cs Line: 431)
 
-========================================================================
-Received Import Request.
-  Time since last request: 35.467817 seconds.
-  path: Assets/WaterRippleShader Eldvmo/Scenes/ContinuousRipple.unity
-  artifactKey: Guid(ac7931c5b463e69438fd500294a958cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/WaterRippleShader Eldvmo/Scenes/ContinuousRipple.unity using Guid(ac7931c5b463e69438fd500294a958cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f13385e159062f76d121f686874a7172') in 0.000287667 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.338 seconds
+Domain Reload Profiling: 700ms
+	BeginReloadAssembly (108ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (39ms)
+	RebuildCommonClasses (20ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (10ms)
+	LoadAllAssembliesAndSetupDomain (218ms)
+		LoadAssemblies (137ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (115ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (1ms)
+			BuildScriptInfoCaches (99ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (338ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (268ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (1ms)
+			SetLoadedEditorAssemblies (2ms)
+			BeforeProcessingInitializeOnLoad (53ms)
+			ProcessInitializeOnLoadAttributes (184ms)
+			ProcessInitializeOnLoadMethodAttributes (27ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 2.01 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6685 unused Assets / (3.5 MB). Loaded Objects now: 7349.
+Memory consumption went from 149.7 MB to 146.3 MB.
+Total: 4.138625 ms (FindLiveObjects: 0.288458 ms CreateObjectMapping: 0.110000 ms MarkObjects: 2.826459 ms  DeleteObjects: 0.913416 ms)
 
-========================================================================
-Received Import Request.
-  Time since last request: 39.093721 seconds.
-  path: Assets/WaterRippleShader Eldvmo/Prefabs/RaindropSurface.prefab
-  artifactKey: Guid(b3556ae9bab0ea34a891a98ae4961f12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/WaterRippleShader Eldvmo/Prefabs/RaindropSurface.prefab using Guid(b3556ae9bab0ea34a891a98ae4961f12) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8eae89a1ebb8e95ebf259c7be72b8553') in 0.369988 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
-
-========================================================================
-Received Import Request.
-  Time since last request: 90.219958 seconds.
-  path: Assets/WaterRippleShader Eldvmo/Texture/Asphalt.png
-  artifactKey: Guid(abcb5c9d5bf358a40b899bdb3e337a30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/WaterRippleShader Eldvmo/Texture/Asphalt.png using Guid(abcb5c9d5bf358a40b899bdb3e337a30) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a1c99397bf4e554eeaa1cb79645409ef') in 0.016601375 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 52.791659 seconds.
-  path: Assets/Japanese Dungeons/Textures/JD_Timbering_A_01_AlbedoTransparency.png
-  artifactKey: Guid(72a089516270be5418f01823a73893f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Japanese Dungeons/Textures/JD_Timbering_A_01_AlbedoTransparency.png using Guid(72a089516270be5418f01823a73893f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ed5c95c8825a99c30ae825bc76e66cc9') in 0.018568208 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.998976 seconds.
-  path: Assets/Japanese Dungeons/Textures/JD_Timbering_A_01_MaskMap.png
-  artifactKey: Guid(a837447c86f50ca41b5d62c37d4004c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Japanese Dungeons/Textures/JD_Timbering_A_01_MaskMap.png using Guid(a837447c86f50ca41b5d62c37d4004c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fc39fd83d1fdeb4d7067113dcc67a06b') in 0.013271041 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.239032 seconds.
-  path: Assets/Japanese Dungeons/Textures/JD_Timbering_A_01_Normal.png
-  artifactKey: Guid(e5c9868b8d5035b44a3cafdc46534e89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Japanese Dungeons/Textures/JD_Timbering_A_01_Normal.png using Guid(e5c9868b8d5035b44a3cafdc46534e89) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '513a284d272add319012b06a9dd7115d') in 0.006982459 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.399799 seconds.
-  path: Assets/Japanese Dungeons/Textures/JD_Timbering_B_01_AlbedoTransparency.png
-  artifactKey: Guid(f6f9209edd84c41489577232c75a59e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Japanese Dungeons/Textures/JD_Timbering_B_01_AlbedoTransparency.png using Guid(f6f9209edd84c41489577232c75a59e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cd61f45590465fc51a22ee34bcad41c3') in 0.004351333 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.944404 seconds.
-  path: Assets/Japanese Dungeons/Textures/JD_Timbering_B_01_MaskMap.png
-  artifactKey: Guid(40c1af4c77a30c24b941c46c97a22af8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Japanese Dungeons/Textures/JD_Timbering_B_01_MaskMap.png using Guid(40c1af4c77a30c24b941c46c97a22af8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3a39761292f1f27bc174e26478a8ff77') in 0.009859041 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.921101 seconds.
-  path: Assets/Japanese Dungeons/Textures/JD_Timbering_B_01_Normal.png
-  artifactKey: Guid(1c5c716a0a8b4864aabe64474311f38a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Japanese Dungeons/Textures/JD_Timbering_B_01_Normal.png using Guid(1c5c716a0a8b4864aabe64474311f38a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd28207fa8358cd36618ebe5b50b344cf') in 0.006434666 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 13.751499 seconds.
-  path: Assets/Ian's Fire Pack Universal/_Standard Pipeline Specific/Demo/DemoFloor.png
-  artifactKey: Guid(c4685cf1860004ec3a487380bc0b44e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ian's Fire Pack Universal/_Standard Pipeline Specific/Demo/DemoFloor.png using Guid(c4685cf1860004ec3a487380bc0b44e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8a5ccda12b95e715a22abf8e8b66a51e') in 0.006802166 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.457881 seconds.
-  path: Assets/Ian's Fire Pack Universal/DemoSharedAssets/DemoFloor.png
-  artifactKey: Guid(7fc047ae9d5054befba4f9d8a97b1964) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ian's Fire Pack Universal/DemoSharedAssets/DemoFloor.png using Guid(7fc047ae9d5054befba4f9d8a97b1964) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8528e6b4c7a93a9d83c3aec6fbf1727e') in 0.0025965 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.553418 seconds.
-  path: Assets/Ian's Fire Pack Universal/_Standard Pipeline Specific/Demo/DemoFloorNormals.png
-  artifactKey: Guid(4ffca35b052884b38971a211b39b0edc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ian's Fire Pack Universal/_Standard Pipeline Specific/Demo/DemoFloorNormals.png using Guid(4ffca35b052884b38971a211b39b0edc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '93d346e06f5b483234ec155e5128ce79') in 0.003066958 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.569179 seconds.
-  path: Assets/Ian's Fire Pack Universal/DemoSharedAssets/DemoFloorNormals.png
-  artifactKey: Guid(414d0243e9c454efb8879733172381eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ian's Fire Pack Universal/DemoSharedAssets/DemoFloorNormals.png using Guid(414d0243e9c454efb8879733172381eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '10525fa9f2ccbacd9788370b45326978') in 0.00260975 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.609569 seconds.
-  path: Assets/Japanese Dungeons/Textures/JD_CaveFloor_A_01_AlbedoTransparency.png
-  artifactKey: Guid(9dc4908c4bb2fb344966cad8428ad54d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Japanese Dungeons/Textures/JD_CaveFloor_A_01_AlbedoTransparency.png using Guid(9dc4908c4bb2fb344966cad8428ad54d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b151f9c16a918474fde3de29215f10bc') in 0.004869083 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.550920 seconds.
-  path: Assets/Japanese Dungeons/Textures/JD_CaveFloor_A_01_MaskMap.png
-  artifactKey: Guid(fb987432770f82a49af2a3142b2c2ddb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Japanese Dungeons/Textures/JD_CaveFloor_A_01_MaskMap.png using Guid(fb987432770f82a49af2a3142b2c2ddb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd3cd138086982b00da5c7b328f2eaf85') in 0.010653625 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.191785 seconds.
-  path: Assets/Japanese Dungeons/Textures/JD_CaveFloor_A_01_Normal.png
-  artifactKey: Guid(026e3f35954422b40beb92c374dbf5fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Japanese Dungeons/Textures/JD_CaveFloor_A_01_Normal.png using Guid(026e3f35954422b40beb92c374dbf5fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1fb01bd1593c5fdf3884edf2815b9bb4') in 0.010480375 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 92.872597 seconds.
-  path: Assets/Japanese Dungeons/Textures/JD_CaveWall_A_01_AlbedoTransparency.png
-  artifactKey: Guid(0525493e17c7e7843929b5f56e135db4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Japanese Dungeons/Textures/JD_CaveWall_A_01_AlbedoTransparency.png using Guid(0525493e17c7e7843929b5f56e135db4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8b14bce54d234eef49c70096421ce1ed') in 0.009351542 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 259.090749 seconds.
-  path: Assets/Polygonal Particles/Assets/Meshes/ParticleMeshes.fbx
-  artifactKey: Guid(56697ed419efec3488b31408d450f379) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polygonal Particles/Assets/Meshes/ParticleMeshes.fbx using Guid(56697ed419efec3488b31408d450f379) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ec30321e9efdb5bc990c2bbcfd041953') in 0.171402416 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 50
-
-========================================================================
-Received Import Request.
-  Time since last request: 2159.644068 seconds.
-  path: Assets/ScriptableObjects/FMOD So/Radio.asset
-  artifactKey: Guid(d434edcad055b4af9934ab5c15728a78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ScriptableObjects/FMOD So/Radio.asset using Guid(d434edcad055b4af9934ab5c15728a78) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '414af9dbbbf5b910e6c440385142b2f5') in 0.004722958 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.014103 seconds.
-  path: Assets/ScriptableObjects/FMOD So/Radio 1.asset
-  artifactKey: Guid(e9081e6348011486497a0ade95ae4c8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ScriptableObjects/FMOD So/Radio 1.asset using Guid(e9081e6348011486497a0ade95ae4c8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '390684448c05cebdd3e1aca3f0d629dd') in 0.000796416 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.648009 seconds.
-  path: Assets/ScriptableObjects/FMOD So/Waterdrips.asset
-  artifactKey: Guid(e9081e6348011486497a0ade95ae4c8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ScriptableObjects/FMOD So/Waterdrips.asset using Guid(e9081e6348011486497a0ade95ae4c8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '43a7db303c2facc7faac4b32b137a579') in 0.00066025 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 129.953373 seconds.
-  path: Assets/ScriptableObjects/FMOD So/Waterdrips.asset
-  artifactKey: Guid(e9081e6348011486497a0ade95ae4c8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ScriptableObjects/FMOD So/Waterdrips.asset using Guid(e9081e6348011486497a0ade95ae4c8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1d08810adbcdc58b945d9f0542fe6d0f') in 0.000713792 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
+Prepare: number of updated asset objects reloaded= 0
