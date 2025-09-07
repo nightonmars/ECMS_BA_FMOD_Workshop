@@ -4,7 +4,7 @@ using UnityEngine.InputSystem;
 using static UnityEngine.Rendering.DebugUI;
 #endif
 
-namespace StarterAssets
+namespace PlayerControls
 {
 	public class StarterAssetsInputs : MonoBehaviour
 	{
