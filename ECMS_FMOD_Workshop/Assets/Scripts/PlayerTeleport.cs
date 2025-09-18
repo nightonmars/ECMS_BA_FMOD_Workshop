@@ -1,10 +1,12 @@
 using UnityEngine;
+using UnityEngine.UIElements;
 
 public class PlayerTeleport : MonoBehaviour
 {
     [SerializeField] Transform playerCapsule;
     [SerializeField] Transform teleportPosEnd;
     private CharacterController characterController;
+    private bool isTeleporting;
 
     void Start()
     {
@@ -27,4 +29,6 @@ public class PlayerTeleport : MonoBehaviour
             characterController.enabled = true;
         }
     }
+
+   
 }
