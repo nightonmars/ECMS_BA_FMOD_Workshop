@@ -16,7 +16,7 @@
 			<value>-39</value>
 		</property>
 		<property name="inputFormat">
-			<value>1</value>
+			<value>0</value>
 		</property>
 		<relationship name="automators">
 			<destination>{12be62f6-c8ad-4a03-a16d-a623b31a9d89}</destination>
